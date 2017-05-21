@@ -1,49 +1,149 @@
-\documentclass{article}
+\documentclass[10pt]{article}
 \author{Joshua N. Grant}
 \title{CV for Joshua N. Grant}
 \usepackage[backend=biber]{biblatex}
 \usepackage{tikz}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{xcolor}
 \usepackage[left=1cm,top=1cm,right=1cm,bottom=1cm,nohead,nofoot]{geometry}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{palatino}
+\usepackage{enumitem}
 \hypersetup{colorlinks=false}
 \addbibresource{bibliography.bib}
 \definecolor{fillheader}{HTML}{FFFFFF}
 \definecolor{header}{HTML}{000000}
 \definecolor{headercolor}{HTML}{333333}
 \usetikzlibrary{positioning,shapes,shadows,arrows,backgrounds,calc,shadows.blur}
-
+\newcolumntype{M}{>{\raggedright\arraybackslash}X}
 
 \begin{document}
-\begin{minipage}{\paperwidth}
-\begin{tikzpicture}%[remember picture, overlay]
-   \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
-   \node [anchor=center] (name) at (box) {\fontsize{40pt}{72pt}\color{header} Joshua Nathaniel{\textbf{Grant}}};
-   \node [anchor=north] (job) at (name.south) {\fontsize{14pt}{24pt}\color{header} Bioinformatician};
-\end{tikzpicture}
+\tikzstyle{pc} = [circle,draw=black,minimum height=1.5cm,blur shadow={shadow blur steps=5}]
+\tikzstyle{bc} = [circle,draw=black,minimum height=3.5cm,blur shadow={shadow blur steps=5}]
+%\begin{minipage}[t]{\paperwidth}
+%   \begin{center}
+%   \begin{tikzpicture}%[remember picture, overlay]
+%      \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=2cm] (box) at (current page.north){};
+%      \node [anchor=center] (name) at (box) {\fontsize{40pt}{52pt}{\color{header} Joshua Nathaniel}{\textbf{Grant}}};
+%      \node [anchor=north] (job) at (name.south) {\fontsize{14pt}{24pt}\color{header}\textit{Bioinformatician}};
+%   \end{tikzpicture}
+%   \end{center}
+%\end{minipage}
+\begin{minipage}[ht]{.25\linewidth}
+   {\Large Joshua\huge\textbf{Grant}} \\
+   {\large \textit{Bioinformatician}}
+   \section*{contact}
+   \flushright
+   547 Murray Drive \\
+   Knoxville, TN 37912 \\
+   United States of America  \\
+   \textbf{+1 (865) 803 3495}\\
+   \href{mailto:jngrant9@gmail.com}{jngrant9@gmail.com}
+   \href{http://notjustadatum.blogspot.com}{notjustadatum.blogspot.com}
+   \href{http://github.com/sempervent}{github.com/sempervent}
+   \flushleft
+   \section*{programming}
+   \flushright
+   \begin{tikzpicture}[node distance=1cm]
+      \node [bc,fill={rgb:red,1;green,2;blue,3},text=white] (main) {\textbf{Languages}};
+      \node [pc,fill={rgb:red,2;green,2;blue,1}] at (main.north east) {Vim};
+      \node [pc,fill={rgb:red,4;green,4;yellow,4}] at (main.north west) {Perl};
+      \node [pc,fill={rgb:red,1;green,4;blue,3}] at (main.south east) {HTML};
+      \node [pc,fill={rgb:red,3;green,1;yellow,3}] at (main.south west) {SQL};
+      \node [pc,fill={rgb:red,4;green,2;yellow,1}] at (main.north) {R};
+      \node [pc,fill={rgb:red,1;green,3;yellow,2}] at (main.south) {\LaTeX};
+      \node [pc,fill={rgb:red,1;green,2;blue,2}] at (main.west) {Python};
+      \node [pc,fill={rgb:red,2;green,1;blue,1}] at (main.east) {Bash};
+   \end{tikzpicture}
+   \flushleft
+   \section*{skills}
+   \flushright
+   \begin{tabularx}{\linewidth}{p{.5\linewidth}X}
+      \footnotesize Molecular Biology & \footnotesize Data Mining \\
+      \footnotesize Statistics & \footnotesize Microsoft Office \\
+      \footnotesize Laboratory \newline Practices & \footnotesize Tissue Culture \\
+      \footnotesize Histology \& \newline Microscopy & \footnotesize Research 
+   \end{tabularx}
+
 \end{minipage}
-\begin{minipage}{.25\linewidth}
-\section{contact}
-547 Murray Drive
-Knoxville, TN 37912
-United States of America
-~
-+1 (865) 803 3495
-~
-\href{mailto:jngrant9@gmail.com}{jngrant9@gmail.com}
-\href{http://notjustadatum.blogspot.com}{notjustadatum.blogspot.com}
-\href{http://github.com/sempervent}{github.com/sempervent}
-\section{programming}
-\begin{tikzpicture}
-   \node [circle,draw=black] (main) {Languages};
-   \node [circle,draw=black] at (main.north) {R};
-   \node [circle,draw=black] at (main.south) {\LaTeX};
-   \node [circle,draw=black] at (main.west) {Python};
-   \node [circle,draw=black] at (main.east) {Bash};
-   \node [circle,draw=black] at (main.north east) {Vim};
-\end{tikzpicture}
+\begin{minipage}[ht]{.75\linewidth}
+   \bgroup
+   \def\arraystretch{.8}
+   \begin{tabularx}{\linewidth}{p{1.8cm}M}
+      \hline
+      \textbf{Experience} & \makecell[l]{\textbf{Bioinformatician, Project Manager, \& Technical Sales Representative}} \\
+      & Microbial Insights, Knoxville, TN \textit{2016\textemdash{present}} \\
+      & \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Implementing automatically generated reports using R and \LaTeX %
+            \item Optimizing data delivery to clients %
+            \item Assiting customers with molecular biological tools %
+            \item Presenting product \& service information at workshops and conferences %
+            \item Maintaining and populating a MediaWiki to aid in project management and customer service 
+        \end{itemize} \\ 
+       & \makecell[l]{\textbf{Graduate Research Assistant, Dr. Neal Stewart's Plant Biotechnology Lab}} \\
+       & University of Tennessee, Knoxville, TN \textit{2014\textemdash{2016}} \\
+       & \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Evaluated cell suspension lines for lignin formation both chemically and spectrally
+            \item Developed methods for genetic modification and culture of monocots
+            \item Prepared and completed a research project in accelerated tissue culture and genetic modification
+            \item Collaborated on a novel single cell suspension and cryopreservation robotic system
+            \item {Inserted and confirmed vectors in \textit{E. coli} and \textit{Agrobacterium}}
+         \end{itemize} \\
+       & \makecell[l]{\textbf{Laboratory Assistant, Dr. Neal Stewart's Plant Biotechnology Lab}} \\
+       & University of Tennessee, Knoxville, TN \textit{2012 \textemdash 2014} \\
+       & \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Developed automated statistical methodology for screening of lignin content and imaging of cell characteristics both \textit{in vivo} and \textit{in vitro}
+            \item Conducted wet chemistry experiments to assay lignin formation
+            \item Complied with USDA-APHIS regulations regarding transgenic plants in the field and in the lab
+            \item Implemented an \textit{E. coli} bioreactor for production of recombinant proteins
+            \item Screened progeny of transgenic plants via PCR
+         \end{itemize} \\
+      & \makecell[l]{\textbf{Lead Merchendiser}} \\
+      & Stacy's Greenhouses, York, SC \textit{2008 \textemdash 2011} \\
+      &
+         \begin{itemize}[topsep=-12pt,parsep=0em]
+           \setlength\itemsep{0em}
+           \item Supervised and managed other merchandiser and trained new employees
+           \item Assisted customers with landscape designs and plant selection
+           \item Ensured adequate inventory was displayed properly
+           \item Provided customer service to stores and store customers
+         \end{itemize} \\
+      & \makecell[l]{\textbf{Laboratory Assistant, Dr. Paris Lambdin's Biosystematics Lab}} \\
+      & University of Tennessee, Knoxville, TN \textit{2002 \textemdash 2012} \\
+      & \begin{itemize}[topsep=-12pt,parsep=0em]
+           \setlength\itemsep{0em}
+           \item Designed instructional modules for undergraduate and graduate level courses
+           \item Collected samples and data from field locations
+           \item Assisted in commmunity outreach programs such as Bloomsdays, Buggy Buffet, and 4-H camps
+        \end{itemize} \\
+   \end{tabularx}
+   \egroup
 \end{minipage}
-\begin{minipage}{.75\linewidth}
-   TEXTTEXTTEXT
+\begin{minipage}[ht]{.25\linewidth}
+   \section*{interests}
+   \begin{tabularx}{\linewidth}{p{.5\linewidth}p{.5\linewidth}}
+      Data Science & \\
+      Statistics & \\
+      Machine Learning & \\
+      Automation &
+   \end{tabularx}
+\end{minipage}
+\begin{minipage}[ht]{.75\linewidth}
+   \bgroup
+   \def\arraystretch{.8}
+   \begin{tabularx}{\linewidth}{p{1.8cm}M}
+      \hline
+      \textbf{Education} & \makecell[l]{\textbf{Master of Science in Plant Sciences \textemdash Plant Molecular Genetics}} \\
+      & University of Tennessee \textemdash ~Knoxville, TN \textemdash ~\textit{Spring 2017} \textemdash ~\textbf{GPA: 3.72/4.0} \\
+      & \\
+      & \makecell[l]{\textbf{Bachelor of Science in Plant Sciences \textemdash Biotechnology}} \\
+      & University of Tennessee \textemdash ~Knoxville, TN \textemdash ~\textit{Spring 2014} \textemdash ~\textbf{GPA: 3.74/4.0} \\
+      & \textbf{Magna Cum Laude} \\
+   \end{tabularx}
+   \egroup
 \end{minipage}
 \end{document}
