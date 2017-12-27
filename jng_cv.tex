@@ -10,6 +10,7 @@
 \usepackage{makecell}
 \usepackage{palatino}
 \usepackage{enumitem}
+\usepackage{sectsty}
 \hypersetup{colorlinks=false}
 \addbibresource{bibliography.bib}
 \definecolor{fillheader}{HTML}{FFFFFF}
@@ -17,7 +18,7 @@
 \definecolor{headercolor}{HTML}{333333}
 \usetikzlibrary{positioning,shapes,shadows,arrows,backgrounds,calc,shadows.blur}
 \newcolumntype{M}{>{\raggedright\arraybackslash}X}
-
+\sectionfont{\fontsize{10}{11}\selectfont}
 \begin{document}
 \tikzstyle{pc} = [circle,draw=black,minimum height=1.5cm,blur shadow={shadow blur steps=5}]
 \tikzstyle{bc} = [circle,draw=black,minimum height=3.5cm,blur shadow={shadow blur steps=5}]
@@ -39,15 +40,15 @@
    Knoxville, TN 37912 \\
    United States of America  \\
    \textbf{+1 (865) 803 3495}\\
-   \href{mailto:jngrant9@gmail.com}{jngrant9@gmail.com}
-   \href{http://notjustadatum.blogspot.com}{notjustadatum.blogspot.com}
+   \color{headercolor}{\href{mailto:jngrant9@gmail.com}{jngrant9@gmail.com}}
+   \href{http://notjustadatum.blogspot.com}{\color{headercolor}{notjustadatum.blogspot.com}}
    \href{http://github.com/sempervent}{github.com/sempervent}
    \flushleft
    \section*{programming}
    \flushright
    \begin{tikzpicture}[node distance=1cm]
       \node [bc,fill={rgb:red,1;green,2;blue,3},text=white] (main) {\textbf{Languages}};
-      \node [pc,fill={rgb:red,2;green,2;blue,1}] at (main.north east) {Vim};
+      \node [pc,fill={rgb:red,2;green,2;blue,1}] at (main.north east) {PHP};
       \node [pc,fill={rgb:red,4;green,4;yellow,4}] at (main.north west) {Perl};
       \node [pc,fill={rgb:red,1;green,4;blue,3}] at (main.south east) {HTML};
       \node [pc,fill={rgb:red,3;green,1;yellow,3}] at (main.south west) {SQL};
@@ -59,19 +60,21 @@
    \flushleft
    \section*{skills}
    \flushright
-   \begin{tabularx}{\linewidth}{p{.5\linewidth}X}
+   \begin{tabularx}{\linewidth}{p{.44\linewidth}X}
       \footnotesize Molecular Biology & \footnotesize Data Mining \\
       \footnotesize Statistics & \footnotesize Microsoft Office \\
       \footnotesize Laboratory \newline Practices & \footnotesize Tissue Culture \\
       \footnotesize Histology \& \newline Microscopy & \footnotesize Research 
    \end{tabularx}
+   \flushleft
    \section*{interests}
+   \flushright
    \begin{tabularx}{\linewidth}{p{.5\linewidth}p{.5\linewidth}}
-      Data Science & \\
-      Statistics & \\
-      Machine Learning & \\
-      Automation & \\
-      Data Visualization &
+      \footnotesize Data Science & \footnotesize Genetics \\
+      \footnotesize Statistics & \footnotesize Microbiology \\
+      \footnotesize Machine Learning & \\
+      \footnotesize Automation & \\
+      \footnotesize Data Visualization &
    \end{tabularx}
 \end{minipage}
 \begin{minipage}[ht]{.75\linewidth}
@@ -84,14 +87,14 @@
       & \begin{itemize}[topsep=-12pt,parsep=0em]
             \setlength\itemsep{0em}
             \item Implementing automatically generated reports using R and \LaTeX %
-            \item Administering 
+            \item Administering a LAMP Stack + Shiny R Application allowing clients to retrieve more actionable data from their qPCR and CSIA % 
             \item Developing real-time customer interactions and statistical processing of their projects within the context of our database %
             \item Optimizing data delivery to clients  %
             \item Assisting customers with molecular biological tools %
             \item Presenting product \& service information at workshops and conferences %
             \item Maintaining and populating a MediaWiki to aid in project management and customer service 
         \end{itemize} \\ 
-       & \makecelss[l]{\textbf{Project Manager \& Technical Sales Representative}} \\
+       % & \makecell[l]{\textbf{Project Manager \& Technical Sales Representative}} \\
        & \makecell[l]{\textbf{Graduate Research Assistant, Dr. Neal Stewart's Plant Biotechnology Lab}} \\
        & University of Tennessee, Knoxville, TN \textit{2014\textemdash{2016}} \\
        & \begin{itemize}[topsep=-12pt,parsep=0em]
@@ -114,8 +117,7 @@
          \end{itemize} \\
       & \makecell[l]{\textbf{Lead Merchandiser}} \\
       & Stacy's Greenhouses, York, SC \textit{2008 \textemdash 2011} \\
-      &
-         \begin{itemize}[topsep=-12pt,parsep=0em]
+      & \begin{itemize}[topsep=-12pt,parsep=0em]
            \setlength\itemsep{0em}
            \item Supervised and managed other merchandiser and trained new employees
            \item Assisted customers with landscape designs and plant selection
@@ -126,18 +128,11 @@
       & University of Tennessee, Knoxville, TN \textit{2002 \textemdash 2012} \\
       & \begin{itemize}[topsep=-12pt,parsep=0em]
            \setlength\itemsep{0em}
-           \item Designed instructional modules for undergraduate and graduate level courses
+           \item Designed instructional modules in HTML and Flash for undergraduate and graduate level courses
            \item Collected samples and data from field locations
            \item Assisted in community outreach programs such as BloomsDays, Buggy Buffet, and 4-H camps
         \end{itemize} \\
    \end{tabularx}
-   \egroup
-\end{minipage}
-\begin{minipage}[ht]{.25\linewidth}
-\end{minipage}
-\begin{minipage}[ht]{.75\linewidth}
-   \bgroup
-   \def\arraystretch{.8}
    \begin{tabularx}{\linewidth}{p{1.8cm}M}
       \hline
       \textbf{Education} & \makecell[l]{\textbf{Master of Science in Plant Sciences \textemdash Plant Molecular Genetics}} \\
@@ -149,4 +144,11 @@
    \end{tabularx}
    \egroup
 \end{minipage}
+\begin{minipage}[ht]{.25\linewidth}
+\end{minipage}
+% \begin{minipage}[ht]{.75\linewidth}
+   % \bgroup
+   % \def\arraystretch{.8}
+   % \egroup
+% \end{minipage}
 \end{document}
