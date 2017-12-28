@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  27 DEC 2017 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  28 DEC 2017 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -733,7 +733,14 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 14.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-ge
+neric.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pd
+ftex.tex))
+Package hyperref Info: Option `colorlinks' set `false' on input line 15.
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarypositioning.code.tex
@@ -856,21 +863,21 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 (./jng_cv.aux)
 \openout1 = `jng_cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 24.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
@@ -884,8 +891,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'jng_cv.bbl' not found.
 
 No file jng_cv.bbl.
-Package biblatex Info: Reference section=0 on input line 22.
-Package biblatex Info: Reference segment=0 on input line 22.
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
 ABD: EveryShipout initializing macros
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -918,7 +925,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 24.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -928,9 +935,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count316
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 
 (./jng_cv.out) (./jng_cv.out)
 \@outlinefile=\write6
@@ -972,72 +979,82 @@ LaTeX Info: Redefining \nameref on input line 22.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 37.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 37.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 40.
+LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
+line 45.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
+
+LaTeX Font Warning: Font shape `U/fontawesometwo/bx/n' undefined
+(Font)              using `U/fontawesometwo/m/n' instead on input line 51.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 56.
+(Font)              <7> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 56.
+(Font)              <5> on input line 60.
 
-Overfull \hbox (3.71635pt too wide) in paragraph at lines 59--60
+Overfull \hbox (3.71635pt too wide) in paragraph at lines 63--64
  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
-[]|\OT1/ppl/m/n/8 Molecular
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []|\OT1/ppl/m/n/8 Microsoft
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 78--78
+Overfull \hbox (23.99998pt too wide) in alignment at lines 86--86
 [][] 
  []
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsppl.fd)
-Overfull \hbox (16.90001pt too wide) in paragraph at lines 34--154
+Overfull \hbox (16.90001pt too wide) in paragraph at lines 37--165
 []$[]$ $[]$
  []
 
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
 
 (./jng_cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `jng_cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package logreq Info: Writing requests to 'jng_cv.run.xml'.
 \openout1 = `jng_cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24902 strings out of 492990
- 496323 string characters out of 6132620
- 960030 words of memory out of 5000000
- 28064 multiletter control sequences out of 15000+600000
- 13390 words of font info for 33 fonts, out of 8000000 for 9000
+ 26410 strings out of 492990
+ 516877 string characters out of 6132620
+ 979528 words of memory out of 5000000
+ 29550 multiletter control sequences out of 15000+600000
+ 16631 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,82p,1131b,1063s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on jng_cv.pdf (1 page, 78860 bytes).
+ 55i,18n,82p,1131b,1054s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometw
+o.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on jng_cv.pdf (1 page, 97131 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
+ 109 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  217 words of extra memory for PDF output out of 10000 (max. 10000000)
 
