@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.24)  7 JUN 2018 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.24)  26 JUN 2018 04:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**jng_cv.tex
-(./jng_cv.tex
+**jng_cv_ds.tex
+(./jng_cv_ds.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -861,8 +861,8 @@ File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 \@quotelevel=\count310
 \@quotereset=\count311
 
-(./jng_cv.aux)
-\openout1 = `jng_cv.aux'.
+(./jng_cv_ds.aux)
+\openout1 = `jng_cv_ds.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
@@ -879,19 +879,20 @@ LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 24.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'ascii'.
-\openout4 = `jng_cv.bcf'.
+\openout4 = `jng_cv_ds.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'jng_cv.bbl' not found.
+Package biblatex Info: ... file 'jng_cv_ds.bbl' not found.
 
-No file jng_cv.bbl.
+No file jng_cv_ds.bbl.
 Package biblatex Info: Reference section=0 on input line 24.
 Package biblatex Info: Reference segment=0 on input line 24.
 ABD: EveryShipout initializing macros
@@ -940,9 +941,9 @@ LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
 LaTeX Info: Redefining \nameref on input line 24.
 
-(./jng_cv.out) (./jng_cv.out)
+(./jng_cv_ds.out) (./jng_cv_ds.out)
 \@outlinefile=\write6
-\openout6 = `jng_cv.out'.
+\openout6 = `jng_cv_ds.out'.
 
 
 *geometry* driver: auto-detecting
@@ -981,6 +982,11 @@ LaTeX Info: Redefining \nameref on input line 24.
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 38.
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
@@ -999,11 +1005,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 60.
 
-Overfull \hbox (3.71635pt too wide) in paragraph at lines 63--64
- []
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []|\OT1/ppl/m/n/8 Microsoft
  []
@@ -1014,37 +1015,50 @@ Overfull \hbox (23.99998pt too wide) in alignment at lines 86--86
  []
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsppl.fd)
-Overfull \hbox (16.90001pt too wide) in paragraph at lines 37--172
+Overfull \hbox (16.90001pt too wide) in paragraph at lines 37--170
 []$[]$ $[]$
  []
 
 [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+]
+Overfull \vbox (85.02966pt too high) has occurred while \output is active []
 
-(./jng_cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
-Package rerunfilecheck Info: File `jng_cv.out' has not changed.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.170 \end{document}
+                     [2{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updm
+ap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (nam
+e{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.170 \end{document}
+                     [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
+ (./jng_cv_ds.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
+Package rerunfilecheck Info: File `jng_cv_ds.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package logreq Info: Writing requests to 'jng_cv.run.xml'.
-\openout1 = `jng_cv.run.xml'.
+Package logreq Info: Writing requests to 'jng_cv_ds.run.xml'.
+\openout1 = `jng_cv_ds.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26600 strings out of 492982
- 521398 string characters out of 6132512
- 968267 words of memory out of 5000000
- 29748 multiletter control sequences out of 15000+600000
+ 26621 strings out of 492982
+ 521903 string characters out of 6132512
+ 968269 words of memory out of 5000000
+ 29769 multiletter control sequences out of 15000+600000
  16631 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,82p,1131b,1054s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,18n,82p,1134b,1054s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometw
 o.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr
@@ -1052,10 +1066,10 @@ al/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr
 local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on jng_cv.pdf (1 page, 98493 bytes).
+Output written on jng_cv_ds.pdf (3 pages, 99175 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 115 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  217 words of extra memory for PDF output out of 10000 (max. 10000000)
 
