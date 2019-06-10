@@ -1,7 +1,6 @@
 *.aux
-*.bcf
-*.log
 *.out
-*.xml
+*.bcf
 *.gz
-*.dvi
+*.run.xml
+*.log

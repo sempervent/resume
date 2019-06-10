@@ -1,9 +1,9 @@
-\documentclass[8pt]{article}
+\documentclass[10pt]{article}% {{{1
 \author{Joshua N. Grant}
 \title{CV for Joshua N. Grant}
 \usepackage[backend=biber]{biblatex}
 \usepackage{tikz}
-\usepackage[hidelinks=true]{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{xcolor}
 \usepackage[left=1cm,top=1cm,right=1cm,bottom=1cm,nohead,nofoot]{geometry}
 \usepackage{tabularx}
@@ -13,8 +13,6 @@
 \usepackage{enumitem}
 \usepackage{sectsty}
 \usepackage{fontawesome}
-\usepackage{fontspec}
-\setmainfont{Futura Medium}
 \hypersetup{colorlinks=false}
 \addbibresource{bibliography.bib}
 \definecolor{fillheader}{HTML}{FFFFFF}
@@ -24,17 +22,17 @@
 \usetikzlibrary{positioning,shapes,shadows,arrows,backgrounds,calc,shadows.blur}
 \newcolumntype{M}{>{\raggedright\arraybackslash}X}
 \setlength{\parindent}{0pt}
-\sectionfont{\fontsize{10}{11}\selectfont}% 
-\begin{document}% 
-\pagenumbering{gobble}% 
-\tikzstyle{pc} = [circle,draw=black,blur shadow={shadow blur steps=5}]% 
-\tikzstyle{bc} = [circle,draw=black,minimum height=3.5cm,blur shadow={shadow blur steps=5}]% 
-\begin{minipage}[ht]{.25\linewidth}%  
+\sectionfont{\fontsize{10}{11}\selectfont}% 1}}}
+\begin{document}% {{{1
+\pagenumbering{gobble}%
+\tikzstyle{pc} = [circle,draw=black,blur shadow={shadow blur steps=5}]%
+\tikzstyle{bc} = [circle,draw=black,minimum height=3.5cm,blur shadow={shadow blur steps=5}]%
+\begin{minipage}[ht]{.25\linewidth}% {{{2
   \setlength{\headsep}{-10pt}
   \setlength{\voffset}{-0.75in}
-   {\Large Joshua\LARGE\textbf{Grant}} \\ \\
-   {\large \textit{Data Scientist}}
-   \section*{\faUser{} contact}% 
+   {\Large Joshua\huge\textbf{Grant}} \\ \\
+   {\large \textit{Data Engineer}}
+   \section*{\faUser{} contact}% {{{3
      \flushright
      547 Murray Drive \\
      Knoxville, TN 37912 \\
@@ -43,15 +41,15 @@
      \href{mailto:jngrant9@gmail.com}{\color{linkcolor}{jngrant9@gmail.com \faEnvelope}} \\
      \href{http://notjustadatum.blogspot.com}{\color{linkcolor}{notjustadatum.blogspot.com \faBold}} \\
      \href{http://github.com/sempervent}{\color{linkcolor}{github.com/sempervent \faGithubAlt}} \\
-     \href{https://www.linkedin.com/in/joshua-grant-a3842968/}{\color{linkcolor}{\footnotesize linkedin.com/in/joshuanagrant} \faLinkedin}
-     \flushleft% 
-   \section*{\faBullseye{} objective}% 
+     \href{https://www.linkedin.com/in/joshua-grant-a3842968/}{\color{linkcolor}{\small linkedin.com/in/joshuanagrant} \faLinkedin}
+     \flushleft% 3}}}
+   \section*{\faBullseye{} objective}% {{{3
    \flushright
    to take theories, ideas, and experiments and turn them into production-scalable solutions
    \flushleft
-   \section*{\faCode{} development}% 
-   \flushright% 
-     \footnotesize% 
+   \section*{\faCode{} development}% {{{3
+   \flushright
+     {\small
         \begin{tabularx}{\linewidth}{p{.44\linewidth}X}
            \textbf{Bash}:       & \ding{110} \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110}} \\
            \textbf{Docker}:     & \ding{110} \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110}} \\
@@ -61,13 +59,14 @@
            \textbf{Perl}:       & \ding{110} \color{headercolor}{\ding{110} \ding{110} \ding{110} \ding{110}} \\
            \textbf{PHP}:        & \ding{110} \ding{110} \color{headercolor}{\ding{110} \ding{110} \ding{110}} \\
            \textbf{Python}:     & \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110} \ding{110}} \\
-           \textbf{R}:          & \ding{110} \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110}} \\
+           \textbf{R}:          & \ding{110} \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110}}  \\
            \textbf{SQL}:        & \ding{110} \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110}} \\
-        \end{tabularx}% 
-     \flushleft% 
-   \section*{\faCubes{} flavors}% 
-   \flushright% 
-   \footnotesize% 
+        \end{tabularx}
+     }
+     \flushleft% 3}}}
+   \section*{\faCubes{} flavors}% {{{3
+   \flushright
+   {\small
       \begin{tabularx}{\linewidth}{p{.24\linewidth}XX}
          \textbf{R}: & data.table & shiny \\
                      & tidyverse  & vegan \\
@@ -84,43 +83,42 @@
                            & tables & booktabs \\
          \textbf{JavaScript}: & node.js & angular.js \\
                               & vue.js & jQuery
-     \end{tabularx}% 
-     \flushleft% 
-   \section*{\faBarChart{} Statistics}% 
-   \flushright% 
-   \footnotesize% 
-    \begin{tabularx}{\linewidth}{X}
-      \textbf{ANOVA} \\
-      \textbf{Linear Regression} \\
-      \textbf{PCA/PCoA} \\
-      \textbf{Markov Chain} \\
-      \textbf{(Un)supervised Learning} \\
-      \textbf{Clustering \& SOMs} \\
-      \textbf{Exploratory Data Analysis}% 
-    \end{tabularx}% 
-    \flushleft% 
-\end{minipage}% 
-\begin{minipage}[ht]{.8\linewidth}% 
-   \bgroup% 
+     \end{tabularx}}
+     \flushleft% 3}}}
+   \section*{\faBarChart{} Statistics}% {{{3
+   \flushright
+   {\small
+      \begin{tabularx}{\linewidth}{X}
+        \textbf{ANOVA} \\
+        \textbf{Linear Regression} \\
+        \textbf{PCA/PCoA} \\
+        \textbf{Markov Chain} \\
+        \textbf{Clustering} \\
+        \textbf{Exploratory Data Analysis}
+      \end{tabularx}}
+      \flushleft% 3}}}
+\end{minipage}% 2}}}
+\begin{minipage}[ht]{.8\linewidth}% {{{2
+   \bgroup
    \def\arraystretch{.8}
-   \begin{tabularx}{\linewidth}{p{1.8cm}M}% experience 
+   \begin{tabularx}{\linewidth}{p{1.8cm}M}% experience {{{3
       \hline
-      \vspace{.25mm}\textbf{Experience} & 
-      \vspace{.25mm}\makecell[l]{\textbf{Data Scientist II, Subcontractor}} \\
+      \textbf{Experience} & 
+      \makecell[l]{\textbf{Data Scientist Subcontractor}} \\
                           & Oak Ridge National Laboratory, Oak Ridge, TN \textit{2018 \textemdash Present} \\
       & \begin{itemize}[topsep=-12pt,parsep=0em]
           \setlength\itemsep{0em}
-        	\item Automating data ingestion of the WSTAMP webapp via the use of R, Python, Airflow, and Docker %
+        \item Automating data ingestion of the WSTAMP webapp via the use of R, Python, Airflow, and Docker %
           \item Authoring an R package to unify geography between online data APIs %
         \end{itemize} \\
-      & \makecell[l]{\textbf{Owner \& Contractor-For-Hire}} \\
+        & \makecell[l]{\textbf{Owner \& Contractor-For-Hire}} \\
       & Specrabella, Knoxville, TN \textit{2018 \textemdash 2018 } \\
       & \begin{itemize}[topsep=-12pt,parsep=0em]
          \setlength\itemsep{0em}
          \item Designing, developing, and deploying an interactive energy informatics web application that provides real-time calculation from machine learning derived models %
          \item Consulting with clients on ground-up web application architecture, database and visualization needs%
-        \item Developed data ingestion methods using cURL, PHP, and R to scrape energy data from the web % 
-        \item Streamlined training and development procedures using ansible, vagrant, PHP, and BASH %
+        \item Developed data ingestion methods using \code{cURL}, \code{PHP}, and \code{R} to scrape energy data from the web % 
+        \item Streamlined training and development procedures using \code{ansible}, \code{vagrant}, \code{PHP}, and \code{BASH}
       \end{itemize} \\
       & \makecell[l]{\textbf{Bioinformatician, Project Manager, \& Technical Sales Representative}} \\
       & Microbial Insights, Knoxville, TN \textit{2016 \textemdash 2018} \\
@@ -148,17 +146,16 @@
             \item Developed automated statistical methodology for screening of lignin content and imaging of cell characteristics both \textit{in vivo} and \textit{in vitro} %
             \item Extracted genomes from NCBI, cleaned and normalized the data, and performed exploratory data analysis
          \end{itemize} \\
-     \end{tabularx} % 
-     \begin{tabularx}{\linewidth}{p{1.8cm}M}% education 
+     \end{tabularx} % 3}}}
+     \begin{tabularx}{\linewidth}{p{1.8cm}M}% education {{{3
       \hline
-      \vspace{.25mm}\textbf{Education} &%
-      \vspace{.25mm}\makecell[l]{\textbf{Master of Science in Plant Sciences \textemdash Plant Molecular Genetics}} \\
+      \textbf{Education} & \makecell[l]{\textbf{Master of Science in Plant Sciences \textemdash Plant Molecular Genetics}} \\
       & University of Tennessee \textemdash ~Knoxville, TN \textemdash ~\textit{Spring 2017} \textemdash ~\textbf{GPA: 3.72/4.0} \\
       & \\
       & \makecell[l]{\textbf{Bachelor of Science in Plant Sciences \textemdash Biotechnology}} \\
       & University of Tennessee \textemdash ~Knoxville, TN \textemdash ~\textit{Spring 2014} \textemdash ~\textbf{GPA: 3.74/4.0} \\
       & \textbf{Magna Cum Laude} \\
-    \end{tabularx}% 
+    \end{tabularx}% 3}}}
    \egroup
- \end{minipage}% 
-\end{document}% 
+ \end{minipage}% 2}}}
+\end{document}% 1}}}
