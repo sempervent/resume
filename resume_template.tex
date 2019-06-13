@@ -1,0 +1,125 @@
+% !Tex program = xelatex % or: lualatex
+% {{{1 document setup ---------------------------------------------------------
+\documentclass[10pt]{article}
+\author{Joshua N. Grant}
+\title{Resume for Joshua N. Grant}%
+% use packages {{{2 -----------------------------------------------------------
+\usepackage{hyperref} % use links in text
+\usepackage{xcolor} % color all the things
+% specify exact geometry for the package
+\usepackage[left=1cm,top=1cm,right=1cm,bottom=1cm,nohead,nofoot]{geometry}%
+\usepackage{tabularx} % use prettier tables
+\usepackage{makecell} % more control over the tables
+\usepackage{pifont} % access postscript symbols and dingbat fonts
+\usepackage{enumitem} % better item lists
+\usepackage{sectsty} % style sections
+\usepackage{fontawesome} % provide access to fontawesome
+\usepackage{fontspec} % better control over font
+% 2}}} -------------------------------------------------------------------------
+% document settings {{{2 -------------------------------------------------------
+\setlength{\parindent}{0pt} % don't indent paragraphs
+% 2}}} -------------------------------------------------------------------------
+% setup packages {{{2 ----------------------------------------------------------
+\hypersetup{colorlinks=false,hidelinks=true} % prevent ugly and noticeable links
+% specify which libraries tikz should import
+\setsectionfont{\fontsize{10}{11}\selectfont} % set section fonts
+% 2}}} -------------------------------------------------------------------------
+% new objects {{{2 -------------------------------------------------------------
+\newcolumntype{M}{>{\raggedright\arraybackslash}X} % new column for tables
+\definecolor{fillheader}{HTML}{FFFFFF} % make the fill header white
+\definecolor{header}{HTML}{000000} % make fill color black
+\definecolor{headercolor}{HTML}{e3e3e3} % make header color a light gray
+\definecolor{linkcolor}{HTML}{3e3e3e} % make links a lighter color
+% 2}}} 1}}} --------------------------------------------------------------------
+% document content {{{1 --------------------------------------------------------
+\begin{document} % {{{2 --------------------------------------------------------
+\pagenumbering{gobble} % don't use page numbers
+\begin{minipage}[ht]{.3\linewidth} % create 3/10 column for minipage {{{3 ------
+  \setlength{\headsep}{-10pt} % keep header closer to margin
+  \setlength{\voffset}{-0.75in} % offset by 3/4 of an inch
+  {\Large Joshua N. \LARGE\textf{Grant}} \\
+  {\large \textit{Data Engineer}}
+  \section*{\faUser{} contact}% contact info {{{4 ------------------------------
+    \flushright%
+    547 Murray Drive \\
+    Knoxville, TN 37912 \\
+    United States of America \\
+    \textbf{+1 (865) 803 3495} \faMobile\\
+    \href{mailto:jngrant@live.com}{\color{\linkcolor}{%
+      jngrant@live.com \faEnvelope}} \\
+    \href{https://notjustadatum.blogspot.com}{\color{linkcolor}{%
+      notjustadatum.blogspot.com \faBold}} \\
+    \href{https://github.com/sempervent}{\color{linkcolor}{%
+      github.com/sempervent \faGithubAlt}} \\
+    \href{https://www.linkedin.com/in/joshua-grant-a3842968/}{\color{linkcolor{%
+      \footnotesize linkedin.com/in/joshuanagrant \faLinkedin}}}
+  \section*{\faBullseye{} objective}% objective {{{4 ---------------------------
+    \flushright{} to take theories, ideas, and experiments and turn them into %
+    production-scalable solutions \flushleft% 4}}} -----------------------------
+  \section*{\faCode{} development}% development {{{4 ---------------------------
+    \flushright\small%
+    \begin{tabularx}{\linewidth}{p{.45\linewidth}X}
+      \textbf{Bash}:       & \ding{110} \ding{110} \ding{110} \ding{110}%
+      \color{headercolor}{\ding{110}} \\
+      \textbf{Docker}:     & \ding{110} \ding{110} \ding{110} \ding{110} %
+      \color{headercolor}{\ding{110}} \\
+      \textbf{HTML}:       & \ding{110} \ding{110} \ding{110} %
+      \color{headercolor}{\ding{110} \ding{110}} %
+      \textbf{JavaScript}: & \ding{110} \ding{110} %
+      \color{headercolor}{\ding{110} \ding{110} \ding{110}} \\
+      \textbf{\LaTeX}:     & \ding{110} \ding{110} \ding{110} 
+      \textbf{Julia}:      & \ding{110} %
+      \color{headercolor}{\ding{110} \ding{110} \ding{110} \ding{110}} \\
+      \color{headercolor}{\ding{110} \ding{110}} \\
+      \textbf{Perl}:       & \ding{110} %
+      \color{headercolor}{\ding{110} \ding{110} \ding{110} \ding{110}} \\
+      \textbf{PHP}:        & \ding{110} \ding{110} %
+      \color{headercolor}{\ding{110} \ding{110} \ding{110}} \\
+      \textbf{Python}:     & \ding{110} \ding{110} \ding{110} %
+      \color{headercolor}{\ding{110} \ding{110}}
+      \textbf{R}:          & \ding{110} \ding{110} \ding{110} \ding{110} %
+      \color{headercolor}{\ding{110}} \\
+      \textbf{SQL}:        & \ding{110} \ding{110} \ding{110} \ding{110} %
+      \color{headercolor}{\ding{110}} \\
+    \end{tabularx}
+  \flushleft%
+  \section*{\faCubes{} flavors}% flavors {{{4 ----------------------------------
+    \flushright\small%
+    \begin{tabularx}{\linewidth}{p{.35\linewidth}XX}
+      \textbf{JavaScript}:& node       & angular \\
+                          & vue        & jQuery \\
+      \textbf{\LaTeX}:    & booktabs   & tikz \\
+                          & fancyhdr   & secsty \\
+      \textbf{Python}:    & pandas     & PIL \\
+                          & \makecell[l]{beautifulsoup} \\
+                          & PIL        & xgboost \\
+                          & osgeo      & rasterstats \\
+                          & numpy      & scipy \\
+      \textbf{R}:         & data.table & shiny \\
+                          & dplyr      & vegan \\
+                          & testthat   & devtools \\
+                          & DBI        & leaflet \\
+                          & httr       & MICE \\
+                          & nnet       & ggplot2 \\
+      \textbf{SQL/DB}:    & MySQL      & Spark \\
+                          & \makecell[l]{PostgreSQL} \\
+                          & MongoDB    & Hadoop \\
+                          & SQLite     & Snowflake \\
+    \end{tabularx}
+  \flushleft% 4}}} -------------------------------------------------------------
+  \section*{\faBarChart{} Statistics \& Machine Learning} % {{{4 -----------------
+    \flushright\small%
+    \begin{tabularx}{p{\linewidth}XX}
+      \textbf{ANOVA}          & \textbf{Linear Regression} \\
+      \textbf{Markov Chain}   & \textbf{PCA/PCoA} \\
+      \textbf{Neural Network} & \textbf{Clustering} \\
+      \textbf{SOMs}           & \textbf{Decision Trees} \\
+      \makecell[l]{Exploratory Data Analysis} 
+    \end{tabularx}
+  \flushright% 4}}} ------------------------------------------------------------
+    
+
+\end{minipage} % 3}}} ----------------------------------------------------------
+
+\end{document} % 2}}} ----------------------------------------------------------
+% 1}}} -------------------------------------------------------------------------
