@@ -1,0 +1,46 @@
+# Data Engineer -- Oak Ridge National Laboratory - National Security Emerging Technologies
+## Oak Ridge, TN -- June 2019 - Present
+
+# Data Scientist II -- Oak Ridge National Laboratory - Geographic Information Sciences
+## Oak Ridge, TN -- October 2018 - June 2018
+
+# Developer -- DC Energy, Inc.
+## Vienna, VA -- August 2018 - October 2018
+- downscaled large database infrastructure to a vagrant file
+- 
+
+# Visualization \& User Experience Engineer -- REsurety, Inc.
+## Boston, MA -- February 2018 - August 2018
+- developed an interactive, map-based energy informatics tool
+
+# Bioinformatician -- Microbial Insights
+## Knoxville, TN -- August 2016 -- February 2018
+
+# Graduate Research Associate -- Stewart Biotechnology Lab
+## University of Tennesse - Knoxville, TN -- July 2014 - May 2016
+- evaluated cell suspension lines for lignin and cellulose composition via both chemical, spectral, and histological tests
+- advanced and executed monocot genetic modifications for \textit{Panicum} spp., \textit{Oryza} spp., \textit{Sorghum} spp., \textit{Saccharum} spp., \textit{Zea mays}
+- prepared and completed a research project in accelerated monocot tissue culutre and genetic modification
+
+# Laboratory Assistant -- Stewart Biotechnology Lab
+## University of Tennessee - Knoxville, TN -- January 2012 - July 2014
+- developed an automated histological methodology to screen lignin and cellulose content from micrographs
+- complied with USDA-APHIS regulations regarding transgenic plants
+- implemented an \textit{E. coli} bioreactor for production of proteins
+
+# Lead Merchandiser -- Stacy's Greenhouses
+## York, SC -- January 2008 -- November 2012
+- supervised and managed other merchandisers
+- trained new employees
+- ensured adequate inventory
+- orchestrated displays for optimal aesthetic appeal
+- provided customer service to both stores and customers
+
+# Laboratory Assistant -- Lambdin Biosystematics and Biological Control Lab 
+## University of Tennessee - Knoxville, TN -- June 2002 - January 2012
+- designed instructional modules for undergraduate and graduate level courses using HTML and Flash
+- collected samples and data from field locations
+- assisted in community outreach programs such as Bloomsdays, Buggy Buffet, and 4-H camps
+
+
+
