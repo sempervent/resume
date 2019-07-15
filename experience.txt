@@ -1,17 +1,23 @@
 # Data Engineer -- Oak Ridge National Laboratory - National Security Emerging Technologies
 ## Oak Ridge, TN -- June 2019 - Present
+- served as support staff for the Python project EAGLE-I
+- developed full stack docker images using R and Shiny to automate the acquisition of data for the WSTAMP project
 
 # Data Scientist II -- Oak Ridge National Laboratory - Geographic Information Sciences
 ## Oak Ridge, TN -- October 2018 - June 2018
+- developed an R package to unify APIs containing geo-spatial-temporal data such as World Bank, World Health Organization, and USAID data providers
+- created a full stack docker image to utilize GDAL and Python to 
+- orchestrated multiple docker images for the deployment of an automated data ingestion system using R and Python
+- coded a bash  program to maintain the aforementioned docker images to automate backups and data ingestion-at-will
 
 # Developer -- DC Energy, Inc.
 ## Vienna, VA -- August 2018 - October 2018
-- downscaled large database infrastructure to a vagrant file
-- 
+- downscaled large database infrastructure to a test environment using Vagrant
+- maintained legacy code written in PHP
 
-# Visualization \& User Experience Engineer -- REsurety, Inc.
+# Visualization \& User Experience Engineer (Contractor) -- REsurety, Inc.
 ## Boston, MA -- February 2018 - August 2018
-- developed an interactive, map-based energy informatics tool
+- developed an interactive, map-based energy informatics tool using R, Shiny, and Javascript
 
 # Bioinformatician -- Microbial Insights
 ## Knoxville, TN -- August 2016 -- February 2018
