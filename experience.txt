@@ -1,12 +1,15 @@
 # Data Engineer -- Oak Ridge National Laboratory - National Security Emerging Technologies
 ## Oak Ridge, TN -- June 2019 - Present
-- served as support staff for the Python project EAGLE-I
-- developed full stack docker images using R and Shiny to automate the acquisition of data for the WSTAMP project
+- served as support staff for the Python project EAGLE-I, where I implemented an ETL workflow from a brittle-based cron system to a more robjust Airflow system deployed in a Kubernetes cluster
+- developed full stack docker images using Python, R, Airflow,  and Shiny to automate the acquisition of data for the WSTAMP project for storage in an Hadoop Data Warehouse
+- oversaw the development team for DOE's COVID-19 tracking project and downstream model creation and analysis, for which I received distinguished recognition for the project 
+- developed containerized ETL workflows and REST APIs using Swagger for data exchange in the NAERM-RTSA project
+- developed web-scraping and containerized model creation for misinformation classification from a variety of online web sources including social media sites for implementation in advanced statistical models and network analysis
 
 # Data Scientist II -- Oak Ridge National Laboratory - Geographic Information Sciences
-## Oak Ridge, TN -- October 2018 - June 2018
+## Oak Ridge, TN -- October 2018 - June 2019
 - developed an R package to unify APIs containing geo-spatial-temporal data such as World Bank, World Health Organization, and USAID data providers
-- created a full stack docker image to utilize GDAL and Python to 
+- created a full stack docker image to utilize GDAL and Python to perform zonal statistics on raster images
 - orchestrated multiple docker images for the deployment of an automated data ingestion system using R and Python
 - coded a bash  program to maintain the aforementioned docker images to automate backups and data ingestion-at-will
 
@@ -17,10 +20,16 @@
 
 # Visualization \& User Experience Engineer (Contractor) -- REsurety, Inc.
 ## Boston, MA -- February 2018 - August 2018
-- developed an interactive, map-based energy informatics tool using R, Shiny, and Javascript
+- developed an interactive, map-based energy informatics tool using R, Shiny, Javascript, and Snowflake
 
 # Bioinformatician -- Microbial Insights
 ## Knoxville, TN -- August 2016 -- February 2018
+- Established an automated pipeline using R, MySQL, Python, and Bash for NGS analysis, along with intranet website control written in JavaScript and Shiny
+- Automated client-bound statistical calculations such as linear models, ANOVA, SOMs, clustering, PCA, and PCoA
+- Developed an ETL customer data visualization tool using R, PHP, JQuery, and MySQL to view qPCR results in the context of other samples’ and selected parameters
+- Optimized data delivery to clients via a custom R package and local shiny applications to quickly generate LATEX PDF reports
+- Constructed, populated, and maintained an intranet wiki based using PostgreSQL and PHP to aid in project management and customer service
+
 
 # Graduate Research Associate -- Stewart Biotechnology Lab
 ## University of Tennesse - Knoxville, TN -- July 2014 - May 2016
@@ -30,7 +39,7 @@
 
 # Laboratory Assistant -- Stewart Biotechnology Lab
 ## University of Tennessee - Knoxville, TN -- January 2012 - July 2014
-- developed an automated histological methodology to screen lignin and cellulose content from micrographs
+- developed an automated histological methodology to screen lignin and cellulose content from micrographs using Python
 - complied with USDA-APHIS regulations regarding transgenic plants
 - implemented an \textit{E. coli} bioreactor for production of proteins
 
