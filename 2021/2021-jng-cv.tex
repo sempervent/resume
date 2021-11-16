@@ -1,0 +1,214 @@
+\documentclass[10pt]{article}%
+\author{Joshua N Grant}
+\title{CV for Joshua N. Grant}
+%\usepackage[backend=biber,style=authoryear,sorting=nyt,natbib=true,maxbibnames=99,firstinits=true,uniquename=false]{biblatex}
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+\usepackage{tikz}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage[left=1cm,top=1cm,right=1cm,bottom=1cm,nohead,nofoot]{geometry}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{palatino}
+\usepackage{pifont}
+\usepackage{enumitem}
+\usepackage{sectsty}
+\usepackage{fontawesome}
+\hypersetup{colorlinks=false}
+%\addbibresource{bibliography.bib}
+\bibliographystyle{plain}
+\definecolor{fillheader}{HTML}{FFFFFF}
+\definecolor{header}{HTML}{000000}
+\definecolor{headercolor}{HTML}{e3e3e3}
+\definecolor{linkcolor}{HTML}{3e3e3e}
+\usetikzlibrary{positioning,shapes,shadows,arrows,backgrounds,calc,shadows.blur}
+\newcolumntype{M}{>{\raggedright\arraybackslash}X}
+\setlength{\parindent}{0pt}
+\sectionfont{\fontsize{10}{11}\selectfont}
+\begin{document}
+\pagenumbering{gobble}
+\begin{minipage}[ht]{.33\linewidth}%
+  \setlength{\headsep}{-10pt}%
+  \setlength{\voffset}{-0.75in}%
+  {\Large Joshua N.\huge\textbf{Grant}} \\
+   \large \textit{Senior Python Developer}
+\end{minipage}
+\begin{minipage}[ht]{.25\linewidth}%
+  \section*{\faUser{} Contact}%
+  12918 Sanderling Lane \\
+  Knoxville, TN 37922 \\
+  United States of America \\
+  \textbf{+1 (865) 803 3495} \faMobile \\
+\end{minipage}
+\begin{minipage}[ht]{.5\linewidth}%
+  \href{mailto:jngrant@live.com}{\color{linkcolor}{jngrant@live.com \faEnvelope}} \\
+  \href{https://notjustadatum.blogspot.com}{\color{linkcolor}{notjustadatum.blogspot.com \faBold}} \\
+  \href{https://github.com/sempervent}{\color{linkcolor}{github.com/sempervent \faGithubAlt}} \\
+  \href{https://www.linkedin.com/in/joshua-grant-a3842968}{\color{linkcolor} {\small linkedin.com/in/joshuanagrant} \faLinkedin} \\
+  \href{https://scholar.google.com/citations?user=vs-HJQcAAAAJ&hl=en}{\color{linkcolor} {scholar.google.com \faPencil}}
+\end{minipage}
+\par\noindent\rule{\textwidth}{0.4pt}
+\begin{center}
+\section*{\faBullseye{} Objective}%
+To take theories, ideas, research, and experiments and turn them into production-scalable solutions and to develop and support Python-based applications
+\end{center}
+\par\noindent\rule{\textwidth}{0.4pt}
+\begin{minipage}[t]{.25\linewidth}%
+\flushleft
+   \section*{\faCode{} Coding}%
+     {\small
+        \begin{tabularx}{\linewidth}{p{.44\linewidth}X}
+           \textbf{Bash}:       & \ding{110} \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110}} \\
+           \textbf{Docker}:     & \ding{110} \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110}} \\
+           \textbf{Kubernetes}: & \ding{110} \ding{110} \color{headercolor}{\ding{110} \ding{110} \ding{110}} \\
+           \textbf{HTML/CSS}:       & \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110} \ding{110}} \\
+           \textbf{JavaScript}: & \ding{110} \ding{110} \color{headercolor}{\ding{110} \ding{110} \ding{110}} \\
+           \textbf{\LaTeX}:     & \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110} \ding{110}} \\
+           \textbf{Perl}:       & \ding{110} \color{headercolor}{\ding{110} \ding{110} \ding{110} \ding{110}} \\
+           \textbf{PHP}:        & \ding{110} \ding{110} \color{headercolor}{\ding{110} \ding{110} \ding{110}} \\
+           \textbf{Python}:     & \ding{110} \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110}} \\
+           \textbf{R}:          & \ding{110} \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110}} \\
+           \textbf{SQL}:        & \ding{110} \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110}} \\
+           \textbf{git}:        & \ding{110} \ding{110} \ding{110} \ding{110} \color{headercolor}{\ding{110}} \\
+           \textbf{CI/CD}:   & \ding{110} \ding{110} \color{headercolor}{\ding{110} \ding{110} \ding{110}}
+        \end{tabularx}
+     }
+\end{minipage}
+\begin{minipage}[t]{.5\linewidth}%
+\flushleft
+\section*{\faCubes{} Flavors}%
+   {\small
+      \begin{tabularx}{\linewidth}{p{.2\linewidth}XX}
+         \textbf{R}: & data.table & shiny \\
+                     & tidyverse  & vegan \\
+                     & testthat   & devtools \\
+                     & DBI        & leaflet \\
+                     & httr       & ggplot2 \\
+         \hline
+         \textbf{Python}: & pandas & bs4 \\
+                          & PIL    & xdgboost \\
+                          & osgeo  & airflow \\
+                          & selenium & geopandas \\
+         \hline
+         \textbf{SQL/DB}: & MySQL & PostgreSQL \\
+                       & MongoDB & Hadoop \\
+                       & SQLite  & Snowflake \\
+         \hline
+         \textbf{\LaTeX }:  & tikz   & fancyhdr \\
+                           & tables & booktabs \\
+         \hline
+         \textbf{JavaScript}: & node.js & angular.js \\
+                              & vue.js & jQuery
+     \end{tabularx}}
+     \flushleft%
+\end{minipage}
+\begin{minipage}[t]{.2\linewidth}%
+   \section*{\faBarChart{} Statistics}%
+   \flushright
+   {\small
+      \begin{tabularx}{\linewidth}{X}
+        \textbf{ANOVA} \\
+        \textbf{Linear Regression} \\
+        \textbf{PCA/PCoA} \\
+        \textbf{Markov Chain} \\
+        \textbf{Clustering} \\
+        \textbf{Exploratory Data Analysis} \\
+        \textbf{Dynamic Time Warping} \\
+        \textbf{Self-Organizing Maps} \\
+        \textbf{Taxonomic Classifications} \\
+      \end{tabularx}}
+      \flushleft%
+\end{minipage}
+\par\noindent\rule{\textwidth}{0.4pt}
+\section*{\faCalendar{} Experience}
+   \begin{tabularx}{\linewidth}{M}%
+      \makecell[l]{\textbf{Data Engineer}} \\
+      Oak Ridge National Laboratory, Oak Ridge, TN \textit{2018\textemdash Present} \\
+      \begin{itemize}[topsep=-12pt,parsep=0em]
+          \setlength\itemsep{0em}
+          \item Serves as support staff for the Python project EAGLE-I, where I implemented an ETL workflow from a brittle-based cron system to a more robust Airflow system deployed in a Kubernetes cluster %
+          \item Developed full stack docker images using Python, R, Airflow,  and Shiny to automate the acquisition of data for the WSTAMP project for storage in an Hadoop Data Warehouse %
+          \item Led the development team for DOE's COVID-19 tracking project using both R and Python and downstream model creation and analysis, for which I received distinguished recognition for the project %
+          \item Developed containerized ETL workflows, Python microservices, and REST APIs using Swagger for data exchange in the NAERM-RTSA project %
+          \item Developed web-scraping and containerized model creation for misinformation classification from a variety of online web sources including social media sites for implementation in advanced statistical models and network analysis %
+          \item Serves as Software Quality Assurance board chair for the Geospatial Science and Human Security Division %
+      \end{itemize} \\
+           \makecell[l]{\textbf{Data Scientist II Subcontractor}} \\
+      Oak Ridge National Laboratory, Oak Ridge, TN \textit{2018 \textemdash 2019} \\
+      \begin{itemize}[topsep=-12pt,parsep=0em]
+          \setlength\itemsep{0em}
+          \item Automated data ingestion of the WSTAMP Web Application via the use of R, Python, Airflow, and Docker %
+          \item Authored an R package to unify geography between online data APIs %
+          \item Developed a SpatiaLite SQLite database to ease lookup of geographic data %
+          \item Developed a zonal statistics application in Python that takes a raster image and shapefile and computes the statistics over the shapes stored in the shapefile %
+        \end{itemize} \\
+   \end{tabularx}
+   \newpage
+   \begin{tabularx}{\linewidth}{M}%
+         \makecell[l]{\textbf{Owner \& Contractor-For-Hire}} \\
+         Specrabella, Knoxville, TN \textit{2018 \textemdash 2018 } \\
+      \begin{itemize}[topsep=-12pt,parsep=0em]
+         \setlength\itemsep{0em}
+         \item Designed, developed, and deployed an interactive energy informatics web application that provides real-time calculation from machine learning derived models %
+         \item Consulted with clients on ground-up web application architecture, database and visualization needs%
+          \item Developed data ingestion methods using cURL, PHP, and R to scrape energy data from the web % 
+          \item Streamlined training and development procedures using ansible, vagrant, PHP, and BASH % 
+      \end{itemize} \\
+      \makecell[l]{\textbf{Bioinformatician, Project Manager, \& Technical Sales Representative}} \\
+      Microbial Insights, Knoxville, TN \textit{2016 \textemdash 2018} \\
+      \begin{itemize}[topsep=-12pt,parsep=0em]
+         \setlength\itemsep{0em}
+         \item Established an automated pipeline using R, MySQL, Python, and Bash for NGS analysis, along with intranet website control written in JavaScript and Shiny  %
+         \item Automated client-bound statistical calculations such as linear models, ANOVA, SOMs, clustering, PCA, and PCoA %
+         \item Developed an ETL customer data visualization tool using R, PHP, JQuery, and MySQL to view qPCR results in the context of other samples' and selected parameters %
+         \item Optimized data delivery to clients via a custom R package and local shiny applications to quickly generate \LaTeX{} PDF reports  %
+         \item Constructed, populated, and maintained an intranet wiki based using PostgreSQL and PHP to aid in project management and customer service
+        \end{itemize} \\
+       \makecell[l]{\textbf{Graduate Research Assistant, Dr. Neal Stewart's Plant Biotechnology Lab}} \\
+       University of Tennessee, Knoxville, TN \textit{2014 \textemdash{} 2016} \\
+       \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Summarized statistical findings of cell suspensions using linear models, ANOVA, and PCA in Python and R %
+            \item Evaluated suspension cultures via chemical and spectral processes for lignin formation and statistically analyzed and summarized my findings for inclusion in DOE reports %
+            \item Collaborated on a novel single cell suspension and cryopreservation robotic system %
+            \item Advanced and executed monocot genetic modifications for \textit{Panicum} spp., \textit{Oryza} spp., \textit{Sorghum} spp., \textit{Saccharum} spp., \textit{Zea mays}
+         \end{itemize} \\
+       \makecell[l]{\textbf{Laboratory Assistant, Dr. Neal Stewart's Plant Biotechnology Lab}} \\
+       University of Tennessee, Knoxville, TN \textit{2012 \textemdash{} 2014} \\
+       \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Developed automated statistical methodology for screening of lignin content and imaging of cell characteristics both \textit{in vivo} and \textit{in vitro} using Python%
+            \item Extracted genomes from NCBI, cleaned and normalized the data, and performed exploratory data analysis using Python
+            \item Complied with USDA-APHIS regulations regarding transgenic plants
+            \item Implemented an \textit{E. coli} bioreactor for production of proteins
+         \end{itemize} \\
+        \makecell[l]{\textbf{Laboratory Assistant, Dr. Paris Lambdin's Biosystematics and Biological Control Lab}} \\
+        University of Tennesse, Knoxville, TN \textit{2002} \textemdash{} 2012 \\
+        \begin{itemize}[topsep=-12pt,parsep=0em]
+        	    \setlength\itemsep{0em}
+        	    \item Designed instructional modules for undergraduate and graduate level courses using HTML, CSS, JavaScript, and Flash
+        	    \item Collected samples and data from field locations
+        	    \item Assisted in community outreach programs such as Bloomsdays, Buggy Buffet, and 4-H Camps
+        	    \item Performed forest coverage analysis using ArcGIS
+        \end{itemize}
+    \end{tabularx}
+\par\noindent\rule{\textwidth}{0.4pt}
+\section*{\faUniversity{} Education}
+     \begin{tabularx}{\linewidth}{M}% education
+      \makecell[l]{\textbf{Master of Science in Plant Sciences \textemdash Plant Molecular Genetics}} \\
+      University of Tennessee \textemdash ~Knoxville, TN \textemdash ~\textit{Spring 2017} \textemdash ~\textbf{GPA: 3.72/4.0} \\
+      \\
+      \makecell[l]{\textbf{Bachelor of Science in Plant Sciences \textemdash Biotechnology}} \\
+      University of Tennessee \textemdash ~Knoxville, TN \textemdash ~\textit{Spring 2014} \textemdash ~\textbf{GPA: 3.74/4.0} \\
+      \textbf{Magna Cum Laude} \\
+    \end{tabularx}%
+\newpage
+\par\noindent\rule{\textwidth}{0.4pt}
+\section*{\faBook{} Publications}
+\nocite{*}
+\bibliography{bibliography}
+\par\noindent\rule{\textwidth}{0.4pt}
+\section*{\faUserPlus{} References}
+References available upon request.
+\end{document}
