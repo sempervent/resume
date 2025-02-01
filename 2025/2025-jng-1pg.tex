@@ -1,0 +1,111 @@
+\documentclass[9pt]{article}
+\usepackage[left=0.5in, right=0.5in, top=0.5in, bottom=0.5in, nohead, nofoot]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{enumitem}
+
+\renewcommand{\arraystretch}{0.9}
+
+% Custom Macros
+\newcommand{\name}[2]{\makecell[l]{{\huge #1 \textbf{#2}}}}
+\newcommand{\contact}[4]{%
+    \faMapMarker \, #1 \quad
+    \faPhone \, #2 \quad
+    \faEnvelope \, \href{mailto:#3}{#3} \quad
+    \faGithub \, \href{#4}{#4}
+}
+\newcommand{\objective}[1]{\section*{\faBullseye{} Objective} \vspace{-0.5em} \begin{center} \small #1 \end{center}}
+\newcommand{\skills}[2]{\textbf{#1:} #2}
+\newcommand{\job}[3]{\textbf{#1} \hfill \textit{#2} \\ \small #3}
+\newcommand{\education}[2]{\textbf{#1} \\ \small #2}
+
+\begin{document}
+\pagenumbering{gobble}
+
+% Name & Contact
+\noindent
+\begin{minipage}{0.5\linewidth}
+    \name{Joshua N.}{Grant} \\
+    \textit{Geospatial Systems Architect}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\linewidth}
+    \raggedleft
+    \contact{Knoxville, TN}{+1 (865) 803 3495}{jngrant@live.com}{github.com/sempervent}
+\end{minipage}
+
+\noindent\rule{\textwidth}{0.5pt}
+
+% Objective
+\objective{Transform theories, ideas, and research into production-scale geospatial, cloud, and data solutions. Passionate about scalable architectures, machine learning, and automation.}
+
+\noindent\rule{\textwidth}{0.5pt}
+
+% Skills (Condensed in Multi-Column Layout)
+\section*{\faCogs{} Skills}
+\begin{multicols}{3}
+    \skills{Languages}{Python, R, JavaScript, SQL, Bash, \LaTeX} \\
+    \skills{Cloud}{AWS, GCP, Azure} \\
+    \skills{Data Eng.}{Airflow, Kafka, Prefect, Hadoop} \\
+    \skills{Databases}{PostgreSQL, MongoDB, MySQL, Snowflake} \\
+    \skills{GIS}{ArcGIS, GeoPandas, PostGIS, GDAL, QGIS} \\
+    \skills{DevOps}{Docker, Kubernetes, Ansible, GitHub Actions} \\
+    \skills{Visualization}{Shiny, Leaflet, Kibana, Plotly} \\
+    \skills{ML/AI}{TensorFlow, Scikit-learn, NLP, AI Deployment} \\
+    \skills{Version Control}{Git, GitHub, GitLab}
+\end{multicols}
+
+\noindent\rule{\textwidth}{0.5pt}
+
+% Experience (Condensed)
+\section*{\faBriefcase{} Experience}
+\job{Geospatial Systems Architect}{Oak Ridge National Lab}{2023–Present}
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+    \item Built cloud-native pipelines for geospatial & IoT data processing (Airflow, AWS, PostGIS).
+    \item Designed a geoparquet-based data warehouse for scalable risk analysis.
+    \item Developed geospatial ML models for real-time parcel monitoring.
+\end{itemize}
+
+\job{Senior Software Engineer – Data Engineering}{Bold Penguin (Remote)}{2022–2023}
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+    \item Migrated deployments from Prefect 1 to Prefect 2, automating data workflows.
+    \item Developed scalable ETL pipelines integrating AWS Lambda & Fargate.
+    \item Designed event-driven microservices for document processing.
+\end{itemize}
+
+\job{Data Engineer}{Oak Ridge National Lab}{2019–2022}
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=*]
+    \item Led geospatial ETL pipeline development for large-scale raster datasets.
+    \item Built machine learning models to detect social media misinformation.
+\end{itemize}
+
+\noindent\rule{\textwidth}{0.5pt}
+
+% Projects (Only Highlighting Two)
+\section*{\faTasks{} Projects}
+\textbf{Geospatial Decision Support Tool} \\
+Developed a real-time geospatial analytics platform for risk monitoring.
+\textbf{Technologies:} Python, FastAPI, Kafka, PostGIS, Leaflet, Docker, AWS.
+
+\textbf{Automated Data Ingestion Pipeline} \\
+Designed & deployed a cloud-based ETL pipeline for large-scale raster data.
+\textbf{Technologies:} Airflow, Prefect, PostgreSQL, AWS S3, GDAL, Kubernetes.
+
+\noindent\rule{\textwidth}{0.5pt}
+
+% Education (Compact)
+\section*{\faUniversity{} Education}
+\education{M.S. Plant Sciences – Molecular Genetics}{University of Tennessee, 2017, GPA: 3.72/4.0}
+\education{B.S. Plant Sciences – Biotechnology}{University of Tennessee, 2014, Magna Cum Laude, GPA: 3.74/4.0}
+
+\noindent\rule{\textwidth}{0.5pt}
+
+% References
+\section*{\faUserPlus{} References}
+Available upon request.
+
+\end{document}

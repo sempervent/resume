@@ -1,0 +1,239 @@
+\documentclass[10pt]{article}%
+\author{Joshua N Grant}
+\title{CV for Joshua N. Grant}
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+\usepackage{tikz}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage[left=1cm,top=1cm,right=1cm,bottom=1cm,nohead,nofoot]{geometry}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{palatino}
+\usepackage{pifont}
+\usepackage{enumitem}
+\usepackage{sectsty}
+\usepackage{fontawesome}
+\hypersetup{colorlinks=false}
+\bibliographystyle{plain}
+\definecolor{fillheader}{HTML}{FFFFFF}
+\definecolor{header}{HTML}{000000}
+\definecolor{headercolor}{HTML}{e3e3e3}
+\definecolor{linkcolor}{HTML}{3e3e3e}
+\usetikzlibrary{positioning,shapes,shadows,arrows,backgrounds,calc,shadows.blur}
+\newcolumntype{M}{>{\raggedright\arraybackslash}X}
+% custom macros for the resume
+\newcommand{\name}[2]{\makecell[l]{{\Large #1 \huge \textbf{#2}}}}
+\newcommand{\objective}[1]{
+    \begin{minipage}[ht]{0.2\linewidth}
+    \section*{\faBullseye{} Objective}
+    \end{minipage}
+    \begin{minipage}[ht]{0.8\linewidth}
+        \centering #1
+    \end{minipage}
+}
+\newcommand{\contact}[6]{\section*{\faUser{} Contact} \vspace{-0.5em} {\begin{minipage}[ht]{.33\linewidth}%
+    \faMapMarker \, #1 \\ \faPhone \, #2 \end{minipage}%
+    \begin{minipage}[ht]{.66\linewidth}%
+    \faEnvelope \, \href{mailto:#3}{#3} \\
+    \faBold \, \href{https://#4}{#4} \\
+    \faGithub \, \href{#5}{#5} \\ \faLinkedin \, \href{#6}{#6}
+    \end{minipage}}
+}
+\newcommand{\skills}[3]{\makecell[l]{#1 \textbf{#2:}\hspace{0.22em} #3}}
+% Macro for Projects Section
+\newcommand{\projects}[3]{%
+    \textbf{#1} \\ % Project Name
+    \textit{#2} \\ % Summary
+    \textbf{Technologies:} #3 \\ % Technologies Used
+}
+
+\newcommand{\job}[4]{
+    \makecell[l]{
+        \faBriefcase{} \textbf{#1} \\
+        \textit{#2} \\ #3 \\
+        \begin{itemize}[topsep=-12pt,parsep=0em] \setlength\itemsep{0em} #4 \end{itemize} \\}
+}
+\newcommand{\education}[4]{\makecell[l]{\faGraduationCap{} \textbf{#1} \\ \textit{#2} \\ \textbf{#3}, #4 \\}}
+\newcommand{\references}[1]{\section*{\faUserPlus{} References} \vspace{-0.5em} \makecell[l]{#1}}
+\newcommand{\header}[1]{\section*{\faCircleInfo{} #1} \vspace{-0.5em}}
+\newcommand{\headerline}{\noindent\rule{\textwidth}{0.4pt}}
+% begin the document
+\begin{document}
+    \pagenumbering{gobble}
+    \begin{minipage}[ht]{.33\linewidth}%
+    % name section
+    \name{Joshua N.}{Grant}
+    \vspace{-0.5em}
+    \makecell[l]{\large \textit{Geospatial Systems Architect}}
+    \end{minipage}%
+    \begin{minipage}[ht]{.66\linewidth}%
+    % contact section
+    \contact{12918 Sanderling Lane\\ Knoxville, TN 37922 \\ United States of America}{+1 (865) 803 3495}
+        {jngrant@live.com}
+        {notjustadatum.blogspot.com}
+        {github.com/sempervent}
+        {linkedin.com/in/joshuanagrant}
+    \end{minipage}%
+    \par\noindent\rule{\textwidth}{0.4pt}
+    % Objective Section
+    \objective{To take theories, ideas, research, and experiments and turn them into production-scalable solutions \\ while developing and supporting applications and data workflows on cloud infrastructure.}
+    \headerline
+    % Skills Section
+\section*{\faCogs{} Skills}
+    \begingroup
+    \setlength{\extrarowheight}{-2pt}
+    \renewcommand{\arraystretch}{0.5}
+    \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.2\linewidth}X@{}}
+        \skills{\faCode}{Programming Languages}{Python, R, JavaScript, SQL, Bash, PHP, \LaTeX{}}
+        \vspace{-1em}
+        \skills{\faCloud}{Cloud Platforms}{AWS (S3, Lambda, EC2, RDS, Fargate), GCP, Azure}
+        \vspace{-1em}
+        \skills{\faDatabase}{Databases}{PostgreSQL, MongoDB, MySQL, SpatiaLite, Snowflake, SQLite, DuckDB, Redis, RabbitMQ}
+        \vspace{-1em}
+        \skills{\faGears}{Data Engineering}{Airflow, Prefect, Kafka, Scala, Hadoop, TimescaleDB, NiFi, ETL Pipelines}
+        \vspace{-1em}
+        \skills{\faMapMarker}{Geospatial Tools}{ArcGIS, GeoPandas, Geoparquet, QGIS, GDAL, PostGIS, Martin, Pyproj, Rasterio, MapBox, Leaflet}
+        \vspace{-1em}
+        \skills{\faPlay}{DevOps}{Docker, Kubernetes, Ansible, GitHub Actions, AWS CodePipeline}
+        \vspace{-1em}
+        \skills{\faDashboard}{Data Visualization}{Shiny, Leaflet, Kibana, matplotlib, Plotly, Grafana}
+        \vspace{-1em}
+        \skills{\faFlask}{Frameworks and APIs}{FastAPI, Flask, Django, Swagger, REST API Development, Electron}
+        \vspace{-1em}
+        \skills{\faBolt}{Machine Learning}{TensorFlow, Scikit-learn, Data Preprocessing, Model Deployment}
+        \vspace{-1em}
+        \skills{\faGit}{Version Control}{Git (GitHub, GitLab, Bitbucket)}
+        \vspace{-1em}
+        \skills{\faUsers}{Soft Skills}{Team Leadership, Agile Methodologies, Cross-Functional Collaboration, Written \& Verbal Communication, \\ Problem Solving}
+        \vspace{1em}
+    \end{tabularx}
+    \endgroup
+    \headerline
+    % Projects Section
+    \section*{\faPuzzlePiece{} Projects}
+    \projects{Final Fantasy Football}{A semantic learning algorithm for fantasy football}{Python, Scikit-learn, Pandas, NumPy, Matplotlib, Requests, BeautifulSoup, Flask, Docker, Docker Compose, Airflow}
+    \projects{Where I've Been}{A web application to visualize travel history}{Python, Flask, Docker, Docker Compose, PostgreSQL, Leaflet, Vue, Bootstrap}
+    \projects{This Is A Casino}{A web application to visualize and trade stocks via semantic learning, reinforcement learning, and deep learning}{Python, Flask, Docker, Docker Compose, PostgreSQL, Leaflet, React, Bootstrap}
+    \projects{Genesis}{A python audio input game to create a universe from a sound}{Python, pygame}
+    \projects{Decentralized Content Reward System}{A decentralized content reward system for the web}{Python, Rust, Flask, Docker, Docker Compose, PostgreSQL, Leaflet, React, Bootstrap}
+    \projects{}
+    \headerline
+    \section*{\faCalendar{} Experience}
+    \begin{tabularx}{\linewidth}{M}%
+        \makecell[l]{\textbf{Geospatial Systems Architect}} \\
+        Oak Ridge National Laboratory, Oak Ridge, TN \textit{2023\textemdash{}Present} \\
+        \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Architecting and maintaining a geoparquet-based data warehouse for storage and retrieval of risk components %
+            \item Designing, architecting, and maintaining simultaneous deployment of a Geospatial Decision Support Tool for both web and desktop environments %
+            \item Architecting a geospatial data pipeline, using Airflow for the ingestion, storage, and analysis of raster data in a cloud environment %
+            \item Developing geospatial applications for the tracking and monitoring of high-sensitivity parcels using IoT technologies, Kafka, TimescaleDB, and Airflow running in AWS %
+            \item Designing and architecting a geospatial data pipeline, database, frontend, and backend for the ingestion, storage, and retrieval of clock drift timeseries data using Airflow %
+            \item Developing and maintaining a geospatial data warehouse and pipeline for the ingestion, storage, and retrieval of raster data with data ingestion controlled by Prefect %
+            \item Architecting a geospatial database capable of handling large-scale raster data and aggregating zonal stats to a variety of vector geometries %
+        \end{itemize} \\
+    \end{tabularx}
+    \begin{tabularx}{\linewidth}{M}%
+        \makecell[l]{\textbf{Senior Software Engineer \dash Data Engineering}} \\
+        Bold Penguin, Columbus, OH (remote) 2022\textemdash{}2023 \\
+        \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Designed a more centralized system for development and deployment using GitHub Actions, AWS, and Python modules %
+            \item Supervised a team effort to migrate deployments, flows, and tasks from Prefect 1 to Prefect 2 %
+            \item Developed Prefect tasks to run on either EC2 or Fargate instances based on conditions such as file size %
+            \item Created EC2 and Fargate microservices for assistance in document conversion and data extraction %
+            \item Designed and maintained REST APIs to be up-to-date with stakeholder and client demands %
+            \item Designed and implemented a scalable message queue (MQ) system to handle high load for a data extraction service, resulting in improved performance and increased efficiency of data processing operations %
+            \item Configured GitHub Actions and AWS CodePipeline to automate the build, test, and deployment process of the projects, ensuring consistent and reliable delivery of software updates %
+            \item Created and oversaw the deployment of multiple Python and JavaScript projects using AWS CodePipeline, resulting in streamlined, automated, and efficient project delivery %
+        \end{itemize} \\
+        \makecell[l]{\textbf{Data Engineer}} \\
+        Oak Ridge National Laboratory, Oak Ridge, TN \textit{2019\textemdash{}2022} \\
+        \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Served as support staff for a Python-based web scraping project, implementing an ETL workflow from a brittle-based cron system to a more robust Airflow system deployed in a Kubernetes cluster and in the cloud %
+            \item Developed and maintained full stack docker images using Python, R, Airflow, and Shiny to automate the acquisition of spatial-temporal data for the WSTAMP project for storage in an Hadoop Data Warehouse %
+            \item Led the development team for a COVID-19 tracking project using both R and Python and downstream model creation and analysis %
+            \item Developed containerized Airflow ETL workflows, Python microservices, and REST APIs using Swagger for data exchange with PostgreSQL, AWS S3 \& RDS, and MongoDB %
+            \item Automated web-scraping and social media ingestion via containerized model creation for misinformation classification for implementation in advanced statistical models and network analysis and ingestion into ElasticSearch and visualization in Kibana %
+            \item Served as Software Quality Assurance board chair for the Geospatial Science and Human Security Division %
+            \item Participated as a member of the ORNL Data Council, which discusses best practices in lab-wide data management and architecture for sharing of lab-generated data %
+        \end{itemize} \\
+        \makecell[l]{\textbf{Data Scientist II Subcontractor}} \\
+        Oak Ridge National Laboratory, Oak Ridge, TN \textit{2018\textemdash{}2019} \\
+        \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Automated data ingestion of the WSTAMP Web Application via the use of R, Python, Airflow, and Docker %
+            \item Authored an R package to unify geography between online data APIs %
+            \item Developed a SpatiaLite SQLite database to ease lookup of geographic data %
+            \item Developed a zonal statistics application in Python that takes a raster image and shapefile and computes the statistics over the shapes stored in the shapefile %
+        \end{itemize} \\
+        \makecell[l]{\textbf{Owner \& Contractor-For-Hire}} \\
+        Specrabella, Knoxville, TN \textit{2018\textemdash{}2018} \\
+        \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Designed, developed, and deployed an interactive energy informatics leaflet-based web application integrated with Snowflake that provides real-time calculation from machine learning derived models %
+            \item Consulted with clients on ground-up web application architecture, database and visualization needs%
+            \item Developed data ingestion methods using cURL, PHP, and R to scrape energy data from the web %
+            \item Streamlined training and development procedures using ansible, vagrant, PHP, and BASH %
+            \item Designed and implemented a data pipeline using R, Python, and Snowflake to ingest, clean, and visualize energy data %
+            \item Developed a web application to visualize energy data using R, Shiny, and Leaflet %
+            \item Architected, designed, and maintained PostgreSQL databases for energy and financial data %
+        \end{itemize}
+        \end{tabularx}
+    \begin{tabularx}{\linewidth}{M}%
+        \makecell[l]{\textbf{Bioinformatician, Project Manager, \& Technical Sales Representative}} \\
+        Microbial Insights, Knoxville, TN \textit{2016\textemdash{}2018} \\
+        \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Established an automated pipeline using R, MySQL, Python, and Bash for NGS analysis, along with intranet website control written in JavaScript and Shiny  %
+            \item Automated client-bound statistical calculations such as linear models, ANOVA, SOMs, clustering, PCA, and PCoA %
+            \item Developed an ETL customer data visualization tool using R, PHP, JQuery, and MySQL to view qPCR results in the context of other samples' and dynamically selectable parameters %
+            \item Optimized data delivery to clients via a custom R package and local shiny applications to quickly generate \LaTeX{} PDF reports  %
+            \item Constructed, populated, and maintained an intranet wiki based using PostgreSQL and PHP to aid in project management and customer service
+        \end{itemize} \\
+        \makecell[l]{\textbf{Graduate Research Assistant, Dr. Neal Stewart's Plant Biotechnology Lab}} \\
+        University of Tennessee, Knoxville, TN \textit{2014\textemdash{}2016} \\
+        \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Summarized statistical findings of cell suspensions using linear models, ANOVA, and PCA in Python and R %
+            \item Evaluated suspension cultures via chemical and spectral processes for lignin formation and statistically analyzed and summarized my findings for inclusion in DOE reports %
+            \item Collaborated on a novel single cell suspension and cryopreservation robotic system %
+            \item Advanced and executed monocot genetic modifications for \textit{Panicum} spp., \textit{Oryza} spp., \textit{Sorghum} spp., \textit{Saccharum} spp., \textit{Zea mays}
+        \end{itemize} \\
+        \makecell[l]{\textbf{Laboratory Assistant, Dr. Neal Stewart's Plant Biotechnology Lab}} \\
+        University of Tennessee, Knoxville, TN \textit{2012\textemdash{}2014} \\
+        \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Developed automated statistical methodology for screening of lignin content and imaging of cell characteristics both \textit{in vivo} and \textit{in vitro} using Python%
+            \item Extracted genomes from NCBI, cleaned and normalized the data, and performed exploratory data analysis using Python
+            \item Complied with USDA-APHIS regulations regarding transgenic plants
+            \item Implemented an \textit{E. coli} bioreactor for production of proteins
+        \end{itemize} \\
+        \makecell[l]{\textbf{Laboratory Assistant, Dr. Paris Lambdin's Biosystematics and Biological Control Lab}} \\
+        University of Tennessee, Knoxville, TN \textit{2002\textemdash{}2012} \\
+        \begin{itemize}[topsep=-12pt,parsep=0em]
+            \setlength\itemsep{0em}
+            \item Designed instructional modules for undergraduate and graduate level courses using HTML, CSS, JavaScript, and Flash
+            \item Collected samples and data from field locations
+            \item Assisted in community outreach programs such as Bloomsdays, Buggy Buffet, and 4-H Camps
+            \item Performed forest coverage analysis using ArcGIS
+        \end{itemize}
+    \end{tabularx}
+    \headerline
+    % Education Section
+\section*{\faUniversity{} Education}
+\begin{tabularx}{\linewidth}{M}
+    \education{Master of Science in Plant Sciences \textemdash Plant Molecular Genetics}{University of Tennessee}{Spring 2017}{GPA: 3.72/4.0}
+    \vspace{0.5em}
+    \education{Bachelor of Science in Plant Sciences \textemdash Biotechnology}{University of Tennessee}{Spring 2014}{GPA: 3.74/4.0 \textemdash Magna Cum Laude}
+\end{tabularx}
+    \headerline
+    \section*{\faBook{} Publications}
+    \nocite{*}
+    \bibliography{bibliography}
+    \par\noindent\rule{\textwidth}{0.4pt}
+    \section*{\faUserPlus{} References}
+    References available upon request.
+\end{document}
