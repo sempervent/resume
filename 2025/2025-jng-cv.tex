@@ -1,20 +1,24 @@
 \documentclass[10pt]{article}%
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  pdfauthor={Joshua N Grant},
+  pdftitle={CV for Joshua N. Grant}
+}
 \author{Joshua N Grant}
 \title{CV for Joshua N. Grant}
 \usepackage{etoolbox}
 \patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
 \usepackage{tikz}
-\usepackage[hidelinks]{hyperref}
 \usepackage{xcolor}
 \usepackage[left=1cm,top=1cm,right=1cm,bottom=1cm,nohead,nofoot]{geometry}
 \usepackage{tabularx}
 \usepackage{makecell}
-\usepackage{palatino}
+%\usepackage{palatino}
+\usepackage{newpxtext,newpxmath}
 \usepackage{pifont}
 \usepackage{enumitem}
 \usepackage{sectsty}
 \usepackage{fontawesome}
-\hypersetup{colorlinks=false}
 \bibliographystyle{plain}
 \definecolor{fillheader}{HTML}{FFFFFF}
 \definecolor{header}{HTML}{000000}
@@ -43,9 +47,12 @@
 \newcommand{\skills}[3]{\makecell[l]{#1 \textbf{#2:}\hspace{0.22em} #3}}
 % Macro for Projects Section
 \newcommand{\projects}[3]{%
-    \textbf{#1} \\ % Project Name
-    \textit{#2} \\ % Summary
-    \textbf{Technologies:} #3 \\ % Technologies Used
+    \textbf{#1} \textemdash{} \textit{#2} \\ % Summary
+    \textbf{Tech:} #3 % Technologies Used
+    \vspace{-1em}
+    \begin{center}
+        \rule{0.7\textwidth}{0.2pt}
+    \end{center}
 }
 
 \newcommand{\job}[4]{
@@ -85,11 +92,12 @@
     \setlength{\extrarowheight}{-2pt}
     \renewcommand{\arraystretch}{0.5}
     \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.2\linewidth}X@{}}
-        \skills{\faCode}{Programming Languages}{Python, R, JavaScript, SQL, Bash, PHP, \LaTeX{}}
-        \vspace{-1em}
+        \vspace{-1.5em}
+        \skills{\faCode}{Programming Languages}{Python, R, JavaScript, SQL, Bash, PHP, Rust \LaTeX}
+        \vspace{-1.5em}
         \skills{\faCloud}{Cloud Platforms}{AWS (S3, Lambda, EC2, RDS, Fargate), GCP, Azure}
         \vspace{-1em}
-        \skills{\faDatabase}{Databases}{PostgreSQL, MongoDB, MySQL, SpatiaLite, Snowflake, SQLite, DuckDB, Redis, RabbitMQ}
+        \skills{\faDatabase}{Databases}{PostgreSQL, MongoDB, MySQL, SpatiaLite, Snowflake, SQLite, DuckDB, Redis, RabbitMQ, MQTT}
         \vspace{-1em}
         \skills{\faGears}{Data Engineering}{Airflow, Prefect, Kafka, Scala, Hadoop, TimescaleDB, NiFi, ETL Pipelines}
         \vspace{-1em}
@@ -117,7 +125,8 @@
     \projects{This Is A Casino}{A web application to visualize and trade stocks via semantic learning, reinforcement learning, and deep learning}{Python, Flask, Docker, Docker Compose, PostgreSQL, Leaflet, React, Bootstrap}
     \projects{Genesis}{A python audio input game to create a universe from a sound}{Python, pygame}
     \projects{Decentralized Content Reward System}{A decentralized content reward system for the web}{Python, Rust, Flask, Docker, Docker Compose, PostgreSQL, Leaflet, React, Bootstrap}
-    \projects{}
+    \projects{Cosmic Architect}{A pygame game where you compete to build the best planet}{Python, pygame}
+    \projects{maw}{A cli for quickly combining tabular data into parquet}{Rust}
     \headerline
     \section*{\faCalendar{} Experience}
     \begin{tabularx}{\linewidth}{M}%
@@ -133,8 +142,6 @@
             \item Developing and maintaining a geospatial data warehouse and pipeline for the ingestion, storage, and retrieval of raster data with data ingestion controlled by Prefect %
             \item Architecting a geospatial database capable of handling large-scale raster data and aggregating zonal stats to a variety of vector geometries %
         \end{itemize} \\
-    \end{tabularx}
-    \begin{tabularx}{\linewidth}{M}%
         \makecell[l]{\textbf{Senior Software Engineer \dash Data Engineering}} \\
         Bold Penguin, Columbus, OH (remote) 2022\textemdash{}2023 \\
         \begin{itemize}[topsep=-12pt,parsep=0em]
@@ -169,6 +176,8 @@
             \item Developed a SpatiaLite SQLite database to ease lookup of geographic data %
             \item Developed a zonal statistics application in Python that takes a raster image and shapefile and computes the statistics over the shapes stored in the shapefile %
         \end{itemize} \\
+    \end{tabularx}
+    \begin{tabularx}{\linewidth}{M}%
         \makecell[l]{\textbf{Owner \& Contractor-For-Hire}} \\
         Specrabella, Knoxville, TN \textit{2018\textemdash{}2018} \\
         \begin{itemize}[topsep=-12pt,parsep=0em]
@@ -191,7 +200,7 @@
             \item Automated client-bound statistical calculations such as linear models, ANOVA, SOMs, clustering, PCA, and PCoA %
             \item Developed an ETL customer data visualization tool using R, PHP, JQuery, and MySQL to view qPCR results in the context of other samples' and dynamically selectable parameters %
             \item Optimized data delivery to clients via a custom R package and local shiny applications to quickly generate \LaTeX{} PDF reports  %
-            \item Constructed, populated, and maintained an intranet wiki based using PostgreSQL and PHP to aid in project management and customer service
+            \item Constructed, populated, and maintained an intranet wiki using PostgreSQL and PHP to aid in project management and customer service
         \end{itemize} \\
         \makecell[l]{\textbf{Graduate Research Assistant, Dr. Neal Stewart's Plant Biotechnology Lab}} \\
         University of Tennessee, Knoxville, TN \textit{2014\textemdash{}2016} \\
