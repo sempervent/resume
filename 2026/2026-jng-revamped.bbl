@@ -1,0 +1,1261 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{GABOARDI2026108619}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=8b08dae01ab978a215905a3642c959da}{%
+           family={Gaboardi},
+           familyi={G\bibinitperiod},
+           given={James\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=b6381f1f586a3910103a4c54aab0a835}{%
+           family={Tuccillo},
+           familyi={T\bibinitperiod},
+           given={Joseph\bibnamedelima V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=c6baea81e94771de353110ca92fd6049}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Joshua\bibnamedelima N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=0903a607ebc231af378405944d62b009}{%
+           family={Isber},
+           familyi={I\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=517e3c3a06957bd75c3f019beb609e3c}{%
+           family={Hagstrom},
+           familyi={H\bibinitperiod},
+           given={Anna\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=66a4a289f6c815e99821c23e5006dbe9}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Narasimha\bibnamedelima D.},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{320b2560364f70f92af5e48b9575851c}
+      \strng{fullhash}{5220ef2d8333e239c72f643f96096ee9}
+      \strng{fullhashraw}{5220ef2d8333e239c72f643f96096ee9}
+      \strng{bibnamehash}{320b2560364f70f92af5e48b9575851c}
+      \strng{authorbibnamehash}{320b2560364f70f92af5e48b9575851c}
+      \strng{authornamehash}{320b2560364f70f92af5e48b9575851c}
+      \strng{authorfullhash}{5220ef2d8333e239c72f643f96096ee9}
+      \strng{authorfullhashraw}{5220ef2d8333e239c72f643f96096ee9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Used within social simulations, synthetic population ensembles enable uncertainty quantification (UQ) methods for obtaining more robust model inference and prediction. A synthetic population ensemble is a series of plausible virtual reconstructions of an area’s population at the granularity of people and residences, generated stochastically to preserve privacy of the source population survey’s respondents. In this paper, we demonstrate the production of large synthetic population ensembles for the U.S. via Oak Ridge National Laboratory’s UrbanPop framework to support modeling of high spatial resolution energy affordability metrics from nationwide social surveys in collaboration with the fusionACS project. The study involves two scenarios: creating ensembles for (1) 17 U.S. metropolitan areas in 2019 and (2) full U.S. Census Divisions in 2023, with each scenario consisting of 41 population instances (a base realization and 40 replicates). To accomplish this task at scale, we configured an integrated system within a research cloud, comprised of virtual containerizations, GPU-enhanced functionality, and orchestrated deployments of UrbanPop’s maturing Likeness Python ecosystem. Results demonstrate we maintained high-fidelity approximations of residential totals by areas of interest and the demographic characteristics of neighborhoods while reducing manual workflow burdens. Finally, we discuss plans to fine-tune and further develop our automated workflows for truly distributed job orchestration to increase computational efficiency, as well as provide an outlook for broadening applications of the ensembles.}
+      \field{issn}{0167-739X}
+      \field{journaltitle}{Future Generation Computer Systems}
+      \field{title}{Scalable Generation of High-fidelity Synthetic Population Ensembles}
+      \field{volume}{185}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{108619}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.future.2026.108619
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167739X26002530
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167739X26002530
+      \endverb
+      \keyw{Synthetic population ensembles,Social simulation,Human dynamics,Workflow orchestration,Cluster computing,GPU-enabled computing}
+    \endentry
+    \entry{hanson2025centralizedhealthexposomicresource}{misc}{}{}
+      \name{author}{11}{}{%
+        {{hash=cea3b9c45703c8f1141e3fd65b2d6454}{%
+           family={Hanson},
+           familyi={H\bibinitperiod},
+           given={Heidi\bibnamedelima A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6b0e42dc19286fff4b9ef09a74cfd6bd}{%
+           family={Ramsay},
+           familyi={R\bibinitperiod},
+           given={Joemy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=57a610adc466924c96e7861d70fa6953}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8ef69a962492d9ab1a0296e30034a99a}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Maggie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3c29b1ffc05bc6c6530c6a0b29e2ca5e}{%
+           family={Agbaje},
+           familyi={A\bibinitperiod},
+           given={Janet\bibnamedelima O.},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=940ab3d9cd83283d9487972f802fd1d1}{%
+           family={Maguire},
+           familyi={M\bibinitperiod},
+           given={Dakotah},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ac6f26c66193f9f5e9523b95422475d2}{%
+           family={Logan},
+           familyi={L\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0c095de64bed9cc0e4987297a3b870d7}{%
+           family={Taddie},
+           familyi={T\bibinitperiod},
+           given={Marissa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b83416ab215f01e02222ae52da744c4c}{%
+           family={Melton},
+           familyi={M\bibinitperiod},
+           given={Chad},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a95378bb078edac5e83eded91ab48960}{%
+           family={MacFarland},
+           familyi={M\bibinitperiod},
+           given={Midgie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=43127f487df108c463f58cfcd14a79ed}{%
+           family={VanDerslice},
+           familyi={V\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d046a31e9a2a7b1e99e2bbd5636c8bd}
+      \strng{fullhash}{ed960779c6058262f8a46bfb462fe8f9}
+      \strng{fullhashraw}{ed960779c6058262f8a46bfb462fe8f9}
+      \strng{bibnamehash}{5d046a31e9a2a7b1e99e2bbd5636c8bd}
+      \strng{authorbibnamehash}{5d046a31e9a2a7b1e99e2bbd5636c8bd}
+      \strng{authornamehash}{5d046a31e9a2a7b1e99e2bbd5636c8bd}
+      \strng{authorfullhash}{ed960779c6058262f8a46bfb462fe8f9}
+      \strng{authorfullhashraw}{ed960779c6058262f8a46bfb462fe8f9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{stat.AP}
+      \field{eprinttype}{arXiv}
+      \field{title}{Centralized Health and Exposomic Resource (C-HER): Analytic and AI-Ready Data for External Exposomic Research}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2511.03750
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2511.03750
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2511.03750
+      \endverb
+    \endentry
+    \entry{osti_2573480}{report}{}{}
+      \name{author}{6}{}{%
+        {{hash=817b47a49c76df9e51d1adde05db10ac}{%
+           family={Klasky},
+           familyi={K\bibinitperiod},
+           given={Hilda\bibnamedelima B.},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=57a610adc466924c96e7861d70fa6953}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a95378bb078edac5e83eded91ab48960}{%
+           family={MacFarland},
+           familyi={M\bibinitperiod},
+           given={Midgie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5ec522802c088ddbd2793d7ab282116b}{%
+           family={Hanson},
+           familyi={H\bibinitperiod},
+           given={Heidi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5a1b5488999ce16df2058d33bf13a76a}{%
+           family={Trafton},
+           familyi={T\bibinitperiod},
+           given={Jodie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cbe28aeacd4895d2a218463a759aaaf8}{%
+           family={Kapadia},
+           familyi={K\bibinitperiod},
+           given={Anuj},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)}%
+      }
+      \strng{namehash}{d7b370f5385eb752c6276679a364a667}
+      \strng{fullhash}{127d16f3f6ae4da60b810ff1d3f544a2}
+      \strng{fullhashraw}{127d16f3f6ae4da60b810ff1d3f544a2}
+      \strng{bibnamehash}{d7b370f5385eb752c6276679a364a667}
+      \strng{authorbibnamehash}{d7b370f5385eb752c6276679a364a667}
+      \strng{authornamehash}{d7b370f5385eb752c6276679a364a667}
+      \strng{authorfullhash}{127d16f3f6ae4da60b810ff1d3f544a2}
+      \strng{authorfullhashraw}{127d16f3f6ae4da60b810ff1d3f544a2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{The VA Environmental Determinants of Health (EDH) Advanced Software Pipeline Framework is designed to enhance the efficiency, scalability, and security of geospatial data processing workflows. This framework integrates modern data orchestration and containerization technologies, including Prefect for workflow automation, Docker for containerization, and PostgreSQL/PostGIS for geospatial data storage and analysis. It ensures standardized, reproducible, and automated data processing, supporting VA objectives related to substance use risk assessment and recovery research. The pipeline addresses key scalability and performance challenges through horizontal and vertical scaling, high-performance computing (HPC) integration, parallel processing, task caching, and dynamic resource allocation. These optimizations improve throughput and reduce latency, allowing the system to efficiently manage large and complex datasets. Additionally, security and compliance measures—such as data encryption (SSL), Role-Based Access Control (RBAC), and adherence to GDPR and HIPAA standards—safeguard sensitive information throughout data transmission and storage. A key implementation of this framework includes the automation of shelter list geolocation workflows, ensuring that up-to-date data is readily available for VA decision-making. Lessons learned from this project include the transition from in-memory processing to incremental storage writes, improving resource management and reliability. Future enhancements aim to expand automation, integrate AI-driven anomaly detection, and incorporate high-performance computing resources. This framework provides a scalable, secure, and adaptable solution for managing geospatial datasets, reinforcing the VA’s ability to support clinical and strategic initiatives through data-driven decision-making.}
+      \field{month}{03}
+      \field{title}{VA EDH Advanced Software Pipeline Framework Report: Enhancing Automation and Scalability}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.2172/2573480
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/2573480
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/2573480
+      \endverb
+    \endentry
+    \entry{osti_3362865}{report}{}{}
+      \name{author}{4}{}{%
+        {{hash=b7190b5550473637aaa359754c3aea6d}{%
+           family={Simpson},
+           familyi={S\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=57a610adc466924c96e7861d70fa6953}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6083806be0676e2c0b2874ab81d28cff}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d25869e36a52fb5eee4a120118c5189c}{%
+           family={Massaro},
+           familyi={M\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)}%
+      }
+      \strng{namehash}{241f2413da8799b7d25b6dfd2fbc5dfd}
+      \strng{fullhash}{ca9b45ac34cfaf60b1e4de1e6d7d5441}
+      \strng{fullhashraw}{ca9b45ac34cfaf60b1e4de1e6d7d5441}
+      \strng{bibnamehash}{241f2413da8799b7d25b6dfd2fbc5dfd}
+      \strng{authorbibnamehash}{241f2413da8799b7d25b6dfd2fbc5dfd}
+      \strng{authornamehash}{241f2413da8799b7d25b6dfd2fbc5dfd}
+      \strng{authorfullhash}{ca9b45ac34cfaf60b1e4de1e6d7d5441}
+      \strng{authorfullhashraw}{ca9b45ac34cfaf60b1e4de1e6d7d5441}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{In an era characterized by explosive growth in geospatial data, the selection of appropriate technologies for data storage, processing, and orchestration is critical for organizations aiming to maintain competitive advantages. This white paper provides a comprehensive analysis of how Oak Ridge National Laboratory (ORNL) has effectively employed various cloud technologies, including containerized applications, container orchestrators, and workflow orchestrators, to develop robust geospatial data processing solutions. We explore the fundamental concepts behind these technologies and compare multiple deployment models tailored to diverse use cases. Our findings conclude that while Kubernetes has emerged as the preferred platform for truly scalable and fault-tolerant production workflows, the choice of workflow orchestration tool requires careful consideration of team needs, pipeline complexity, and deployment environments. This paper aims to serve as a strategic guide for organizations leveraging geospatial data, articulating the balance between technology choices and practical implementation to enhance workflow efficacy and scalability.}
+      \field{month}{07}
+      \field{title}{Geospatial Data Workflow Orchestration and Architecture}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.2172/3362865
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/3362865
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/3362865
+      \endverb
+    \endentry
+    \entry{osti_3368818}{inproceedings}{}{}
+      \name{author}{8}{}{%
+        {{hash=1af97348528887ff8aef36bd7e760639}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3e3eedbdcb9c2093cdb548cd7ba61684}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f934f1134e48cbf181142550624d07d4}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=be4fd9273cdb4e3d37ebc0a0a4ec7b1f}{%
+           family={Stockwell},
+           familyi={S\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5efefa15d759998e77c9bd5aaabb8dc8}{%
+           family={Piburn},
+           familyi={P\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+        {{hash=57a610adc466924c96e7861d70fa6953}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6ed3d6dff76f1bcf6387210705647534}{%
+           family={Ibanez},
+           familyi={I\bibinitperiod},
+           given={Julio},
+           giveni={J\bibinitperiod}}}%
+        {{hash=24155c2f7e592094edd52713cf39cca2}{%
+           family={Christopher},
+           familyi={C\bibinitperiod},
+           given={Carter},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)}%
+      }
+      \strng{namehash}{0401d2cfde2d7297a220b242026d902b}
+      \strng{fullhash}{30e11bf1086da89fed331de4a6f34357}
+      \strng{fullhashraw}{30e11bf1086da89fed331de4a6f34357}
+      \strng{bibnamehash}{0401d2cfde2d7297a220b242026d902b}
+      \strng{authorbibnamehash}{0401d2cfde2d7297a220b242026d902b}
+      \strng{authornamehash}{0401d2cfde2d7297a220b242026d902b}
+      \strng{authorfullhash}{30e11bf1086da89fed331de4a6f34357}
+      \strng{authorfullhashraw}{30e11bf1086da89fed331de4a6f34357}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{The secure transport of sensitive materials across U.S. road networks pose unique challenges for local, state, and federal agencies. Threats range from random events (e.g., accidents, medical emergencies, mechanical failures) to opportunistic or organized tactical assaults. Although the probability of such attacks is very low, the consequences of material loss to foreign states or terrorists can be catastrophic, qualifying these scenarios as “grey swan” events—low-probability, high-impact occurrences that are predictable but difficult to quantify. Traditional risk assessments struggle in these contexts, necessitating a shift toward subjective risk perception to inform planning. Risk perception in transport planning is shaped by various factors, including knowledge of adversarial capabilities, vehicle defenses, manifest details, and geographic features along the route. Geographic features such as bridges, tunnels, roadside elevation, and gaps in cellular coverage introduce vulnerabilities, while mitigative features include safe havens, police stations, and medical services. Temporal variables such as congestion, accidents, and weather further complicate route planning. Despite their importance, existing routing tools like Google Maps and commercial software do not explicitly account for geographic risk features, requiring planners to rely on personal familiarity with routes—a time-intensive, non-scalable approach. This work addresses these gaps by: (1) developing datasets that catalog geographic risk features along U.S. roadways, (2) eliciting risk perceptions from experienced transportation security experts, and (3) linking these perceptions to roadway conditions and geographic data. We implement these capabilities within Secure Route a novel mapping tool for classifying route segment risks associated with roadway conditions. This system provides transportation planners with an intuitive interface to assess and contextualize risk along potential routes, improving decision-making for secure transport. We present current progress in this effort and identify next steps.}
+      \field{month}{08}
+      \field{title}{Secure Route: Roadway Risk Mapping for Transportation Planners}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/3368818
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/3368818
+      \endverb
+    \endentry
+    \entry{brelsford2024dataset}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=1b31adbcc90fa94477a660991507dfca}{%
+           family={Brelsford},
+           familyi={B\bibinitperiod},
+           given={Christa},
+           giveni={C\bibinitperiod}}}%
+        {{hash=af41230b357fdde53e44219e0fea5649}{%
+           family={Tennille},
+           familyi={T\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6083806be0676e2c0b2874ab81d28cff}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1d88f65279466b2931b197d766313af0}{%
+           family={Chinthavali},
+           familyi={C\bibinitperiod},
+           given={Supriya},
+           giveni={S\bibinitperiod}}}%
+        {{hash=53e6a274d35156ab3d98d22afde81398}{%
+           family={Tansakul},
+           familyi={T\bibinitperiod},
+           given={Varisara},
+           giveni={V\bibinitperiod}}}%
+        {{hash=86601b338e642501149f42222f63de05}{%
+           family={Denman},
+           familyi={D\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c46997f45ceb2d3f16b3f930e9ba1b7}{%
+           family={Coletti},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7904af0ec4878f335cc437a2f42e9b0c}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ebfa2dd630f1e1ddcaa6272e88ca2142}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sangkeun},
+           giveni={S\bibinitperiod}}}%
+        {{hash=694562c212f9a7617671e12c482de29f}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{3fb720709fb3ff7e8ad0071ce2fed49e}
+      \strng{fullhash}{1da2b481585e33f5cc742c5e574fa69c}
+      \strng{fullhashraw}{1da2b481585e33f5cc742c5e574fa69c}
+      \strng{bibnamehash}{3fb720709fb3ff7e8ad0071ce2fed49e}
+      \strng{authorbibnamehash}{3fb720709fb3ff7e8ad0071ce2fed49e}
+      \strng{authornamehash}{3fb720709fb3ff7e8ad0071ce2fed49e}
+      \strng{authorfullhash}{1da2b481585e33f5cc742c5e574fa69c}
+      \strng{authorfullhashraw}{1da2b481585e33f5cc742c5e574fa69c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Data}
+      \field{number}{1}
+      \field{title}{A dataset of recorded electricity outages by United States county 2014--2022}
+      \field{volume}{11}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{271}
+      \range{pages}{1}
+    \endentry
+    \entry{PELUSO2024103303}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=21175bc489ff8f353cfdd1ad2f0c76c1}{%
+           family={Peluso},
+           familyi={P\bibinitperiod},
+           given={Alina},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9538d2d503df3e1be7528520cdc00978}{%
+           family={Rastogi},
+           familyi={R\bibinitperiod},
+           given={Deeksha},
+           giveni={D\bibinitperiod}}}%
+        {{hash=817b47a49c76df9e51d1adde05db10ac}{%
+           family={Klasky},
+           familyi={K\bibinitperiod},
+           given={Hilda\bibnamedelima B.},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=ac6f26c66193f9f5e9523b95422475d2}{%
+           family={Logan},
+           familyi={L\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=940ab3d9cd83283d9487972f802fd1d1}{%
+           family={Maguire},
+           familyi={M\bibinitperiod},
+           given={Dakotah},
+           giveni={D\bibinitperiod}}}%
+        {{hash=57a610adc466924c96e7861d70fa6953}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8d8eee99151f13974777f900647bcca8}{%
+           family={Christian},
+           familyi={C\bibinitperiod},
+           given={Blair},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cea3b9c45703c8f1141e3fd65b2d6454}{%
+           family={Hanson},
+           familyi={H\bibinitperiod},
+           given={Heidi\bibnamedelima A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{75a81260961f2d015fb2659cb1536817}
+      \strng{fullhash}{4a79b08e369ab0a2664b79b380f777c3}
+      \strng{fullhashraw}{4a79b08e369ab0a2664b79b380f777c3}
+      \strng{bibnamehash}{75a81260961f2d015fb2659cb1536817}
+      \strng{authorbibnamehash}{75a81260961f2d015fb2659cb1536817}
+      \strng{authornamehash}{75a81260961f2d015fb2659cb1536817}
+      \strng{authorfullhash}{4a79b08e369ab0a2664b79b380f777c3}
+      \strng{authorfullhashraw}{4a79b08e369ab0a2664b79b380f777c3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Physical environment plays a key role in determining human health risks. Exposure to toxins, weather extremes, degraded air and water quality, high levels of noise and limited accessibility to green areas can negatively affect health. Furthermore, adverse environmental exposures are often correlated with each other and with socioeconomic status, thereby compounding disadvantages in marginalized populations. Moreover, despite their importance in determining human health risks, the role of multiple environmental exposures is not well studied, and only a few resources contain aggregate environmental exposure data and only for selected areas of the contiguous US. To fill these gaps, we took a cumulative approach to measuring the environment by generating a composite Multi-Exposure Environmental Index (MEEI) as a US Census Tract-level summary of key environmental factors with known health effects. This measure quantifies multiple environmental exposures in the same area that can result in additive and synergistic effects on health outcomes. This information is crucial to better understand and possibly leverage environmental determinants of health for informed policy-making and intervention.}
+      \field{issn}{1353-8292}
+      \field{journaltitle}{Health \& Place}
+      \field{title}{Environmental determinants of health: Measuring multiple physical environmental exposures at the United States census tract level}
+      \field{volume}{89}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{103303}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.healthplace.2024.103303
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S135382922400131X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S135382922400131X
+      \endverb
+      \keyw{Environmental determinant of health,Physical environment,Environmental deprivation,US census tract,Multi-exposure environmental index (MEEI)}
+    \endentry
+    \entry{tansakul2023eagle2}{report}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=53e6a274d35156ab3d98d22afde81398}{%
+           family={Tansakul},
+           familyi={T\bibinitperiod},
+           given={Varisara},
+           giveni={V\bibinitperiod}}}%
+        {{hash=6083806be0676e2c0b2874ab81d28cff}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=af41230b357fdde53e44219e0fea5649}{%
+           family={Tennille},
+           familyi={T\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=86601b338e642501149f42222f63de05}{%
+           family={Denman},
+           familyi={D\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=32db4b8980862b2f75585e22a0312bdb}{%
+           family={Hamaker},
+           familyi={H\bibinitperiod},
+           given={Alec},
+           giveni={A\bibinitperiod}}}%
+        {{hash=345e74b3e3a5e99393bb6d5a519cf776}{%
+           family={Huihui},
+           familyi={H\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8b8e5fc9371d202e47a7298111efa266}{%
+           family={Medlen},
+           familyi={M\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=694562c212f9a7617671e12c482de29f}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+        {{hash=39ad62d17871ba34488a2850330a9f5b}{%
+           family={Redmon},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1d88f65279466b2931b197d766313af0}{%
+           family={Chinthavali},
+           familyi={C\bibinitperiod},
+           given={Supriya},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Oak Ridge National Lab.(ORNL), Oak Ridge, TN (United States). Oak Ridge~…}%
+      }
+      \strng{namehash}{43afb0d67465c3f9fb58d827d3fe6928}
+      \strng{fullhash}{76a681da6403f6bb3e2339cee9e38f61}
+      \strng{fullhashraw}{76a681da6403f6bb3e2339cee9e38f61}
+      \strng{bibnamehash}{43afb0d67465c3f9fb58d827d3fe6928}
+      \strng{authorbibnamehash}{43afb0d67465c3f9fb58d827d3fe6928}
+      \strng{authornamehash}{43afb0d67465c3f9fb58d827d3fe6928}
+      \strng{authorfullhash}{76a681da6403f6bb3e2339cee9e38f61}
+      \strng{authorfullhashraw}{76a681da6403f6bb3e2339cee9e38f61}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{EAGLE-I Power Outage Data 2014-2022}
+      \field{type}{techreport}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{tansakul2023eagle}{report}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=53e6a274d35156ab3d98d22afde81398}{%
+           family={Tansakul},
+           familyi={T\bibinitperiod},
+           given={Varisara},
+           giveni={V\bibinitperiod}}}%
+        {{hash=6083806be0676e2c0b2874ab81d28cff}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=af41230b357fdde53e44219e0fea5649}{%
+           family={Tennille},
+           familyi={T\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=86601b338e642501149f42222f63de05}{%
+           family={Denman},
+           familyi={D\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=32db4b8980862b2f75585e22a0312bdb}{%
+           family={Hamaker},
+           familyi={H\bibinitperiod},
+           given={Alec},
+           giveni={A\bibinitperiod}}}%
+        {{hash=345e74b3e3a5e99393bb6d5a519cf776}{%
+           family={Huihui},
+           familyi={H\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8b8e5fc9371d202e47a7298111efa266}{%
+           family={Medlen},
+           familyi={M\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=694562c212f9a7617671e12c482de29f}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+        {{hash=39ad62d17871ba34488a2850330a9f5b}{%
+           family={Redmon},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1d88f65279466b2931b197d766313af0}{%
+           family={Chinthavali},
+           familyi={C\bibinitperiod},
+           given={Supriya},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Oak Ridge National Lab.(ORNL), Oak Ridge, TN (United States). Oak Ridge~…}%
+      }
+      \strng{namehash}{43afb0d67465c3f9fb58d827d3fe6928}
+      \strng{fullhash}{76a681da6403f6bb3e2339cee9e38f61}
+      \strng{fullhashraw}{76a681da6403f6bb3e2339cee9e38f61}
+      \strng{bibnamehash}{43afb0d67465c3f9fb58d827d3fe6928}
+      \strng{authorbibnamehash}{43afb0d67465c3f9fb58d827d3fe6928}
+      \strng{authornamehash}{43afb0d67465c3f9fb58d827d3fe6928}
+      \strng{authorfullhash}{76a681da6403f6bb3e2339cee9e38f61}
+      \strng{authorfullhashraw}{76a681da6403f6bb3e2339cee9e38f61}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{EAGLE-I Power Outage Data Information}
+      \field{type}{techreport}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{STEWART2022102759}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=1af97348528887ff8aef36bd7e760639}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7f04be3393debeaea07d63dd09d75a04}{%
+           family={Erwin},
+           familyi={E\bibinitperiod},
+           given={Samantha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5efefa15d759998e77c9bd5aaabb8dc8}{%
+           family={Piburn},
+           familyi={P\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+        {{hash=eabb1f39fdca64f5506c4667c17b4768}{%
+           family={Nagle},
+           familyi={N\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f934f1134e48cbf181142550624d07d4}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=21175bc489ff8f353cfdd1ad2f0c76c1}{%
+           family={Peluso},
+           familyi={P\bibinitperiod},
+           given={Alina},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ce9630d930c99001e895835247439831}{%
+           family={Christian},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi Blair},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=7904af0ec4878f335cc437a2f42e9b0c}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=53f0a0031e3da5c69e58fc1bf416110e}{%
+           family={Sorokine},
+           familyi={S\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c175fd217e71e95fd1e3ef6b1bcf2a2e}{%
+           family={Bhaduri},
+           familyi={B\bibinitperiod},
+           given={Budhendra},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{0401d2cfde2d7297a220b242026d902b}
+      \strng{fullhash}{8160db1b4bd9ab12e99402c1eda96acd}
+      \strng{fullhashraw}{8160db1b4bd9ab12e99402c1eda96acd}
+      \strng{bibnamehash}{0401d2cfde2d7297a220b242026d902b}
+      \strng{authorbibnamehash}{0401d2cfde2d7297a220b242026d902b}
+      \strng{authornamehash}{0401d2cfde2d7297a220b242026d902b}
+      \strng{authorfullhash}{8160db1b4bd9ab12e99402c1eda96acd}
+      \strng{authorfullhashraw}{8160db1b4bd9ab12e99402c1eda96acd}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the opening months of the pandemic, the need for situational awareness was urgent. Forecasting models such as the Susceptible-Infectious-Recovered (SIR) model were hampered by limited testing data and key information on mobility, contact tracing, and local policy variations would not be consistently available for months. New case counts from sources like John Hopkins University and the NY Times were systematically reliable. Using these data, we developed the novel COVID County Situational Awareness Tool (CCSAT) for reliable monitoring and decision support. In CCSAT, we developed a retrospective seven-day moving window semantic map of county-level disease magnitude and acceleration that smoothed noisy daily variations. We also developed a novel Bayesian model that reliably forecasted county-level magnitude and acceleration for the upcoming week based on population and new case count data. Together these formed a robust operational update including county-level maps of new case rate changes, estimates of new cases in the upcoming week, and measures of model reliability. We found CCSAT provided stable, reliable estimates across the seven-day time window, with the greatest errors occurring in cases of anomalous, single day spikes. In this paper, we provide CCSAT details and apply it to a single week in June 2020.}
+      \field{issn}{0143-6228}
+      \field{journaltitle}{Applied Geography}
+      \field{title}{Near real time monitoring and forecasting for COVID-19 situational awareness}
+      \field{volume}{146}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{102759}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.apgeog.2022.102759
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0143622822001308
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0143622822001308
+      \endverb
+      \keyw{COVID-19,Spatio-temporal,Monitoring,Forecasting,Bayesian}
+    \endentry
+    \entry{osti_1783004}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=fa5fdab87cea0237c72c63c3c20e4785}{%
+           family={Herrmannova},
+           familyi={H\bibinitperiod},
+           given={Dasha},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7652809136f6a5a681a1496a89e7af77}{%
+           family={Thakur},
+           familyi={T\bibinitperiod},
+           given={Gautam},
+           giveni={G\bibinitperiod}}}%
+        {{hash=57a610adc466924c96e7861d70fa6953}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=53e6a274d35156ab3d98d22afde81398}{%
+           family={Tansakul},
+           familyi={T\bibinitperiod},
+           given={Varisara},
+           giveni={V\bibinitperiod}}}%
+        {{hash=91a0bd45640a93541d85bad60b1a904d}{%
+           family={Eaton},
+           familyi={E\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7e705baf2194e868e348fe15f149c659}{%
+           family={Kotevska},
+           familyi={K\bibinitperiod},
+           given={Olivera},
+           giveni={O\bibinitperiod}}}%
+        {{hash=7a0c65b844d76df6f93656a0fd547010}{%
+           family={Burdette},
+           familyi={B\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=eec7ec04cccff124c67e35f4592bc073}{%
+           family={Smyth},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a4690653d5dce138b2241bca3a6bb6b2}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{363766dd2d0b2ea75dc2e2f8d65d7bbf}
+      \strng{fullhash}{1ee56eb072ead343647d43de957665da}
+      \strng{fullhashraw}{1ee56eb072ead343647d43de957665da}
+      \strng{bibnamehash}{363766dd2d0b2ea75dc2e2f8d65d7bbf}
+      \strng{authorbibnamehash}{363766dd2d0b2ea75dc2e2f8d65d7bbf}
+      \strng{authornamehash}{363766dd2d0b2ea75dc2e2f8d65d7bbf}
+      \strng{authorfullhash}{1ee56eb072ead343647d43de957665da}
+      \strng{authorfullhashraw}{1ee56eb072ead343647d43de957665da}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Challenges in Automated Detection of COVID-19 Misinformation}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/1783004
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/1783004
+      \endverb
+    \endentry
+    \entry{stewart2021taxonomic}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=1af97348528887ff8aef36bd7e760639}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5efefa15d759998e77c9bd5aaabb8dc8}{%
+           family={Piburn},
+           familyi={P\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b9499e3c2dcfaea094994ee9d7fd76d6}{%
+           family={Walters},
+           familyi={W\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f934f1134e48cbf181142550624d07d4}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6aae733fd2b7d7689aedd4a82d240df3}{%
+           family={Ezell},
+           familyi={E\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=91b2c35c5abb75300d554ba6e98d4fe4}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f372cb20863b9104f0d6f09982e1e735}{%
+           family={Axley},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=57a610adc466924c96e7861d70fa6953}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=91a0bd45640a93541d85bad60b1a904d}{%
+           family={Eaton},
+           familyi={E\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=53f0a0031e3da5c69e58fc1bf416110e}{%
+           family={Sorokine},
+           familyi={S\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0401d2cfde2d7297a220b242026d902b}
+      \strng{fullhash}{71d1964604ea06cc6c725f36616938e9}
+      \strng{fullhashraw}{71d1964604ea06cc6c725f36616938e9}
+      \strng{bibnamehash}{0401d2cfde2d7297a220b242026d902b}
+      \strng{authorbibnamehash}{0401d2cfde2d7297a220b242026d902b}
+      \strng{authornamehash}{0401d2cfde2d7297a220b242026d902b}
+      \strng{authorfullhash}{71d1964604ea06cc6c725f36616938e9}
+      \strng{authorfullhashraw}{71d1964604ea06cc6c725f36616938e9}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Taxonomic Classification Approach for Global Spatio-temporal Data}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{grant2017improved}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c6baea81e94771de353110ca92fd6049}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Joshua\bibnamedelima N},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=eae8f11dd9d9f2dcd431f49a9f84ccbe}{%
+           family={Burris},
+           familyi={B\bibinitperiod},
+           given={Jason\bibnamedelima N},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=18833f8471a16e68e02292d31147f506}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={C\bibnamedelima Neal},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=2caffda837cfabe82f19889fe6380bc7}{%
+           family={Lenaghan},
+           familyi={L\bibinitperiod},
+           given={Scott\bibnamedelima C},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {BioMed Central}%
+      }
+      \strng{namehash}{61a3c3038cb0fa79dda46f61ef3042b6}
+      \strng{fullhash}{9e9c767f60121261dd7fe7ae62f9d541}
+      \strng{fullhashraw}{9e9c767f60121261dd7fe7ae62f9d541}
+      \strng{bibnamehash}{61a3c3038cb0fa79dda46f61ef3042b6}
+      \strng{authorbibnamehash}{61a3c3038cb0fa79dda46f61ef3042b6}
+      \strng{authornamehash}{61a3c3038cb0fa79dda46f61ef3042b6}
+      \strng{authorfullhash}{9e9c767f60121261dd7fe7ae62f9d541}
+      \strng{authorfullhashraw}{9e9c767f60121261dd7fe7ae62f9d541}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC biotechnology}
+      \field{number}{1}
+      \field{title}{Improved tissue culture conditions for the emerging C 4 model \textit{Panicum hallii}}
+      \field{volume}{17}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{39}
+      \range{pages}{1}
+    \endentry
+    \entry{grant2017evaluation}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=eeaf5bf95646d00635a973e4604ff9df}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Joshua\bibnamedelima Nathaniel},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {The University of Tennessee, Knoxville}%
+      }
+      \strng{namehash}{eeaf5bf95646d00635a973e4604ff9df}
+      \strng{fullhash}{eeaf5bf95646d00635a973e4604ff9df}
+      \strng{fullhashraw}{eeaf5bf95646d00635a973e4604ff9df}
+      \strng{bibnamehash}{eeaf5bf95646d00635a973e4604ff9df}
+      \strng{authorbibnamehash}{eeaf5bf95646d00635a973e4604ff9df}
+      \strng{authornamehash}{eeaf5bf95646d00635a973e4604ff9df}
+      \strng{authorfullhash}{eeaf5bf95646d00635a973e4604ff9df}
+      \strng{authorfullhashraw}{eeaf5bf95646d00635a973e4604ff9df}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Evaluation of Hall’s Panicgrass (\textit{Panicum hallii} Vasey) as a Model System for Genetic Modification of Recalcitrance in Switchgrass (\textit{Panicum virgatum} (L.))}
+      \field{type}{mathesis}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{willis2017tceg1}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=056c77fe8a00afaec7a253b32cb056db}{%
+           family={Willis},
+           familyi={W\bibinitperiod},
+           given={Jonathan\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c6baea81e94771de353110ca92fd6049}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Joshua\bibnamedelima N},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=6104d80fad4fd03dec7a1473320fb2c7}{%
+           family={Mazarei},
+           familyi={M\bibinitperiod},
+           given={Mitra},
+           giveni={M\bibinitperiod}}}%
+        {{hash=310bf863db76ef3729736a83c3b8149a}{%
+           family={Kline},
+           familyi={K\bibinitperiod},
+           given={Lindsey\bibnamedelima M},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=df42a79c16b6ea35d56b94ac83b59a53}{%
+           family={Rempe},
+           familyi={R\bibinitperiod},
+           given={Caroline\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f5de3b3391f41b823a64384e26f2b9b3}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={A\bibnamedelima Grace},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=f13186740ebace83d7603184bdd9ad0e}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Geoffrey\bibnamedelima B},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=489da5502aa86a421bfb0ee96ac1765f}{%
+           family={Decker},
+           familyi={D\bibinitperiod},
+           given={Stephen\bibnamedelima R},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8ca4787cf63daa506b03435c6a8868dc}{%
+           family={Sykes},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima W},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=c3855b3a75ec16a64e3ecefd5a33ca42}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Mark\bibnamedelima F},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {BioMed Central}%
+      }
+      \strng{namehash}{ac18b3fc07bca034fecd7bc6b811ffae}
+      \strng{fullhash}{ae54683279a4eee0eaf9aa882ae079fd}
+      \strng{fullhashraw}{ae54683279a4eee0eaf9aa882ae079fd}
+      \strng{bibnamehash}{ac18b3fc07bca034fecd7bc6b811ffae}
+      \strng{authorbibnamehash}{ac18b3fc07bca034fecd7bc6b811ffae}
+      \strng{authornamehash}{ac18b3fc07bca034fecd7bc6b811ffae}
+      \strng{authorfullhash}{ae54683279a4eee0eaf9aa882ae079fd}
+      \strng{authorfullhashraw}{ae54683279a4eee0eaf9aa882ae079fd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biotechnology for Biofuels}
+      \field{number}{1}
+      \field{title}{The TcEG1 beetle (Tribolium castaneum) cellulase produced in transgenic switchgrass is active at alkaline pH and auto-hydrolyzes biomass for increased cellobiose release}
+      \field{volume}{10}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{230}
+      \range{pages}{1}
+    \endentry
+    \entry{liu2015soybean}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=089c67b15f6b33f21f9ef254c12d954f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jinyi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2c94b3624feb98fea825d8027e4e0560}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Nana},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c6baea81e94771de353110ca92fd6049}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Joshua\bibnamedelima N},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=f2d568a563cfcafb7bf2c3ddfc63e287}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Zong-Ming},
+           giveni={Z\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=da2e4d4130046ee5941e8732be44583f}{%
+           family={Stewart\bibnamedelima Jr},
+           familyi={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={C\bibnamedelima Neal},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=8682bda908d29040deb4abedfeb6b542}{%
+           family={Hewezi},
+           familyi={H\bibinitperiod},
+           given={Tarek},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press UK}%
+      }
+      \strng{namehash}{0bdf6b0fe9780231a2ec0d3477e02f20}
+      \strng{fullhash}{40f6ce875c5b82f95de42e2a68def2f4}
+      \strng{fullhashraw}{40f6ce875c5b82f95de42e2a68def2f4}
+      \strng{bibnamehash}{0bdf6b0fe9780231a2ec0d3477e02f20}
+      \strng{authorbibnamehash}{0bdf6b0fe9780231a2ec0d3477e02f20}
+      \strng{authornamehash}{0bdf6b0fe9780231a2ec0d3477e02f20}
+      \strng{authorfullhash}{40f6ce875c5b82f95de42e2a68def2f4}
+      \strng{authorfullhashraw}{40f6ce875c5b82f95de42e2a68def2f4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of experimental botany}
+      \field{number}{7}
+      \field{title}{Soybean kinome: functional classification and gene expression patterns}
+      \field{volume}{66}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{1919\bibrangedash 1934}
+      \range{pages}{16}
+    \endentry
+    \entry{grant2013comparisons}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=c6baea81e94771de353110ca92fd6049}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Joshua\bibnamedelima N},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=056c77fe8a00afaec7a253b32cb056db}{%
+           family={Willis},
+           familyi={W\bibinitperiod},
+           given={Jonathan\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=18833f8471a16e68e02292d31147f506}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={C\bibnamedelima Neal},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {SPRINGER 233 SPRING ST, NEW YORK, NY 10013 USA}%
+      }
+      \strng{namehash}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{fullhash}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{fullhashraw}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{bibnamehash}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{authorbibnamehash}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{authornamehash}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{authorfullhash}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{authorfullhashraw}{1f6770fd286d180eaa58dcafa2dc705e}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IN VITRO CELLULAR \& DEVELOPMENTAL BIOLOGY-PLANT}
+      \field{number}{4}
+      \field{title}{Comparisons of Switchgrass Cell Wall Components Containing an Overexpression of a Putative Switchgrass Endoglucanase}
+      \field{volume}{49}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{475\bibrangedash 475}
+      \range{pages}{1}
+    \endentry
+    \entry{baxter2012field}{inproceedings}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=ffe9f762598ae00b0fe977d24be74ff7}{%
+           family={Baxter},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=2d86ae885a3371b8cc39e0487f85e586}{%
+           family={Mazarei},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=610dbe52b353a69cda535d37208ee53d}{%
+           family={Labbe},
+           familyi={L\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e5ddecefe9d2c700a1e56574b3a4111d}{%
+           family={Kline},
+           familyi={K\bibinitperiod},
+           given={L.\bibnamedelimi M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1dab164c45818bfc1d8e130170a9462d}{%
+           family={Windham},
+           familyi={W\bibinitperiod},
+           given={M.\bibnamedelimi T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=7b4d747ede1125409d3cc071684aba30}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi G.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f9ee05a451213dd475213787f16cad8f}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d54ddd2ff539a42545302f153b017b4a}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=14118a1f7b2c31637fa1ff3b07cfe938}{%
+           family={Poovaiah},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c1a6aad2f02eb09deb52c898116b8158}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f2aa38bc557c72d707e7717fe066a22}
+      \strng{fullhash}{1ec09a07876e37321d62dc9ca6d074b6}
+      \strng{fullhashraw}{1ec09a07876e37321d62dc9ca6d074b6}
+      \strng{bibnamehash}{0f2aa38bc557c72d707e7717fe066a22}
+      \strng{authorbibnamehash}{0f2aa38bc557c72d707e7717fe066a22}
+      \strng{authornamehash}{0f2aa38bc557c72d707e7717fe066a22}
+      \strng{authorfullhash}{1ec09a07876e37321d62dc9ca6d074b6}
+      \strng{authorfullhashraw}{1ec09a07876e37321d62dc9ca6d074b6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2012 Sungrant National Conference Proceedings}
+      \field{title}{Field-based experiments on low-lignin switchgrass as a feedstock for lignocellulosic biofuel production}
+      \field{year}{2012}
+      \true{nocite}
+    \endentry
+    \entry{grant2012functional}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=c6baea81e94771de353110ca92fd6049}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Joshua\bibnamedelima N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=056c77fe8a00afaec7a253b32cb056db}{%
+           family={Willis},
+           familyi={W\bibinitperiod},
+           given={Jonathan\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=18833f8471a16e68e02292d31147f506}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi Neal},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{fullhash}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{fullhashraw}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{bibnamehash}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{authorbibnamehash}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{authornamehash}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{authorfullhash}{1f6770fd286d180eaa58dcafa2dc705e}
+      \strng{authorfullhashraw}{1f6770fd286d180eaa58dcafa2dc705e}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{UTK EureCA}
+      \field{title}{Functional analysis of a putative membrane-bound switchgrass endo-$\beta$-1,4-glucanase in \textit{Escherichia coli}.}
+      \field{year}{2012}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,175 @@
+\documentclass[10pt]{article}
+\author{Joshua N. Grant}
+\title{CV for Joshua N. Grant}
+
+\usepackage{etoolbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage[left=1cm,top=1cm,right=1cm,bottom=1cm,nohead,nofoot]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+\usepackage{palatino}
+\usepackage{xcolor}
+\usepackage[
+    backend=biber,
+    sorting=ydnt,
+    defernumbers=true
+]{biblatex}
+
+\hypersetup{colorlinks=false}
+\hypersetup{pageanchor=true}
+\addbibresource{bibliography.bib}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\setlist[itemize]{leftmargin=1.4em,itemsep=0.1em,topsep=0.2em,parsep=0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.2em}
+
+\newcommand{\sectionline}{\vspace{0.25em}\noindent\rule{\textwidth}{0.4pt}\vspace{-0.45em}}
+\newcommand{\cvsection}[2]{\sectionline\section*{{\mdseries #1}\hspace{0.35em}#2}\vspace{-0.45em}}
+\newcommand{\role}[4]{%
+    \textbf{#1} \hfill #4\\
+    \textit{#2} \hfill #3
+}
+\newcommand{\skillrow}[2]{\textbf{#1} & #2\\}
+\newcommand{\project}[3]{%
+    \textbf{#1} --- #2\\
+    \textit{Technologies:} #3
+}
+\newcommand{\contactitem}[3]{#1\hspace{0.35em}\href{#2}{#3}}
+
+\begin{document}
+\pagestyle{empty}
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+
+\begin{minipage}[t]{0.43\linewidth}
+    {\Huge \textbf{Joshua N. Grant}}\\[-0.1em]
+    {\large Geospatial Systems Architect}\\
+    {\small Geospatial Platforms \textbar{} Data Engineering \textbar{} Research Software}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.55\linewidth}
+    \raggedleft
+    {\small
+    \faMapMarker\hspace{0.35em}Knoxville, TN \quad
+    \faPhone\hspace{0.35em}+1 (865) 803-3495\\
+    \contactitem{\faEnvelope}{mailto:jngrant@live.com}{jngrant@live.com} \quad
+    \contactitem{\faGlobe}{https://sempervent.github.io}{sempervent.github.io}\\
+    \contactitem{\faGithub}{https://github.com/sempervent}{github.com/sempervent} \quad
+    \contactitem{\faLinkedin}{https://linkedin.com/in/joshuanagrant}{linkedin.com/in/joshuanagrant}\\
+    \contactitem{\faGraduationCap}{https://scholar.google.com/citations?user=vs-HJQcAAAAJ&hl=en}{Google Scholar}
+    }
+\end{minipage}
+
+\cvsection{\faUser}{Professional Summary}
+Geospatial systems architect focused on turning scientific, operational, and analytic workflows into production software platforms. Designs cloud-native spatial data systems, orchestration pipelines, APIs, and decision-support applications that connect geospatial storage, processing, and delivery across backend, data, and user-facing layers. Combines geospatial engineering, data platform architecture, and research software leadership to operationalize complex data products for mission-driven environments.
+
+\cvsection{\faCogs}{Technical Skills}
+\begin{tabularx}{\linewidth}{@{}p{0.23\linewidth}Y@{}}
+    \skillrow{Geospatial Systems}{PostGIS, GeoPandas, GeoParquet, GDAL, Rasterio, Pyproj, QGIS, ArcGIS, Mapbox, Leaflet, Martin, zonal statistics, raster/vector processing}
+    \skillrow{Data Engineering}{Airflow, Prefect, Kafka, ETL/ELT pipelines, data modeling, workflow orchestration, Spark, Slurm, Hadoop, NiFi}
+    \skillrow{Cloud \& Infrastructure}{AWS S3, Lambda, EC2, RDS, Fargate; GCP; Azure; Docker; Kubernetes; Ansible; GitHub Actions; AWS CodePipeline}
+    \skillrow{Databases}{PostgreSQL, TimescaleDB, MongoDB, MySQL, Snowflake, SQLite, SpatiaLite, DuckDB, Redis, RabbitMQ}
+    \skillrow{Applications \& APIs}{FastAPI, Flask, Django, REST API development, Swagger/OpenAPI, Shiny, Electron}
+    \skillrow{Analytics, AI \& Visualization}{Scikit-learn, TensorFlow, Pandas, NumPy, LLM/RAG data discovery, OCR/document processing, matplotlib, Plotly, Grafana, Kibana, model deployment}
+    \skillrow{Languages}{Python, SQL, R, JavaScript, Bash, PHP, \LaTeX{}}
+    \skillrow{Leadership}{Technical architecture, team leadership, software quality assurance, stakeholder collaboration, Agile delivery, documentation}
+\end{tabularx}
+
+\cvsection{\faCalendar}{Professional Experience}
+\role{Geospatial Systems Architect}{Oak Ridge National Laboratory}{Oak Ridge, TN}{2023--Present}
+\begin{itemize}
+    \item Architect geospatial data platforms that unify GeoParquet-based storage, retrieval, analysis, and downstream application delivery for mission-driven risk and decision-support workflows.
+    \item Lead technical design across backend services, data models, APIs, and user-facing applications for geospatial systems deployed in both web and desktop environments.
+    \item Build cloud-oriented raster and vector processing pipelines with Airflow, Prefect, Python, object storage, and geospatial libraries to support repeatable ingestion and operational analytics.
+    \item Design geospatial databases and processing workflows for large raster collections, vector aggregation, zonal statistics, and clock-drift time-series analysis at operational scale.
+    \item Develop high-sensitivity parcel tracking and monitoring applications using IoT streams, Kafka, TimescaleDB, Airflow, and AWS-hosted services.
+    \item Improve geospatial data discovery with LLM/RAG workflows that connect users to spatial datasets, metadata, and analytic context.
+    \item Modernize legacy Python systems by replacing brittle custom implementations with standard libraries, clearer interfaces, and maintainable project structure.
+\end{itemize}
+
+\role{Senior Software Engineer -- Data Engineering}{Bold Penguin}{Columbus, OH / Remote}{2022--2023}
+\begin{itemize}
+    \item Designed centralized development and deployment workflows using GitHub Actions, AWS services, reusable Python modules, and automated release practices, improving consistency across engineering teams.
+    \item Led migration of deployments, flows, and tasks from Prefect 1 to Prefect 2, standardizing orchestration patterns and improving maintainability across teams.
+    \item Built execution patterns that routed Prefect workloads to EC2 or Fargate based on runtime conditions such as file size and processing requirements.
+    \item Created EC2- and Fargate-backed microservices for OCR, document conversion, data extraction, and backend processing workflows.
+    \item Designed and maintained REST APIs and message queue architecture for high-load document-processing services, improving resilience and throughput in production data exchange.
+    \item Automated build, test, and deployment workflows for Python and JavaScript services using GitHub Actions and AWS CodePipeline.
+\end{itemize}
+
+\role{Data Engineer}{Oak Ridge National Laboratory}{Oak Ridge, TN}{2019--2022}
+\begin{itemize}
+    \item Replaced a brittle cron-based web scraping process with a more reliable Airflow ETL workflow deployed in Kubernetes and cloud infrastructure.
+    \item Developed full-stack Docker images and automated spatial-temporal data acquisition workflows using Python, R, Airflow, and Shiny for WSTAMP and Hadoop-backed data storage.
+    \item Led development for a COVID-19 tracking project spanning R, Python, geospatial analysis, downstream model creation, and operational reporting workflows; received distinguished recognition for the project.
+    \item Built containerized Airflow ETL workflows, Python microservices, and Swagger/OpenAPI REST APIs for NAERM-RTSA and related data exchange with PostgreSQL, AWS S3, AWS RDS, and MongoDB.
+    \item Automated web scraping and social media ingestion for misinformation classification, statistical modeling, network analysis, Elasticsearch indexing, and Kibana visualization.
+    \item Served as Software Quality Assurance board chair for the Geospatial Science and Human Security Division and contributed to ORNL Data Council discussions on data management, governance, and architecture.
+\end{itemize}
+
+\role{Data Scientist II Subcontractor}{Oak Ridge National Laboratory}{Oak Ridge, TN}{2018--2019}
+\begin{itemize}
+    \item Automated WSTAMP web application data ingestion using R, Python, Airflow, and Docker.
+    \item Authored an R package to normalize geographic identifiers and unify data access across online APIs.
+    \item Developed a SpatiaLite-backed SQLite database to simplify lookup, retrieval, and integration of geographic data.
+    \item Built a Python zonal statistics application for calculating raster summaries across shapefile geometries.
+\end{itemize}
+
+\role{Owner \& Contractor-For-Hire}{Specrabella}{Knoxville, TN}{2018}
+\begin{itemize}
+    \item Designed and deployed interactive energy informatics applications using Leaflet, Shiny, Snowflake, and machine-learning-derived calculations.
+    \item Consulted on greenfield web application architecture, database design, visualization, and deployment for energy-sector clients.
+    \item Built data ingestion and visualization workflows using cURL, PHP, R, Python, and Snowflake for energy datasets.
+    \item Designed PostgreSQL databases and development workflows for energy and financial data products.
+\end{itemize}
+
+\role{Bioinformatician, Project Manager, \& Technical Sales Representative}{Microbial Insights}{Knoxville, TN}{2016--2018}
+\begin{itemize}
+    \item Established an automated NGS analysis pipeline using R, MySQL, Python, Bash, JavaScript, and Shiny-backed internal tooling.
+    \item Automated client-facing statistical workflows including linear models, ANOVA, self-organizing maps, clustering, PCA, and PCoA.
+    \item Developed ETL and customer data visualization tooling using R, PHP, jQuery, and MySQL for dynamic qPCR result analysis.
+    \item Built a custom R package, local Shiny applications, and an internal PostgreSQL/PHP wiki to improve reporting, project management, and customer service workflows.
+\end{itemize}
+
+\role{Graduate Research Assistant}{Dr. Neal Stewart's Plant Biotechnology Lab, University of Tennessee}{Knoxville, TN}{2014--2016}
+\begin{itemize}
+    \item Analyzed cell suspension experiments using linear models, ANOVA, PCA, Python, and R for DOE reporting and scientific communication.
+    \item Evaluated suspension cultures through chemical and spectral processes and translated findings into research deliverables.
+    \item Collaborated on a novel single-cell suspension and cryopreservation robotic system while executing monocot genetic modification workflows.
+\end{itemize}
+
+\role{Laboratory Assistant}{Dr. Neal Stewart's Plant Biotechnology Lab, University of Tennessee}{Knoxville, TN}{2012--2014}
+\begin{itemize}
+    \item Developed Python-based statistical methodology for screening lignin content and imaging cell characteristics both \textit{in vivo} and \textit{in vitro}.
+    \item Extracted genomes from NCBI, cleaned and normalized datasets, and performed exploratory data analysis using Python.
+\end{itemize}
+
+\role{Laboratory Assistant}{Dr. Paris Lambdin's Biosystematics and Biological Control Lab, University of Tennessee}{Knoxville, TN}{2002--2012}
+\begin{itemize}
+    \item Designed instructional modules for undergraduate and graduate courses using HTML, CSS, JavaScript, and Flash.
+    \item Performed field data collection and forest coverage analysis using ArcGIS in support of biological control and biosystematics projects.
+\end{itemize}
+
+\cvsection{\faPuzzlePiece}{Selected Projects}
+\project{Where I've Been}{Travel history visualization application with spatial data storage, geospatial retrieval, and web mapping.}{Python, Flask, Docker, PostgreSQL, Leaflet, Vue, Bootstrap}
+
+\project{Final Fantasy Football}{Predictive analytics and semantic learning application for fantasy football data exploration and decision support.}{Python, Scikit-learn, Pandas, NumPy, Flask, Docker, Airflow}
+
+\project{Decentralized Content Reward System}{Prototype web platform exploring decentralized content incentives, workflow design, and full-stack application architecture.}{Python, Rust, Flask, Docker, PostgreSQL, React, Bootstrap}
+
+\cvsection{\faUniversity}{Education}
+\textbf{Master of Science in Plant Sciences -- Plant Molecular Genetics}\\
+University of Tennessee \hfill Spring 2017\\
+GPA: 3.72/4.0
+
+\textbf{Bachelor of Science in Plant Sciences -- Biotechnology}\\
+University of Tennessee \hfill Spring 2014\\
+GPA: 3.74/4.0; Magna Cum Laude
+
+\cvsection{\faBook}{Selected Publications, Technical Reports, \& Research Outputs}
+\nocite{*}
+\printbibliography[heading=none]
+
+\end{document}
