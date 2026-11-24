@@ -1,0 +1,53 @@
+# {{ doc.name }}
+
+**{{ doc.headline }}**
+
+{{ doc.tagline }}
+{% if doc.document_kind == "academic_cv" %}
+
+{{ doc.document_name }}
+{% endif %}
+
+{% for part in doc.contact_parts %}{{ part.text }}{% if not loop.last %} | {% endif %}{% endfor %}
+
+{% for link in doc.links %}[{{ link.label }}]({{ link.url }}){% if not loop.last %} | {% endif %}{% endfor %}
+
+{% for section in doc.sections %}
+## {{ section.title }}
+
+{% if section.id == "summary" %}
+{{ doc.summary }}
+{% elif section.id == "skills" %}
+{% for group in doc.skills %}
+**{{ group.label }}:** {{ group.items }}
+{% endfor %}
+{% elif section.id == "experience" %}
+{% for role in doc.roles %}
+### {{ role.title }}
+
+*{{ role.organization }}*{% if role.location %} | {{ role.location }}{% endif %} | {{ role.dates }}
+
+{% for bullet in role.bullets %}
+- {{ bullet }}
+{% endfor %}
+{% endfor %}
+{% elif section.id == "projects" %}
+{% for project in doc.projects %}
+### {% if project.url %}[{{ project.name }}]({{ project.url }}){% else %}{{ project.name }}{% endif %}
+
+{{ project.summary }}
+
+{% if project.technologies %}Technologies: {{ project.technologies }}{% endif %}
+{% endfor %}
+{% elif section.id == "education" %}
+{% for item in doc.education %}
+**{{ item.credential }}**
+
+{{ item.organization }} | {{ item.detail }}
+{% endfor %}
+{% elif section.id == "publications" %}
+{% for pub in doc.publications %}
+- {{ pub.authors }}. *{{ pub.title_text }}*. {{ pub.venue_text }}. {{ pub.year }}.{% if pub.url %} {{ pub.url }}{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}

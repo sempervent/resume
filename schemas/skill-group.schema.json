@@ -1,0 +1,102 @@
+{
+  "$defs": {
+    "SkillItem": {
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "detail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Detail"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "SkillItem",
+      "type": "object"
+    },
+    "Verification": {
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/VerificationStatus"
+        },
+        "sources": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Sources",
+          "type": "array"
+        }
+      },
+      "required": [
+        "status",
+        "sources"
+      ],
+      "title": "Verification",
+      "type": "object"
+    },
+    "VerificationStatus": {
+      "enum": [
+        "source-supported",
+        "owner-verification-required",
+        "independently-checked"
+      ],
+      "title": "VerificationStatus",
+      "type": "string"
+    },
+    "Visibility": {
+      "enum": [
+        "public",
+        "private",
+        "restricted"
+      ],
+      "title": "Visibility",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "id": {
+      "pattern": "^[a-z0-9]+(?:[_-][a-z0-9]+)*$",
+      "title": "Id",
+      "type": "string"
+    },
+    "label": {
+      "title": "Label",
+      "type": "string"
+    },
+    "items": {
+      "items": {
+        "$ref": "#/$defs/SkillItem"
+      },
+      "minItems": 1,
+      "title": "Items",
+      "type": "array"
+    },
+    "verification": {
+      "$ref": "#/$defs/Verification"
+    },
+    "visibility": {
+      "$ref": "#/$defs/Visibility",
+      "default": "public"
+    }
+  },
+  "required": [
+    "id",
+    "label",
+    "items",
+    "verification"
+  ],
+  "title": "SkillGroup",
+  "type": "object"
+}

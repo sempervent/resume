@@ -1,0 +1,183 @@
+projects:
+  - id: parqonaut
+    name: PARQONAUT
+    url: https://github.com/sempervent/PARQONAUT
+    summary: >
+      Open-source Rust toolkit for scanning, rewriting, streaming, and repairing
+      Parquet datasets, with a command-line interface, HTTP API, tests, and
+      tagged public releases through v0.9.2.
+    technologies: [Rust, Parquet, Arrow, Python, Docker]
+    categories: [data-engineering, software-engineering, open-source]
+    ownership: independent
+    license: Apache-2.0 and additional repository license files; GitHub reports NOASSERTION
+    verification:
+      status: source-supported
+      sources:
+        - https://github.com/sempervent/PARQONAUT
+    maturity_notes: >
+      Inspected through the public GitHub API and README on 2026-11-24.
+      Contributors listed sempervent. Active CI workflows exist for CI, docs,
+      plugins, and release. Latest GitHub release tag observed was v0.9.2.
+      The README on main also discusses v0.12.0 work that was not the latest
+      tag. The software was not executed during this review. No adoption or
+      production-customer claim is made. The README does not describe GeoParquet.
+
+  - id: dots
+    name: DOTS
+    url: https://github.com/sempervent/dots
+    summary: >
+      Open-source workstation setup and profile manager for macOS and Linux,
+      maintained since 2019, with automated checks and tagged releases through
+      v1.13.3.
+    technologies: [Shell, Python]
+    categories: [developer-productivity, platform-engineering, open-source]
+    ownership: independent
+    license: No GitHub license was reported on 2026-11-24
+    verification:
+      status: source-supported
+      sources:
+        - https://github.com/sempervent/dots
+    maturity_notes: >
+      Public repository created in 2019. CI, docs, and release workflows were
+      active. Contributors included sempervent and one additional account.
+      This is a developer-environment tool, not a hosted cloud platform. The
+      upstream README contains a personal email address that is intentionally
+      omitted here.
+
+  - id: numbrane
+    name: NUMBRANE
+    url: https://github.com/sempervent/numbrane
+    summary: >
+      Open-source polyglot system for deterministic generative art, with Python,
+      Rust, and TypeScript runtimes, automated tests, and tagged releases
+      through v0.2.0.
+    technologies: [TypeScript, Python, Rust, Docker]
+    categories: [software-engineering, open-source]
+    ownership: independent
+    license: AGPL-3.0
+    verification:
+      status: source-supported
+      sources:
+        - https://github.com/sempervent/numbrane
+    maturity_notes: >
+      The README describes generative audiovisual art built from algorithms and
+      explicitly says it is not a generative-AI product. CI was active and
+      releases v0.1.0 and v0.2.0 existed on 2026-11-24. It is not a scientific
+      data platform. The software was not executed during this review.
+
+  - id: syncscope-at-home
+    name: syncscope-at-home
+    url: https://github.com/sempervent/syncscope-at-home
+    summary: >
+      Public Docker Compose testbed that runs PostgreSQL with PostGIS and
+      TimescaleDB around Oak Ridge National Laboratory's OpenSAMPL NTP
+      software. The laboratory project is not independently owned.
+    technologies: [Docker, PostgreSQL, PostGIS, TimescaleDB, Shell]
+    categories: [platform-engineering, geospatial-engineering, open-source]
+    ownership: mixed
+    license: MIT
+    verification:
+      status: source-supported
+      sources:
+        - https://github.com/sempervent/syncscope-at-home
+    maturity_notes: >
+      One commit was visible on 2026-11-24. No release tags and no GitHub
+      Actions workflows were present. OpenSAMPL is pulled in as a submodule
+      from ORNL/OpenSAMPL. This inventory claims the demo scaffold only.
+
+  - id: streaming-parquet
+    name: streaming-parquet
+    url: https://github.com/sempervent/streaming-parquet
+    summary: >
+      Rust command-line tool for streaming conversion between CSV and Parquet.
+      Tests are in the public tree. No release tags or GitHub Actions
+      workflows were published at review.
+    technologies: [Rust, Parquet, Arrow]
+    categories: [data-engineering, open-source]
+    ownership: independent
+    license: MIT
+    verification:
+      status: source-supported
+      sources:
+        - https://github.com/sempervent/streaming-parquet
+    maturity_notes: >
+      README performance figures are targets, not measured results from this
+      review, and they are not repeated on résumés. PARQONAUT is the project
+      used when a résumé needs one Parquet toolkit.
+
+  - id: paraclete
+    name: Paraclete
+    url: https://github.com/sempervent/paraclete
+    summary: >
+      Rust service and command-line tool whose public README describes Parquet
+      scan jobs, token authentication, and an HTTP API. No tagged release or
+      GitHub Actions workflow was present at review, and the software was not
+      executed.
+    technologies: [Rust, PostgreSQL, SQLite, OpenAPI]
+    categories: [software-engineering, api-design, data-engineering]
+    ownership: independent
+    license: MIT
+    review_required: true
+    verification:
+      status: source-supported
+      sources:
+        - https://github.com/sempervent/paraclete
+    maturity_notes: >
+      The README describes a long series of design phases. That documentation
+      is not treated as evidence of a released product. Excluded from default
+      résumé profiles.
+
+  - id: where-ive-been
+    name: Where I've Been
+    summary: >
+      Travel-history visualization application with spatial storage and web
+      mapping, as described on earlier résumés. No public source repository
+      was identified.
+    technologies: [Python, Flask, Docker, PostgreSQL, Leaflet, Vue]
+    categories: [software-engineering, geospatial-engineering]
+    ownership: unknown
+    review_required: true
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+    maturity_notes: >
+      Résumé wording only. Omitted from commercial profiles.
+
+  - id: final-fantasy-football
+    name: Final Fantasy Football
+    summary: >
+      Predictive analytics application for fantasy-football data, as described
+      on earlier résumés. No public source repository was identified.
+    technologies: [Python, scikit-learn, pandas, NumPy, Flask, Docker, Airflow]
+    categories: [software-engineering, data-engineering]
+    ownership: unknown
+    review_required: true
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+    maturity_notes: >
+      An invention-disclosure note in the repository makes broader distributed-systems
+      claims. Those claims are not used. The résumé wording is the only statement
+      carried here.
+
+  - id: cosmic-architect
+    name: Cosmic Architect
+    summary: >
+      Private repository. It was not inspected. Earlier résumés describe a
+      Python game about populating a planet; that sentence is not treated as
+      evidence of a web application.
+    technologies: []
+    categories: [software-engineering]
+    ownership: independent
+    visibility: restricted
+    license: GNU AGPL-3.0 was reported by GitHub for the private repository metadata
+    review_required: true
+    verification:
+      status: owner-verification-required
+      sources:
+        - 2026/2026-jng-cv.tex
+    maturity_notes: >
+      GitHub metadata visible to the owner describes a web version. The code,
+      tests, and architecture were not reviewed. Not eligible for public documents.

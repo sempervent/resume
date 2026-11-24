@@ -1,0 +1,139 @@
+{
+  "$defs": {
+    "Verification": {
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/VerificationStatus"
+        },
+        "sources": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Sources",
+          "type": "array"
+        }
+      },
+      "required": [
+        "status",
+        "sources"
+      ],
+      "title": "Verification",
+      "type": "object"
+    },
+    "VerificationStatus": {
+      "enum": [
+        "source-supported",
+        "owner-verification-required",
+        "independently-checked"
+      ],
+      "title": "VerificationStatus",
+      "type": "string"
+    },
+    "Visibility": {
+      "enum": [
+        "public",
+        "private",
+        "restricted"
+      ],
+      "title": "Visibility",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "id": {
+      "pattern": "^[a-z0-9]+(?:[_-][a-z0-9]+)*$",
+      "title": "Id",
+      "type": "string"
+    },
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Url"
+    },
+    "summary": {
+      "title": "Summary",
+      "type": "string"
+    },
+    "technologies": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Technologies",
+      "type": "array"
+    },
+    "categories": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Categories",
+      "type": "array"
+    },
+    "verification": {
+      "$ref": "#/$defs/Verification"
+    },
+    "visibility": {
+      "$ref": "#/$defs/Visibility",
+      "default": "public"
+    },
+    "ownership": {
+      "default": "unknown",
+      "enum": [
+        "independent",
+        "employer",
+        "mixed",
+        "unknown"
+      ],
+      "title": "Ownership",
+      "type": "string"
+    },
+    "license": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "License"
+    },
+    "review_required": {
+      "default": false,
+      "title": "Review Required",
+      "type": "boolean"
+    },
+    "maturity_notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Maturity Notes"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "summary",
+    "verification"
+  ],
+  "title": "Project",
+  "type": "object"
+}

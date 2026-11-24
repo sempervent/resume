@@ -1,0 +1,165 @@
+{
+  "$defs": {
+    "CompensationSpec": {
+      "properties": {
+        "currency": {
+          "default": "USD",
+          "title": "Currency",
+          "type": "string"
+        },
+        "base_minimum": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Base Minimum"
+        },
+        "base_maximum": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Base Maximum"
+        }
+      },
+      "title": "CompensationSpec",
+      "type": "object"
+    },
+    "CoverLetterSpec": {
+      "properties": {
+        "salutation": {
+          "default": "Dear Hiring Team",
+          "title": "Salutation",
+          "type": "string"
+        },
+        "paragraphs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Paragraphs",
+          "type": "array"
+        },
+        "closing": {
+          "default": "Sincerely,",
+          "title": "Closing",
+          "type": "string"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Date"
+        }
+      },
+      "title": "CoverLetterSpec",
+      "type": "object"
+    },
+    "RemoteSpec": {
+      "properties": {
+        "classification": {
+          "default": "unknown",
+          "title": "Classification",
+          "type": "string"
+        },
+        "tennessee_eligible": {
+          "default": "unknown",
+          "title": "Tennessee Eligible",
+          "type": "string"
+        }
+      },
+      "title": "RemoteSpec",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "company": {
+      "title": "Company",
+      "type": "string"
+    },
+    "position": {
+      "title": "Position",
+      "type": "string"
+    },
+    "job_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Job Url"
+    },
+    "profile": {
+      "title": "Profile",
+      "type": "string"
+    },
+    "remote": {
+      "$ref": "#/$defs/RemoteSpec"
+    },
+    "compensation": {
+      "$ref": "#/$defs/CompensationSpec"
+    },
+    "requirements": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Requirements",
+      "type": "array"
+    },
+    "selected_achievements": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Selected Achievements",
+      "type": "array"
+    },
+    "selected_projects": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Selected Projects",
+      "type": "array"
+    },
+    "summary": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Summary"
+    },
+    "cover_letter": {
+      "$ref": "#/$defs/CoverLetterSpec"
+    }
+  },
+  "required": [
+    "company",
+    "position",
+    "profile"
+  ],
+  "title": "ApplicationSpec",
+  "type": "object"
+}

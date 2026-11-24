@@ -1,0 +1,57 @@
+{
+  "$defs": {
+    "Link": {
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "label",
+        "url"
+      ],
+      "title": "Link",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "headline": {
+      "title": "Headline",
+      "type": "string"
+    },
+    "tagline": {
+      "title": "Tagline",
+      "type": "string"
+    },
+    "location_display": {
+      "title": "Location Display",
+      "type": "string"
+    },
+    "links": {
+      "items": {
+        "$ref": "#/$defs/Link"
+      },
+      "minItems": 1,
+      "title": "Links",
+      "type": "array"
+    }
+  },
+  "required": [
+    "name",
+    "headline",
+    "tagline",
+    "location_display",
+    "links"
+  ],
+  "title": "Identity",
+  "type": "object"
+}

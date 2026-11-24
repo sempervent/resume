@@ -1,0 +1,217 @@
+{
+  "$defs": {
+    "FuzzyDate": {
+      "properties": {
+        "year": {
+          "maximum": 2100,
+          "minimum": 1900,
+          "title": "Year",
+          "type": "integer"
+        },
+        "month": {
+          "anyOf": [
+            {
+              "maximum": 12,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Month"
+        },
+        "day": {
+          "anyOf": [
+            {
+              "maximum": 31,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Day"
+        },
+        "precision": {
+          "$ref": "#/$defs/Precision"
+        }
+      },
+      "required": [
+        "year",
+        "precision"
+      ],
+      "title": "FuzzyDate",
+      "type": "object"
+    },
+    "Precision": {
+      "enum": [
+        "year",
+        "month",
+        "day"
+      ],
+      "title": "Precision",
+      "type": "string"
+    },
+    "Visibility": {
+      "enum": [
+        "public",
+        "private",
+        "restricted"
+      ],
+      "title": "Visibility",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "id": {
+      "pattern": "^[a-z0-9]+(?:[_-][a-z0-9]+)*$",
+      "title": "Id",
+      "type": "string"
+    },
+    "organization": {
+      "title": "Organization",
+      "type": "string"
+    },
+    "organization_detail": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Organization Detail"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "start": {
+      "$ref": "#/$defs/FuzzyDate"
+    },
+    "end": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/FuzzyDate"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "employment_type": {
+      "default": "unknown",
+      "enum": [
+        "employee",
+        "contract",
+        "subcontractor",
+        "graduate-appointment",
+        "owner",
+        "unknown"
+      ],
+      "title": "Employment Type",
+      "type": "string"
+    },
+    "location": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Location"
+    },
+    "remote_status": {
+      "default": "unknown",
+      "enum": [
+        "onsite",
+        "remote",
+        "hybrid",
+        "unknown"
+      ],
+      "title": "Remote Status",
+      "type": "string"
+    },
+    "responsibilities": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Responsibilities",
+      "type": "array"
+    },
+    "achievement_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Achievement Ids",
+      "type": "array"
+    },
+    "technologies": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Technologies",
+      "type": "array"
+    },
+    "sources": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Sources",
+      "type": "array"
+    },
+    "visibility": {
+      "$ref": "#/$defs/Visibility",
+      "default": "public"
+    },
+    "disclosure_notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Disclosure Notes"
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Notes"
+    },
+    "featured": {
+      "default": true,
+      "title": "Featured",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "organization",
+    "title",
+    "start",
+    "sources"
+  ],
+  "title": "Employment",
+  "type": "object"
+}

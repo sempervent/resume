@@ -1,0 +1,26 @@
+company: Example Company
+position: Staff Data Engineer
+job_url: https://example.com/careers/example
+profile: data_architect
+remote:
+  classification: fully-remote
+  tennessee_eligible: unknown
+compensation:
+  currency: USD
+  base_minimum: null
+  base_maximum: null
+requirements:
+  - Python
+  - PostgreSQL
+  - Kubernetes
+  - distributed data processing
+selected_achievements:
+  - bold-penguin-prefect-migration
+  - ornl-geoparquet-platform
+  - ornl-airflow-k8s-migration
+selected_projects:
+  - parqonaut
+cover_letter:
+  salutation: Dear Hiring Team
+  date: "2026-03-01"
+  paragraphs: []

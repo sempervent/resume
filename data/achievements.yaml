@@ -1,0 +1,453 @@
+achievements:
+  - id: ornl-geoparquet-platform
+    employment_id: ornl-gsa-2023
+    statement: >
+      Architect geospatial data platforms that unify GeoParquet-based storage,
+      retrieval, analysis, and downstream application delivery for operational
+      risk and decision-support workflows.
+    categories: [data-architecture, geospatial-engineering, data-engineering]
+    technologies: [GeoParquet, Python]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ornl-full-stack-geospatial-design
+    employment_id: ornl-gsa-2023
+    statement: >
+      Lead technical design across backend services, data models, APIs, and
+      user-facing applications for geospatial systems deployed as web and
+      desktop software.
+    categories: [software-engineering, api-design, technical-leadership, geospatial-engineering]
+    technologies: [Python]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ornl-raster-vector-pipelines
+    employment_id: ornl-gsa-2023
+    statement: >
+      Build raster and vector processing pipelines with Airflow, Prefect,
+      Python, object storage, and geospatial libraries for repeatable ingestion
+      and operational analytics.
+    categories: [data-engineering, geospatial-engineering, platform-engineering]
+    technologies: [Airflow, Prefect, Python]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex, 2026/2026-jng-cv.tex]
+
+  - id: ornl-spatial-database-analytics
+    employment_id: ornl-gsa-2023
+    statement: >
+      Design geospatial databases and processing workflows for large raster
+      collections, vector aggregation, and zonal statistics.
+    categories: [data-architecture, geospatial-engineering]
+    technologies: [PostgreSQL, GeoPandas]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex, 2026/2026-jng-cv.tex]
+
+  - id: ornl-clock-drift-timeseries
+    employment_id: ornl-gsa-2023
+    statement: >
+      Design a geospatial pipeline, database, and application stack for
+      ingestion, storage, and retrieval of clock-drift time-series data using
+      Airflow.
+    categories: [data-engineering, geospatial-engineering]
+    technologies: [Airflow]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-cv.tex]
+
+  - id: ornl-parcel-monitoring
+    employment_id: ornl-gsa-2023
+    statement: >
+      Develop parcel tracking and monitoring applications using IoT streams,
+      Kafka, TimescaleDB, Airflow, and AWS-hosted services.
+    categories: [distributed-systems, data-engineering, geospatial-engineering]
+    technologies: [Kafka, TimescaleDB, Airflow, AWS]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+    review_required: true
+    disclosure_notes: >
+      The published résumé adds an adjective about parcel sensitivity. That
+      adjective is omitted until the owner confirms the public wording.
+
+  - id: ornl-llm-data-discovery
+    employment_id: ornl-gsa-2023
+    statement: >
+      Improve geospatial data discovery with LLM and retrieval-augmented
+      workflows that connect users to spatial datasets, metadata, and analytic
+      context.
+    categories: [data-engineering, geospatial-engineering, research-software]
+    technologies: [Python]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ornl-python-modernization
+    employment_id: ornl-gsa-2023
+    statement: >
+      Modernize legacy Python systems by replacing brittle custom
+      implementations with standard libraries, clearer interfaces, and a
+      maintainable project structure.
+    categories: [software-engineering, technical-leadership, research-software]
+    technologies: [Python]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex, 2026/2026-jng-cv.tex]
+
+  - id: bold-penguin-delivery-standardization
+    employment_id: bold-penguin-2022
+    statement: >
+      Designed centralized development and deployment workflows using GitHub
+      Actions, AWS services, and reusable Python modules, improving consistency
+      of delivery across engineering teams.
+    categories: [platform-engineering, developer-productivity, technical-leadership]
+    technologies: [GitHub Actions, AWS, Python]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: bold-penguin-prefect-migration
+    employment_id: bold-penguin-2022
+    statement: >
+      Led migration of workflow deployments, flows, and tasks from Prefect 1 to
+      Prefect 2, standardizing orchestration patterns across engineering teams.
+    categories: [data-engineering, platform-engineering, technical-leadership]
+    technologies: [Python, Prefect, AWS]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: bold-penguin-runtime-routing
+    employment_id: bold-penguin-2022
+    statement: >
+      Built execution patterns that routed Prefect workloads to EC2 or Fargate
+      based on runtime conditions such as file size and processing requirements.
+    categories: [platform-engineering, distributed-systems, data-engineering]
+    technologies: [Prefect, AWS]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: bold-penguin-document-microservices
+    employment_id: bold-penguin-2022
+    statement: >
+      Created EC2- and Fargate-backed microservices for OCR, document
+      conversion, data extraction, and backend processing workflows.
+    categories: [software-engineering, data-engineering, distributed-systems]
+    technologies: [AWS, Python]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: bold-penguin-api-message-queue
+    employment_id: bold-penguin-2022
+    statement: >
+      Designed and maintained REST APIs and a message-queue architecture for
+      high-load document-processing services.
+    categories: [api-design, distributed-systems, software-engineering]
+    technologies: [REST, Python]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex, 2026/2026-jng-cv.tex]
+
+  - id: bold-penguin-cicd
+    employment_id: bold-penguin-2022
+    statement: >
+      Automated build, test, and deployment workflows for Python and JavaScript
+      services using GitHub Actions and AWS CodePipeline.
+    categories: [platform-engineering, developer-productivity, software-engineering]
+    technologies: [GitHub Actions, AWS CodePipeline, Python, JavaScript]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ornl-airflow-k8s-migration
+    employment_id: ornl-de-2019
+    statement: >
+      Replaced a brittle cron-based web-scraping process with an Airflow ETL
+      workflow deployed on Kubernetes and cloud infrastructure.
+    categories: [data-engineering, platform-engineering]
+    technologies: [Airflow, Kubernetes, Python]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex, experience.txt]
+
+  - id: ornl-wstamp-acquisition
+    employment_id: ornl-de-2019
+    statement: >
+      Developed containerized Python, R, Airflow, and Shiny workflows that
+      automated spatial-temporal data acquisition for WSTAMP and stored results
+      in a Hadoop data warehouse.
+    categories: [data-engineering, geospatial-engineering, research-software]
+    technologies: [Python, R, Airflow, Docker, Hadoop, Shiny]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ornl-covid-tracking
+    employment_id: ornl-de-2019
+    statement: >
+      Led development for a COVID-19 tracking project spanning R, Python,
+      geospatial analysis, downstream model creation, and operational reporting,
+      and received distinguished recognition for the project.
+    categories: [technical-leadership, research-software, geospatial-engineering]
+    technologies: [Python, R]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex, experience.txt]
+    disclosure_notes: >
+      The source does not name the recognition. No award title is added here.
+
+  - id: ornl-naerm-services
+    employment_id: ornl-de-2019
+    statement: >
+      Built containerized Airflow ETL workflows, Python microservices, and
+      OpenAPI REST services for NAERM-RTSA and related exchange with
+      PostgreSQL, AWS S3, AWS RDS, and MongoDB.
+    categories: [data-engineering, api-design, software-engineering]
+    technologies: [Airflow, Python, PostgreSQL, AWS, MongoDB, OpenAPI]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex, 2026/2026-jng-cv.tex]
+
+  - id: ornl-misinformation-pipelines
+    employment_id: ornl-de-2019
+    statement: >
+      Automated web scraping and social-media ingestion for misinformation
+      classification, statistical modeling, network analysis, Elasticsearch
+      indexing, and Kibana visualization.
+    categories: [data-engineering, scientific-computing, research-software]
+    technologies: [Python, Elasticsearch, Kibana]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ornl-sqa-and-data-council
+    employment_id: ornl-de-2019
+    statement: >
+      Served as Software Quality Assurance board chair for the Geospatial
+      Science and Human Security Division and contributed to ORNL Data Council
+      discussions on data management, governance, and architecture.
+    categories: [quality-assurance, data-governance, technical-leadership]
+    technologies: []
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex, 2026/2026-jng-cv.tex]
+
+  - id: ornl-wstamp-docker-ingestion
+    employment_id: ornl-ds-2018
+    statement: >
+      Automated WSTAMP web-application data ingestion with R, Python, Airflow,
+      and Docker.
+    categories: [data-engineering, research-software]
+    technologies: [R, Python, Airflow, Docker]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ornl-geography-r-package
+    employment_id: ornl-ds-2018
+    statement: >
+      Authored an R package to normalize geographic identifiers and unify
+      access to online data APIs.
+    categories: [geospatial-engineering, data-engineering, software-engineering]
+    technologies: [R]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex, experience.txt]
+
+  - id: ornl-spatialite-database
+    employment_id: ornl-ds-2018
+    statement: >
+      Developed a SpatiaLite-backed SQLite database to simplify lookup,
+      retrieval, and integration of geographic data.
+    categories: [geospatial-engineering, data-architecture]
+    technologies: [SpatiaLite, SQLite]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ornl-zonal-statistics
+    employment_id: ornl-ds-2018
+    statement: >
+      Built a Python zonal-statistics application that summarizes raster values
+      across shapefile geometries.
+    categories: [geospatial-engineering, scientific-computing]
+    technologies: [Python, GDAL]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex, experience.txt]
+
+  - id: specrabella-client-consulting
+    employment_id: specrabella-2018
+    statement: >
+      Consulted on greenfield web application architecture, database design,
+      visualization, and deployment for energy-sector clients.
+    categories: [software-engineering, data-architecture]
+    technologies: [PostgreSQL]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: specrabella-postgres-design
+    employment_id: specrabella-2018
+    statement: >
+      Designed PostgreSQL databases and development workflows for energy and
+      financial data products.
+    categories: [data-architecture, software-engineering]
+    technologies: [PostgreSQL]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: dc-energy-test-environment
+    employment_id: dc-energy-2018
+    statement: >
+      Downscaled a large database environment into a test environment with
+      Vagrant and maintained legacy PHP code.
+    categories: [software-engineering, developer-productivity]
+    technologies: [Vagrant, PHP]
+    verification:
+      status: source-supported
+      sources: [experience.txt]
+
+  - id: resurety-energy-application
+    employment_id: resurety-2018
+    statement: >
+      Developed an interactive map-based energy informatics application using
+      R, Shiny, JavaScript, and Snowflake.
+    categories: [software-engineering, data-engineering]
+    technologies: [R, Shiny, JavaScript, Snowflake]
+    verification:
+      status: source-supported
+      sources: [experience.txt]
+    review_required: true
+    disclosure_notes: >
+      The 2026 résumés describe a similar application under Specrabella and do
+      not name REsurety. Confirm which employer should carry this statement.
+
+  - id: microbial-ngs-pipeline
+    employment_id: microbial-insights-2016
+    statement: >
+      Established an automated sequencing-analysis pipeline using R, MySQL,
+      Python, Bash, JavaScript, and Shiny-backed internal tooling.
+    categories: [data-engineering, scientific-computing, software-engineering]
+    technologies: [R, Python, MySQL, Bash, Shiny]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: microbial-statistical-automation
+    employment_id: microbial-insights-2016
+    statement: >
+      Automated client-facing statistical workflows including linear models,
+      ANOVA, self-organizing maps, clustering, PCA, and PCoA.
+    categories: [scientific-computing, software-engineering]
+    technologies: [R, Python]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: microbial-qpcr-visualization
+    employment_id: microbial-insights-2016
+    statement: >
+      Developed ETL and customer data-visualization tooling with R, PHP,
+      jQuery, and MySQL for qPCR result analysis.
+    categories: [data-engineering, software-engineering]
+    technologies: [R, PHP, MySQL]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: microbial-reporting-and-wiki
+    employment_id: microbial-insights-2016
+    statement: >
+      Built a custom R package, local Shiny applications, and an internal
+      PostgreSQL and PHP wiki for reporting, project tracking, and customer
+      service workflows.
+    categories: [software-engineering, developer-productivity]
+    technologies: [R, Shiny, PostgreSQL, PHP]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ut-stewart-statistical-summaries
+    employment_id: ut-stewart-gra-2014
+    statement: >
+      Analyzed cell-suspension experiments with linear models, ANOVA, and PCA
+      in Python and R for DOE reporting.
+    categories: [scientific-computing, research-software]
+    technologies: [Python, R]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ut-stewart-suspension-cultures
+    employment_id: ut-stewart-gra-2014
+    statement: >
+      Evaluated suspension cultures through chemical and spectral processes and
+      translated the findings into research deliverables.
+    categories: [scientific-computing, research-software]
+    technologies: [Python, R]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ut-stewart-cryopreservation-robotics
+    employment_id: ut-stewart-gra-2014
+    statement: >
+      Collaborated on a single-cell suspension and cryopreservation robotic
+      system while executing monocot genetic-modification workflows for
+      Panicum, Oryza, Sorghum, Saccharum, and Zea mays.
+    categories: [research-software, scientific-computing]
+    technologies: []
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex, 2026/2026-jng-cv.tex]
+
+  - id: ut-stewart-imaging-methods
+    employment_id: ut-stewart-la-2012
+    statement: >
+      Developed Python-based statistical methods for screening lignin content
+      and imaging cell characteristics in vivo and in vitro.
+    categories: [scientific-computing, research-software]
+    technologies: [Python]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ut-stewart-genome-eda
+    employment_id: ut-stewart-la-2012
+    statement: >
+      Extracted genomes from NCBI, cleaned and normalized the datasets, and
+      performed exploratory analysis in Python.
+    categories: [scientific-computing, data-engineering]
+    technologies: [Python]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ut-lambdin-course-modules
+    employment_id: ut-lambdin-2002
+    statement: >
+      Designed instructional modules for undergraduate and graduate courses
+      using HTML, CSS, JavaScript, and Flash.
+    categories: [software-engineering]
+    technologies: [HTML, CSS, JavaScript]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]
+
+  - id: ut-lambdin-arcgis-fieldwork
+    employment_id: ut-lambdin-2002
+    statement: >
+      Performed field data collection and forest-coverage analysis with ArcGIS
+      in support of biological-control and biosystematics projects.
+    categories: [geospatial-engineering]
+    technologies: [ArcGIS]
+    verification:
+      status: source-supported
+      sources: [2026/2026-jng-revamped.tex]

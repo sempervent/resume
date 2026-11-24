@@ -1,0 +1,45 @@
+id: data_architect
+label: Data Platform Architect
+document_kind: resume
+document_name: Resume
+output_stem: resume
+page_limit: 2
+summary_id: data_architect
+sections: [summary, skills, experience, projects, education]
+skill_group_ids:
+  - data-engineering
+  - databases
+  - geospatial
+  - cloud
+  - applications
+  - languages
+  - analytics
+  - practices
+roles:
+  - employment_id: ornl-gsa-2023
+    achievement_ids:
+      - ornl-geoparquet-platform
+      - ornl-spatial-database-analytics
+      - ornl-raster-vector-pipelines
+      - ornl-full-stack-geospatial-design
+  - employment_id: bold-penguin-2022
+    achievement_ids:
+      - bold-penguin-prefect-migration
+      - bold-penguin-runtime-routing
+      - bold-penguin-api-message-queue
+      - bold-penguin-cicd
+  - employment_id: ornl-de-2019
+    achievement_ids:
+      - ornl-airflow-k8s-migration
+      - ornl-naerm-services
+      - ornl-wstamp-acquisition
+  - employment_id: ornl-ds-2018
+    achievement_ids:
+      - ornl-zonal-statistics
+      - ornl-geography-r-package
+  - employment_id: microbial-insights-2016
+    achievement_ids:
+      - microbial-ngs-pipeline
+project_ids:
+  - parqonaut
+  - syncscope-at-home

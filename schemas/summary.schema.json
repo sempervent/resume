@@ -1,0 +1,55 @@
+{
+  "$defs": {
+    "Verification": {
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/VerificationStatus"
+        },
+        "sources": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Sources",
+          "type": "array"
+        }
+      },
+      "required": [
+        "status",
+        "sources"
+      ],
+      "title": "Verification",
+      "type": "object"
+    },
+    "VerificationStatus": {
+      "enum": [
+        "source-supported",
+        "owner-verification-required",
+        "independently-checked"
+      ],
+      "title": "VerificationStatus",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "id": {
+      "pattern": "^[a-z0-9]+(?:[_-][a-z0-9]+)*$",
+      "title": "Id",
+      "type": "string"
+    },
+    "text": {
+      "title": "Text",
+      "type": "string"
+    },
+    "verification": {
+      "$ref": "#/$defs/Verification"
+    }
+  },
+  "required": [
+    "id",
+    "text",
+    "verification"
+  ],
+  "title": "Summary",
+  "type": "object"
+}

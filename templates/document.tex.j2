@@ -1,0 +1,72 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.6in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\pagestyle{ {{- page_style -}} }
+\urlstyle{same}
+\newcommand{\cvsection}[1]{\vspace{0.62em}{\large\bfseries #1}\par\vspace{0.08em}\hrule height 0.4pt\par\vspace{0.32em}}
+\begin{document}
+\raggedright
+{\LARGE\bfseries {{ doc.name | latex }}\par}
+\vspace{0.15em}
+{\large {{ doc.headline | latex }}\par}
+\vspace{0.1em}
+{{ doc.tagline | latex }}\par
+{% if doc.document_kind == "academic_cv" %}
+\vspace{0.12em}{{ doc.document_name | latex }}\par
+{% endif %}
+\vspace{0.28em}
+{% for part in doc.contact_parts %}
+{% if part.kind == "email" %}\href{ {{- part.url | latex_url -}} }{ {{- part.text | latex -}} }{% else %}{{ part.text | latex }}{% endif %}{% if not loop.last %} \textbar\ {% endif %}
+{% endfor %}
+{% if doc.links %}\par
+{% for link in doc.links %}\href{ {{- link.url | latex_url -}} }{ {{- link.label | latex -}} }{% if not loop.last %} \textbar\ {% endif %}{% endfor %}\par
+{% endif %}
+{% for section in doc.sections %}
+\par\cvsection{ {{- section.title | latex -}} }
+{% if section.id == "summary" %}
+{{ doc.summary | latex }}
+{% elif section.id == "skills" %}
+{% for group in doc.skills %}
+{\bfseries {{ group.label | latex }}:} {{ group.items | latex }}\par\vspace{0.12em}
+{% endfor %}
+{% elif section.id == "experience" %}
+{% for role in doc.roles %}
+\vspace{0.28em}
+{\bfseries {{ role.title | latex }}} \hfill {{ role.dates_latex | latex }}\par\nopagebreak
+{\itshape {{ role.organization | latex }}} \hfill {{ role.location | latex }}\par\nopagebreak
+\begin{list}{\textbullet}{\setlength{\leftmargin}{1.15em}\setlength{\itemsep}{0.08em}\setlength{\topsep}{0.18em}\setlength{\parsep}{0pt}\setlength{\partopsep}{0pt}}
+{% for bullet in role.bullets %}
+\item {{ bullet | latex }}
+{% endfor %}
+\end{list}
+{% endfor %}
+{% elif section.id == "projects" %}
+{% for project in doc.projects %}
+\vspace{0.22em}
+{\bfseries {% if project.url %}\href{ {{- project.url | latex_url -}} }{ {{- project.name | latex -}} }{% else %}{{ project.name | latex }}{% endif %}}\par
+{{ project.summary | latex }}\par
+{% if project.technologies %}{\itshape Technologies:} {{ project.technologies | latex }}\par{% endif %}
+{% endfor %}
+{% elif section.id == "education" %}
+{% for item in doc.education %}
+\vspace{0.16em}
+{\bfseries {{ item.credential | latex }}}\par
+{{ item.organization | latex }} \hfill {{ item.detail | latex }}\par
+{% endfor %}
+{% elif section.id == "publications" %}
+{% for pub in doc.publications %}
+\vspace{0.2em}
+{{ pub.authors | latex }}. {{ pub.title }}.
+{% if pub.venue %}\textit{ {{ pub.venue }} }{% endif %}
+{{ pub.year }}.
+{% if pub.url %}\href{ {{- pub.url | latex_url -}} }{ {{- pub.url | latex -}} }{% endif %}
+\par
+{% endfor %}
+{% endif %}
+{% endfor %}
+\end{document}

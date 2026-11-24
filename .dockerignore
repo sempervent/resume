@@ -1,0 +1,13 @@
+.git
+.venv
+dist
+private
+config/private.yaml
+**/__pycache__
+**/*.pyc
+.pytest_cache
+.ruff_cache
+out
+.idea
+**/*.pdf
+2024

@@ -1,0 +1,79 @@
+name: build
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install TeX and Poppler
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            poppler-utils \
+            texlive-latex-base \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            lmodern
+
+      - name: Sync dependencies
+        run: uv sync --frozen
+
+      - name: Lint
+        run: |
+          uv run ruff check src tests
+          uv run ruff format --check src tests
+
+      - name: Test
+        run: uv run pytest
+
+      - name: Validate and build public profiles
+        run: |
+          uv run career-docs validate
+          uv run career-docs audit
+          uv run career-docs build --all
+
+      - name: Reject personal contact details in public outputs
+        run: |
+          python - << 'PY'
+          from pathlib import Path
+          markers = [
+              "12918 " + "Sanderling Lane",
+              "547 " + "Murray Drive",
+              "jngrant" + "@" + "live.com",
+              "jngrant9" + "@" + "gmail.com",
+              "(865) " + "803-3495",
+              "(865) " + "803 3495",
+          ]
+          roots = [Path("dist"), Path("data"), Path("profiles")]
+          hits = []
+          for root in roots:
+              for path in root.rglob("*"):
+                  if path.is_file() and path.suffix.lower() in {".md", ".txt", ".tex", ".yaml", ".yml"}:
+                      text = path.read_text(encoding="utf-8", errors="replace")
+                      for marker in markers:
+                          if marker in text:
+                              hits.append(f"{path}: {marker}")
+          if hits:
+              raise SystemExit("\n".join(hits))
+          PY
+
+      - name: Upload public PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-resumes
+          path: dist/**/*.pdf
+          if-no-files-found: error

@@ -1,0 +1,114 @@
+{
+  "$defs": {
+    "Verification": {
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/VerificationStatus"
+        },
+        "sources": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Sources",
+          "type": "array"
+        }
+      },
+      "required": [
+        "status",
+        "sources"
+      ],
+      "title": "Verification",
+      "type": "object"
+    },
+    "VerificationStatus": {
+      "enum": [
+        "source-supported",
+        "owner-verification-required",
+        "independently-checked"
+      ],
+      "title": "VerificationStatus",
+      "type": "string"
+    },
+    "Visibility": {
+      "enum": [
+        "public",
+        "private",
+        "restricted"
+      ],
+      "title": "Visibility",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "id": {
+      "pattern": "^[a-z0-9]+(?:[_-][a-z0-9]+)*$",
+      "title": "Id",
+      "type": "string"
+    },
+    "credential": {
+      "title": "Credential",
+      "type": "string"
+    },
+    "field": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Field"
+    },
+    "organization": {
+      "title": "Organization",
+      "type": "string"
+    },
+    "date_display": {
+      "title": "Date Display",
+      "type": "string"
+    },
+    "gpa": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Gpa"
+    },
+    "honors": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Honors"
+    },
+    "verification": {
+      "$ref": "#/$defs/Verification"
+    },
+    "visibility": {
+      "$ref": "#/$defs/Visibility",
+      "default": "public"
+    }
+  },
+  "required": [
+    "id",
+    "credential",
+    "organization",
+    "date_display",
+    "verification"
+  ],
+  "title": "Education",
+  "type": "object"
+}
