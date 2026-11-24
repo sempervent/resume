@@ -1,0 +1,128 @@
+{
+  "$defs": {
+    "ProfileRole": {
+      "properties": {
+        "employment_id": {
+          "pattern": "^[a-z0-9]+(?:[_-][a-z0-9]+)*$",
+          "title": "Employment Id",
+          "type": "string"
+        },
+        "achievement_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Achievement Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "employment_id",
+        "achievement_ids"
+      ],
+      "title": "ProfileRole",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "id": {
+      "pattern": "^[a-z0-9]+(?:[_-][a-z0-9]+)*$",
+      "title": "Id",
+      "type": "string"
+    },
+    "label": {
+      "title": "Label",
+      "type": "string"
+    },
+    "document_kind": {
+      "enum": [
+        "resume",
+        "academic_cv"
+      ],
+      "title": "Document Kind",
+      "type": "string"
+    },
+    "document_name": {
+      "title": "Document Name",
+      "type": "string"
+    },
+    "output_stem": {
+      "title": "Output Stem",
+      "type": "string"
+    },
+    "page_limit": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Page Limit"
+    },
+    "summary_id": {
+      "title": "Summary Id",
+      "type": "string"
+    },
+    "sections": {
+      "items": {
+        "enum": [
+          "summary",
+          "skills",
+          "experience",
+          "projects",
+          "education",
+          "publications"
+        ],
+        "type": "string"
+      },
+      "title": "Sections",
+      "type": "array"
+    },
+    "skill_group_ids": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Skill Group Ids",
+      "type": "array"
+    },
+    "roles": {
+      "items": {
+        "$ref": "#/$defs/ProfileRole"
+      },
+      "minItems": 1,
+      "title": "Roles",
+      "type": "array"
+    },
+    "project_ids": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Project Ids",
+      "type": "array"
+    },
+    "show_gpa": {
+      "default": true,
+      "title": "Show Gpa",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "label",
+    "document_kind",
+    "document_name",
+    "output_stem",
+    "summary_id",
+    "sections",
+    "skill_group_ids",
+    "roles",
+    "project_ids"
+  ],
+  "title": "Profile",
+  "type": "object"
+}

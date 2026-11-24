@@ -1,0 +1,86 @@
+id: academic_cv
+label: Academic CV
+document_kind: academic_cv
+document_name: Curriculum Vitae
+output_stem: cv
+page_limit: null
+summary_id: academic_cv
+sections: [summary, education, skills, experience, projects, publications]
+skill_group_ids:
+  - languages
+  - data-engineering
+  - geospatial
+  - databases
+  - cloud
+  - applications
+  - analytics
+  - practices
+roles:
+  - employment_id: ornl-gsa-2023
+    achievement_ids:
+      - ornl-geoparquet-platform
+      - ornl-full-stack-geospatial-design
+      - ornl-raster-vector-pipelines
+      - ornl-spatial-database-analytics
+      - ornl-clock-drift-timeseries
+      - ornl-parcel-monitoring
+      - ornl-llm-data-discovery
+      - ornl-python-modernization
+  - employment_id: bold-penguin-2022
+    achievement_ids:
+      - bold-penguin-delivery-standardization
+      - bold-penguin-prefect-migration
+      - bold-penguin-runtime-routing
+      - bold-penguin-document-microservices
+      - bold-penguin-api-message-queue
+      - bold-penguin-cicd
+  - employment_id: ornl-de-2019
+    achievement_ids:
+      - ornl-airflow-k8s-migration
+      - ornl-wstamp-acquisition
+      - ornl-covid-tracking
+      - ornl-naerm-services
+      - ornl-misinformation-pipelines
+      - ornl-sqa-and-data-council
+  - employment_id: ornl-ds-2018
+    achievement_ids:
+      - ornl-wstamp-docker-ingestion
+      - ornl-geography-r-package
+      - ornl-spatialite-database
+      - ornl-zonal-statistics
+  - employment_id: resurety-2018
+    achievement_ids:
+      - resurety-energy-application
+  - employment_id: dc-energy-2018
+    achievement_ids:
+      - dc-energy-test-environment
+  - employment_id: specrabella-2018
+    achievement_ids:
+      - specrabella-client-consulting
+      - specrabella-postgres-design
+  - employment_id: microbial-insights-2016
+    achievement_ids:
+      - microbial-ngs-pipeline
+      - microbial-statistical-automation
+      - microbial-qpcr-visualization
+      - microbial-reporting-and-wiki
+  - employment_id: ut-stewart-gra-2014
+    achievement_ids:
+      - ut-stewart-statistical-summaries
+      - ut-stewart-suspension-cultures
+      - ut-stewart-cryopreservation-robotics
+  - employment_id: ut-stewart-la-2012
+    achievement_ids:
+      - ut-stewart-imaging-methods
+      - ut-stewart-genome-eda
+  - employment_id: ut-lambdin-2002
+    achievement_ids:
+      - ut-lambdin-course-modules
+      - ut-lambdin-arcgis-fieldwork
+project_ids:
+  - parqonaut
+  - dots
+  - numbrane
+  - syncscope-at-home
+  - where-ive-been
+  - final-fantasy-football

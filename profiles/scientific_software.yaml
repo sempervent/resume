@@ -1,0 +1,44 @@
+id: scientific_software
+label: Scientific Software Architect
+document_kind: resume
+document_name: Resume
+output_stem: resume
+page_limit: 2
+summary_id: scientific_software
+sections: [summary, skills, experience, projects, education]
+skill_group_ids:
+  - data-engineering
+  - analytics
+  - applications
+  - languages
+  - geospatial
+  - databases
+  - cloud
+  - practices
+roles:
+  - employment_id: ornl-gsa-2023
+    achievement_ids:
+      - ornl-python-modernization
+      - ornl-llm-data-discovery
+      - ornl-raster-vector-pipelines
+  - employment_id: bold-penguin-2022
+    achievement_ids:
+      - bold-penguin-prefect-migration
+      - bold-penguin-api-message-queue
+  - employment_id: ornl-de-2019
+    achievement_ids:
+      - ornl-covid-tracking
+      - ornl-misinformation-pipelines
+      - ornl-sqa-and-data-council
+  - employment_id: ornl-ds-2018
+    achievement_ids:
+      - ornl-wstamp-docker-ingestion
+      - ornl-zonal-statistics
+  - employment_id: microbial-insights-2016
+    achievement_ids:
+      - microbial-ngs-pipeline
+      - microbial-statistical-automation
+project_ids:
+  - numbrane
+  - parqonaut
+  - syncscope-at-home

@@ -1,0 +1,15 @@
+{% if date %}{{ date }}
+
+{% endif %}{{ company }}
+{{ position }}
+
+{{ salutation }}
+
+{% for paragraph in paragraphs %}
+{{ paragraph }}
+
+{% endfor %}
+{{ closing }}
+
+{{ name }}
+{{ location }}{% if phone %} | {{ phone }}{% endif %}{% if email %} | {{ email }}{% endif %}

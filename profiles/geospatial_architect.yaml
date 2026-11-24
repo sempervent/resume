@@ -1,0 +1,41 @@
+id: geospatial_architect
+label: Geospatial Systems Architect
+document_kind: resume
+document_name: Resume
+output_stem: resume
+page_limit: 2
+summary_id: geospatial_architect
+sections: [summary, skills, experience, projects, education]
+skill_group_ids:
+  - geospatial
+  - databases
+  - data-engineering
+  - cloud
+  - applications
+  - languages
+  - analytics
+  - practices
+roles:
+  - employment_id: ornl-gsa-2023
+    achievement_ids:
+      - ornl-geoparquet-platform
+      - ornl-spatial-database-analytics
+      - ornl-raster-vector-pipelines
+      - ornl-clock-drift-timeseries
+      - ornl-parcel-monitoring
+  - employment_id: bold-penguin-2022
+    achievement_ids:
+      - bold-penguin-prefect-migration
+      - bold-penguin-document-microservices
+  - employment_id: ornl-de-2019
+    achievement_ids:
+      - ornl-wstamp-acquisition
+      - ornl-naerm-services
+  - employment_id: ornl-ds-2018
+    achievement_ids:
+      - ornl-zonal-statistics
+      - ornl-spatialite-database
+      - ornl-geography-r-package
+project_ids:
+  - parqonaut
+  - syncscope-at-home

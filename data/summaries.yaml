@@ -1,0 +1,79 @@
+summaries:
+  - id: data_architect
+    text: >
+      Data and software systems architect working on cloud-native platforms,
+      analytical storage, and the services that make them usable. Current work
+      at Oak Ridge National Laboratory centers on GeoParquet storage and
+      retrieval, spatial databases, and distributed raster and vector
+      processing. Prior remote work at Bold Penguin covered AWS-backed workflow
+      orchestration, document-processing services, and API design. Geospatial
+      and scientific experience is applied here to general data-platform problems.
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+        - data/experience.yaml
+  - id: staff_engineer
+    text: >
+      Software engineer focused on architecture, implementation, and the
+      practices that keep production systems maintainable. Designs Python
+      services and APIs, workflow orchestration, and delivery automation, in a
+      remote commercial data team and at a national laboratory. Technical
+      leadership has included software quality assurance and shared engineering
+      practices. Recent geospatial systems are part of the portfolio, not a
+      boundary on the software.
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+  - id: geospatial_architect
+    text: >
+      Geospatial systems architect designing spatial data platforms. Current
+      scope includes GeoParquet storage and retrieval, spatial databases,
+      raster and vector processing, and the APIs and workflow engines around
+      them. Earlier commercial software engineering, including remote data
+      engineering on AWS, keeps that work tied to production delivery.
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+  - id: platform_engineer
+    text: >
+      Software engineer who builds the path from a data workflow to a deployed
+      service. Experience includes Kubernetes-hosted Airflow, Prefect on AWS
+      with EC2 and Fargate, GitHub Actions, and containerized Python services.
+      The same roles include API design and hands-on processing. Recent
+      architecture work is geospatial; the delivery practice comes from both
+      laboratory and commercial teams.
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+        - 2026/2026-jng-cv.tex
+  - id: scientific_software
+    text: >
+      Research software engineer who turns scientific and operational workflows
+      into maintainable systems. Recent work modernizes geospatial data
+      platforms, orchestration, and decision-support software at Oak Ridge
+      National Laboratory. Earlier work includes statistical computing,
+      bioinformatics pipelines, and graduate research. The through-line is
+      production software for data-intensive science, plus remote commercial
+      engineering outside the laboratory.
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+        - experience.txt
+  - id: academic_cv
+    text: >
+      Data and software systems architect with graduate training in plant
+      biotechnology and a professional record spanning bioinformatics, energy
+      informatics, commercial data engineering, and national-laboratory
+      geospatial systems. Designs and implements data platforms, workflow
+      orchestration, and scientific software for operational and research
+      decision support.
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+        - 2026/bibliography.bib

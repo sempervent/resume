@@ -1,0 +1,22 @@
+records:
+  - id: ms-plant-sciences
+    credential: Master of Science in Plant Sciences
+    field: Plant Molecular Genetics
+    organization: University of Tennessee
+    date_display: Spring 2017
+    gpa: 3.72/4.0
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+  - id: bs-plant-sciences
+    credential: Bachelor of Science in Plant Sciences
+    field: Biotechnology
+    organization: University of Tennessee
+    date_display: Spring 2014
+    gpa: 3.74/4.0
+    honors: Magna Cum Laude
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex

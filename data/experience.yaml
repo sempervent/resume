@@ -1,0 +1,327 @@
+records:
+  - id: ornl-gsa-2023
+    organization: Oak Ridge National Laboratory
+    title: Geospatial Systems Architect
+    start: {year: 2023, precision: year}
+    location: Oak Ridge, TN
+    remote_status: unknown
+    employment_type: unknown
+    responsibilities:
+      - Architect geospatial data platforms and the services that deliver them.
+      - Design storage, processing, and application interfaces for operational scientific data.
+    technologies:
+      - Python
+      - GeoParquet
+      - Airflow
+      - Prefect
+      - PostgreSQL
+      - Kafka
+      - TimescaleDB
+      - AWS
+    achievement_ids:
+      - ornl-geoparquet-platform
+      - ornl-full-stack-geospatial-design
+      - ornl-raster-vector-pipelines
+      - ornl-spatial-database-analytics
+      - ornl-clock-drift-timeseries
+      - ornl-parcel-monitoring
+      - ornl-llm-data-discovery
+      - ornl-python-modernization
+    sources:
+      - 2026/2026-jng-revamped.tex
+      - 2026/2026-jng-cv.tex
+    notes: >
+      Start month is not stated. experience.txt still describes a single Data
+      Engineer entry as June 2019 through the present; later résumés split the
+      architect title out at 2023.
+
+  - id: bold-penguin-2022
+    organization: Bold Penguin
+    title: Senior Software Engineer, Data Engineering
+    start: {year: 2022, precision: year}
+    end: {year: 2023, precision: year}
+    location: Columbus, OH
+    remote_status: remote
+    employment_type: unknown
+    responsibilities:
+      - Design workflow orchestration and document-processing services on AWS.
+      - Standardize build, test, and deployment paths used by engineering teams.
+    technologies:
+      - Python
+      - Prefect
+      - AWS
+      - GitHub Actions
+      - REST
+      - JavaScript
+    achievement_ids:
+      - bold-penguin-delivery-standardization
+      - bold-penguin-prefect-migration
+      - bold-penguin-runtime-routing
+      - bold-penguin-document-microservices
+      - bold-penguin-api-message-queue
+      - bold-penguin-cicd
+    sources:
+      - 2026/2026-jng-revamped.tex
+      - 2026/2026-jng-cv.tex
+    notes: >
+      Both 2026 résumés describe the role as remote. They do not say whether
+      it was fully remote or hybrid, and they do not name an employment type.
+      The 2026 CV says the Prefect migration was supervised as a team effort;
+      the revamped résumé says it was led. Neither source gives a team size.
+
+  - id: ornl-de-2019
+    organization: Oak Ridge National Laboratory
+    title: Data Engineer
+    start: {year: 2019, month: 6, precision: month}
+    end: {year: 2022, precision: year}
+    location: Oak Ridge, TN
+    remote_status: unknown
+    employment_type: unknown
+    responsibilities:
+      - Build and operate ETL workflows, microservices, and data-exchange APIs.
+      - Support scientific project teams with production research software.
+    technologies:
+      - Python
+      - R
+      - Airflow
+      - Kubernetes
+      - Docker
+      - PostgreSQL
+      - Hadoop
+    achievement_ids:
+      - ornl-airflow-k8s-migration
+      - ornl-wstamp-acquisition
+      - ornl-covid-tracking
+      - ornl-naerm-services
+      - ornl-misinformation-pipelines
+      - ornl-sqa-and-data-council
+    sources:
+      - 2026/2026-jng-revamped.tex
+      - experience.txt
+    notes: >
+      June 2019 is taken from experience.txt. That file still says the data
+      engineer role is current. The 2026 résumés end it in 2022 and start the
+      architect title in 2023. The end month is not stated. The 2025 one-page
+      résumé collapses 2018-2022 into one Data Engineer entry; that compression
+      is not used here.
+
+  - id: ornl-ds-2018
+    organization: Oak Ridge National Laboratory
+    title: Data Scientist II Subcontractor
+    start: {year: 2018, month: 10, precision: month}
+    end: {year: 2019, month: 6, precision: month}
+    location: Oak Ridge, TN
+    remote_status: unknown
+    employment_type: subcontractor
+    responsibilities:
+      - Automate ingestion and geographic data access for the WSTAMP application.
+    technologies:
+      - Python
+      - R
+      - Airflow
+      - Docker
+      - SpatiaLite
+      - GDAL
+    achievement_ids:
+      - ornl-wstamp-docker-ingestion
+      - ornl-geography-r-package
+      - ornl-spatialite-database
+      - ornl-zonal-statistics
+    sources:
+      - 2026/2026-jng-revamped.tex
+      - experience.txt
+    notes: >
+      Months come from experience.txt, which uses the title Data Scientist II
+      and names the Geographic Information Sciences group. The 2026 résumés add
+      Subcontractor to the title and use year precision. June 2019 meets the
+      data engineer start month recorded in the same file.
+
+  - id: specrabella-2018
+    organization: Specrabella
+    title: Owner and Contractor
+    start: {year: 2018, precision: year}
+    end: {year: 2018, precision: year}
+    location: Knoxville, TN
+    remote_status: unknown
+    employment_type: owner
+    responsibilities:
+      - Consult on data, database, and web application work for energy-sector clients.
+    technologies:
+      - PostgreSQL
+      - Python
+      - R
+      - PHP
+    achievement_ids:
+      - specrabella-client-consulting
+      - specrabella-postgres-design
+    sources:
+      - 2026/2026-jng-revamped.tex
+      - 2026/2026-jng-cv.tex
+    notes: >
+      Year precision only. The 2026 résumés place several 2018 contract
+      activities under Specrabella, including an energy-informatics map
+      application. experience.txt attributes that application to REsurety and a
+      short PHP and Vagrant engagement to DC Energy. Those employers are stored
+      separately. The overlapping map-application claim is not repeated here.
+
+  - id: dc-energy-2018
+    organization: DC Energy, Inc.
+    title: Developer
+    start: {year: 2018, month: 8, precision: month}
+    end: {year: 2018, month: 10, precision: month}
+    location: Vienna, VA
+    remote_status: unknown
+    employment_type: unknown
+    responsibilities:
+      - Maintain a legacy PHP code base and a smaller test environment.
+    technologies:
+      - PHP
+      - Vagrant
+    achievement_ids:
+      - dc-energy-test-environment
+    sources:
+      - experience.txt
+    notes: >
+      This employer does not appear on the 2026 résumés. The 2026 CV mentions
+      Ansible, Vagrant, PHP, and Bash under Specrabella. Only the experience.txt
+      wording is used for this record.
+
+  - id: resurety-2018
+    organization: REsurety, Inc.
+    title: Visualization and User Experience Engineer
+    start: {year: 2018, month: 2, precision: month}
+    end: {year: 2018, month: 8, precision: month}
+    location: Boston, MA
+    remote_status: unknown
+    employment_type: contract
+    responsibilities:
+      - Build an interactive energy-informatics application.
+    technologies:
+      - R
+      - Shiny
+      - JavaScript
+      - Snowflake
+    achievement_ids:
+      - resurety-energy-application
+    sources:
+      - experience.txt
+    notes: >
+      experience.txt is the only source that names REsurety. The 2026 résumés
+      describe a similar Leaflet, Shiny, and Snowflake application under
+      Specrabella. The statement stays with the employer named in experience.txt
+      and is marked for owner review.
+
+  - id: microbial-insights-2016
+    organization: Microbial Insights
+    title: Bioinformatician, Project Manager, and Technical Sales Representative
+    start: {year: 2016, month: 8, precision: month}
+    end: {year: 2018, month: 2, precision: month}
+    location: Knoxville, TN
+    remote_status: unknown
+    employment_type: unknown
+    responsibilities:
+      - Build laboratory data pipelines, statistical reports, and internal tools.
+    technologies:
+      - R
+      - Python
+      - MySQL
+      - PostgreSQL
+      - PHP
+      - Shiny
+    achievement_ids:
+      - microbial-ngs-pipeline
+      - microbial-statistical-automation
+      - microbial-qpcr-visualization
+      - microbial-reporting-and-wiki
+    sources:
+      - 2026/2026-jng-revamped.tex
+      - experience.txt
+    notes: >
+      Months come from experience.txt. That file uses the title Bioinformatician
+      only. The longer title is the 2026 résumé title.
+
+  - id: ut-stewart-gra-2014
+    organization: University of Tennessee
+    organization_detail: Dr. Neal Stewart's Plant Biotechnology Lab
+    title: Graduate Research Assistant
+    start: {year: 2014, month: 7, precision: month}
+    end: {year: 2016, month: 5, precision: month}
+    location: Knoxville, TN
+    remote_status: unknown
+    employment_type: graduate-appointment
+    responsibilities:
+      - Analyze suspension-culture experiments and prepare research deliverables.
+    technologies:
+      - Python
+      - R
+    achievement_ids:
+      - ut-stewart-statistical-summaries
+      - ut-stewart-suspension-cultures
+      - ut-stewart-cryopreservation-robotics
+    sources:
+      - 2026/2026-jng-revamped.tex
+      - experience.txt
+    notes: >
+      experience.txt says Graduate Research Associate and gives July 2014 to
+      May 2016. The 2026 résumés say Graduate Research Assistant and use years
+      only. The résumé title is used. Months come from experience.txt.
+
+  - id: ut-stewart-la-2012
+    organization: University of Tennessee
+    organization_detail: Dr. Neal Stewart's Plant Biotechnology Lab
+    title: Laboratory Assistant
+    start: {year: 2012, month: 1, precision: month}
+    end: {year: 2014, month: 7, precision: month}
+    location: Knoxville, TN
+    remote_status: unknown
+    employment_type: unknown
+    responsibilities:
+      - Support laboratory data analysis and transgenic-plant compliance work.
+    technologies:
+      - Python
+    achievement_ids:
+      - ut-stewart-imaging-methods
+      - ut-stewart-genome-eda
+    sources:
+      - 2026/2026-jng-revamped.tex
+      - experience.txt
+
+  - id: ut-lambdin-2002
+    organization: University of Tennessee
+    organization_detail: Dr. Paris Lambdin's Biosystematics and Biological Control Lab
+    title: Laboratory Assistant
+    start: {year: 2002, month: 6, precision: month}
+    end: {year: 2012, month: 1, precision: month}
+    location: Knoxville, TN
+    remote_status: unknown
+    employment_type: unknown
+    responsibilities:
+      - Support teaching materials, field collection, and spatial coursework data.
+    technologies:
+      - HTML
+      - JavaScript
+      - ArcGIS
+    achievement_ids:
+      - ut-lambdin-course-modules
+      - ut-lambdin-arcgis-fieldwork
+    sources:
+      - 2026/2026-jng-revamped.tex
+      - experience.txt
+
+  - id: stacys-2008
+    organization: Stacy's Greenhouses
+    title: Lead Merchandiser
+    start: {year: 2008, month: 1, precision: month}
+    end: {year: 2012, month: 11, precision: month}
+    location: York, SC
+    remote_status: unknown
+    employment_type: unknown
+    featured: false
+    responsibilities:
+      - Retail merchandising, inventory, and training.
+    achievement_ids: []
+    sources:
+      - experience.txt
+    notes: >
+      Present only in experience.txt. It is preserved and not selected for
+      résumés or the academic CV.

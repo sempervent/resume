@@ -1,0 +1,22 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.7em}
+\pagestyle{empty}
+\begin{document}
+\raggedright
+{% if date %}{{ date | latex }}\par{{ "\n" }}{% endif %}
+{{ company | latex }}\par{{ "\n" }}
+{{ position | latex }}\par{{ "\n" }}
+{{ salutation | latex }}\par{{ "\n" }}
+{% for paragraph in paragraphs %}
+{{ paragraph | latex }}\par{{ "\n" }}
+{% endfor %}
+{{ closing | latex }}\par{{ "\n" }}
+{{ name | latex }}\par{{ "\n" }}
+{{ location | latex }}{% if phone %} \textbar\ {{ phone | latex }}{% endif %}{% if email %} \textbar\ \href{mailto:{{- email | latex_url -}}}{ {{- email | latex -}} }{% endif %}
+\end{document}

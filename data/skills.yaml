@@ -1,0 +1,129 @@
+groups:
+  - id: languages
+    label: Languages
+    items:
+      - name: Python
+      - name: SQL
+      - name: R
+      - name: JavaScript
+      - name: Bash
+      - name: PHP
+      - name: LaTeX
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+  - id: data-engineering
+    label: Data engineering
+    items:
+      - name: Airflow
+      - name: Prefect
+      - name: Kafka
+      - name: ETL/ELT
+      - name: data modeling
+      - name: workflow orchestration
+      - name: Spark
+      - name: Hadoop
+      - name: Slurm
+      - name: NiFi
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+  - id: cloud
+    label: Cloud and delivery
+    items:
+      - name: AWS
+        detail: S3, Lambda, EC2, RDS, Fargate
+      - name: GCP
+      - name: Azure
+      - name: Docker
+      - name: Kubernetes
+      - name: Ansible
+      - name: GitHub Actions
+      - name: AWS CodePipeline
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+  - id: databases
+    label: Databases
+    items:
+      - name: PostgreSQL
+      - name: PostGIS
+      - name: TimescaleDB
+      - name: MongoDB
+      - name: MySQL
+      - name: Snowflake
+      - name: SQLite
+      - name: SpatiaLite
+      - name: DuckDB
+      - name: Redis
+      - name: RabbitMQ
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+  - id: geospatial
+    label: Geospatial systems
+    items:
+      - name: PostGIS
+      - name: GeoPandas
+      - name: GeoParquet
+      - name: GDAL
+      - name: Rasterio
+      - name: Pyproj
+      - name: QGIS
+      - name: ArcGIS
+      - name: Mapbox
+      - name: Leaflet
+      - name: Martin
+      - name: zonal statistics
+      - name: raster and vector processing
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+  - id: applications
+    label: Applications and APIs
+    items:
+      - name: FastAPI
+      - name: Flask
+      - name: Django
+      - name: REST
+      - name: OpenAPI
+      - name: Shiny
+      - name: Electron
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+  - id: analytics
+    label: Analytics and visualization
+    items:
+      - name: pandas
+      - name: NumPy
+      - name: scikit-learn
+      - name: TensorFlow
+      - name: matplotlib
+      - name: Plotly
+      - name: Grafana
+      - name: Kibana
+      - name: LLM-assisted data discovery
+      - name: OCR and document processing
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex
+  - id: practices
+    label: Practices
+    items:
+      - name: technical architecture
+      - name: software quality assurance
+      - name: stakeholder collaboration
+      - name: Agile delivery
+      - name: documentation
+    verification:
+      status: source-supported
+      sources:
+        - 2026/2026-jng-revamped.tex

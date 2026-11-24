@@ -1,0 +1,4 @@
+# Copy to config/private.yaml. That file is gitignored.
+# Use your own contact details. Do not put a street address here.
+email: ada@example.com
+phone: +1-555-0100

@@ -1,0 +1,42 @@
+id: platform_engineer
+label: Platform Engineer
+document_kind: resume
+document_name: Resume
+output_stem: resume
+page_limit: 2
+summary_id: platform_engineer
+sections: [summary, skills, experience, projects, education]
+skill_group_ids:
+  - cloud
+  - data-engineering
+  - applications
+  - languages
+  - practices
+  - databases
+  - geospatial
+  - analytics
+roles:
+  - employment_id: ornl-gsa-2023
+    achievement_ids:
+      - ornl-raster-vector-pipelines
+      - ornl-full-stack-geospatial-design
+  - employment_id: bold-penguin-2022
+    achievement_ids:
+      - bold-penguin-cicd
+      - bold-penguin-prefect-migration
+      - bold-penguin-runtime-routing
+      - bold-penguin-document-microservices
+  - employment_id: ornl-de-2019
+    achievement_ids:
+      - ornl-airflow-k8s-migration
+      - ornl-naerm-services
+  - employment_id: ornl-ds-2018
+    achievement_ids:
+      - ornl-wstamp-docker-ingestion
+  - employment_id: dc-energy-2018
+    achievement_ids:
+      - dc-energy-test-environment
+project_ids:
+  - dots
+  - parqonaut
+  - syncscope-at-home
